@@ -1,0 +1,367 @@
+[
+  {
+    "id": "14774608211310200",
+    "name": "安居宝",
+    "rule": {
+      "query": {
+        "bool": {
+          "should": [
+            {
+              "match_phrase": {
+                "title": "房屋"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "财产"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "家庭"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "盗"
+              }
+            }
+          ],
+          "must": []
+        }
+      }
+    }
+  },
+  {
+    "id": "14749766505400200",
+    "name": "成人意外宝",
+    "rule": {
+      "query": {
+        "bool": {
+          "should": [
+            {
+              "match_phrase": {
+                "title": "意外"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "身故"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "伤残"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "医疗"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "住院"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "津贴"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "旅游"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "出行"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "户外"
+              }
+            }
+          ],
+          "must": []
+        }
+      }
+    }
+  },
+  {
+    "id": "14794531754590200",
+    "name": "海豚臻爱医疗",
+    "rule": {
+      "query": {
+        "bool": {
+          "should": [
+            {
+              "match_phrase": {
+                "title": "意外"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "身故"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "伤残"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "医疗"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "肿瘤"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "保险"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "恶性"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "进口药"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "护理"
+              }
+            }
+          ],
+          "must": []
+        }
+      }
+    }
+  },
+  {
+    "id": 14682186768810200,
+    "name": "少儿健康宝",
+    "rule": {
+      "query": {
+        "bool": {
+          "should": [
+            {
+              "match_phrase": {
+                "title": "意外"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "身故"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "伤残"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "医疗"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "无社保"
+              }
+            }
+          ],
+          "must": [
+            {
+              "bool": {
+                "should": [
+                  {
+                    "match_phrase": {
+                      "productName": "儿童"
+                    }
+                  },
+                  {
+                    "match_phrase": {
+                      "productName": "少儿"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bool": {
+                "should": [
+                  {
+                    "match_phrase": {
+                      "productName": "健康"
+                    }
+                  },
+                  {
+                    "match_phrase": {
+                      "productName": "疾病"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "14634500927370200",
+    "name": "牵手宝",
+    "rule": {
+      "query": {
+        "bool": {
+          "should": [
+            {
+              "match_phrase": {
+                "title": "意外"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "身故"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "伤残"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "恋人"
+              }
+            }
+          ],
+          "must": []
+        }
+      }
+    }
+  },
+  {
+    "id": "14713448341030200",
+    "name": "交通意外宝",
+    "rule": {
+      "query": {
+        "bool": {
+          "should": [
+            {
+              "match_phrase": {
+                "title": "飞机失联"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "公交自然"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "轮船翻沉"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "动车追尾"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "交通意外"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "陆海空全面"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "出行风险"
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "交通工具"
+              }
+            }
+          ],
+          "must": []
+        }
+      }
+    }
+  },
+  {
+    "id": "14738172412720200",
+    "name": "运动宝",
+    "rule": {
+      "query": {
+        "bool": {
+          "must": [
+            {
+              "bool": {
+                "should": [
+                  {
+                    "match_phrase": {
+                      "title": "运动意外"
+                    }
+                  },
+                  {
+                    "match_phrase": {
+                      "title": "肌肉拉伤"
+                    }
+                  },
+                  {
+                    "match_phrase": {
+                      "title": "心肌炎"
+                    }
+                  },
+                  {
+                    "match_phrase": {
+                      "title": "骨折"
+                    }
+                  },
+                  {
+                    "match_phrase": {
+                      "title": "崴脚"
+                    }
+                  },
+                  {
+                    "match_phrase": {
+                      "title": "猝死"
+                    }
+                  },
+                  {
+                    "match_phrase": {
+                      "title": "全民健身"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "match_phrase": {
+                "title": "运动"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+]
+
