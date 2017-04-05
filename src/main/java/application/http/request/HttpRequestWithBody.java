@@ -1,7 +1,6 @@
 package application.http.request;
 
 
-import com.google.common.collect.Maps;
 import okhttp3.FormBody;
 import okhttp3.MediaType;
 import okhttp3.MultipartBody;
@@ -9,6 +8,7 @@ import okhttp3.RequestBody;
 import org.springframework.http.HttpMethod;
 
 import java.io.File;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 
@@ -61,7 +61,7 @@ public class HttpRequestWithBody extends HttpRequest {
     }
 
 
-    private Map<String, Object> values = Maps.newLinkedHashMap();
+    private Map<String, Object> values = new LinkedHashMap<>();
 
     private boolean hasFile = false;
 

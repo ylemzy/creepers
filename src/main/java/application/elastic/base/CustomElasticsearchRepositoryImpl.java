@@ -8,6 +8,7 @@ import org.elasticsearch.search.aggregations.AbstractAggregationBuilder;
 import org.elasticsearch.search.aggregations.Aggregations;
 import org.springframework.data.domain.Page;
 import org.springframework.data.elasticsearch.core.ElasticsearchOperations;
+import org.springframework.data.elasticsearch.core.ScrolledPage;
 import org.springframework.data.elasticsearch.core.mapping.ElasticsearchPersistentEntity;
 import org.springframework.data.elasticsearch.core.query.SearchQuery;
 import org.springframework.data.elasticsearch.core.query.UpdateQuery;
@@ -90,15 +91,12 @@ public class CustomElasticsearchRepositoryImpl<T> extends AbstractElasticsearchR
         ElasticsearchPersistentEntity persistentEntity = elasticsearchOperations.getPersistentEntityFor(this.getEntityClass());
         searchQuery.addIndices(persistentEntity.getIndexName());
         searchQuery.addTypes(persistentEntity.getIndexType());
-        String scrollId = elasticsearchOperations.scan(searchQuery, scrollTimeInMillis, noFields);
-        while (true) {
-            Page page = elasticsearchOperations.scroll(scrollId, scrollTimeInMillis, persistentEntity.getType());
-            if (!page.hasContent())
-                break;
-
+        ScrolledPage page = (ScrolledPage)elasticsearchOperations.startScroll(scrollTimeInMillis, searchQuery, this.getEntityClass());
+        while (page.hasContent()) {
             scrollCallback.call(page);
+            page = (ScrolledPage)elasticsearchOperations.continueScroll(page.getScrollId(), scrollTimeInMillis, persistentEntity.getType());
         }
-        elasticsearchOperations.clearScroll(scrollId);
+        elasticsearchOperations.clearScroll(page.getScrollId());
     }
 
     @Override
