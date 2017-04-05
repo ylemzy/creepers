@@ -5,7 +5,6 @@ package application.http.request;
 
 
 //import application.http.utils.Base64Coder;
-import application.http.utils.ScriptLoader;
 import application.http.utils.URLParamEncoder;
 import okhttp3.RequestBody;
 import org.springframework.http.HttpHeaders;
@@ -29,7 +28,6 @@ public class HttpRequest extends BaseRequest {
     protected String url;
     Map<String, List<String>> headers = new TreeMap<String, List<String>>(String.CASE_INSENSITIVE_ORDER);
     protected RequestBody body;
-    private ScriptLoader script;
 
     public HttpRequest(HttpMethod method, String url) {
         this.httpMethod = method;
@@ -62,16 +60,6 @@ public class HttpRequest extends BaseRequest {
             throw new RuntimeException("Can't find route parameter name \"" + name + "\"");
         }
         this.url = url.replaceAll("\\{" + name + "\\}", URLParamEncoder.encode(value));
-        return this;
-    }
-
-
-    /**
-     * @param script
-     * @return
-     */
-    public HttpRequest script(ScriptLoader script) {
-        this.script = script;
         return this;
     }
 
