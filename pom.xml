@@ -83,8 +83,6 @@
             <version>2.5</version>
         </dependency>
 
-
-
         <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-commons -->
         <dependency>
             <groupId>org.springframework.data</groupId>
@@ -208,6 +206,7 @@
                     <outputDirectory>
                         ${project.build.directory}/assembly/
                     </outputDirectory>
+                    <appendAssemblyId>false</appendAssemblyId>
                 </configuration>
                 <executions>
                     <execution>

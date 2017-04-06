@@ -6,12 +6,12 @@
 	</formats>
 	<includeBaseDirectory>false</includeBaseDirectory>
 
-	<dependencySets>
+<!--	<dependencySets>
 		<dependencySet>
 			<useProjectArtifact>true</useProjectArtifact>
 			<outputDirectory>lib</outputDirectory>
 		</dependencySet>
-	</dependencySets>
+	</dependencySets>-->
 
 	<fileSets>
 		<fileSet>
