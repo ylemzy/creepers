@@ -16,14 +16,14 @@
 	<fileSets>
 		<fileSet>
 			<directory>src/assembly/${wrapper.platform}</directory>
-			<outputDirectory>/${wrapper.platform}</outputDirectory>
+			<outputDirectory>${wrapper.platform}</outputDirectory>
 		</fileSet>
 		<fileSet>
 			<directory>src/main/resources</directory>
-			<outputDirectory>/conf/</outputDirectory>
+			<outputDirectory>conf</outputDirectory>
 		</fileSet>
 		<fileSet>
-			<directory>${project.build.directory}/</directory>
+			<directory>${project.build.directory}</directory>
 			<includes>
 				<include>*.jar</include>
 			</includes>

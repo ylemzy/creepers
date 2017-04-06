@@ -204,7 +204,7 @@
                         </descriptor>
                     </descriptors>
                     <outputDirectory>
-                        ${project.build.directory}/assembly/
+                        ${project.build.directory}
                     </outputDirectory>
                     <appendAssemblyId>false</appendAssemblyId>
                 </configuration>
