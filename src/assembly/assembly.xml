@@ -16,7 +16,7 @@
 	<fileSets>
 		<fileSet>
 			<directory>src/assembly/${wrapper.platform}</directory>
-			<outputDirectory>${wrapper.platform}</outputDirectory>
+			<outputDirectory>wrapper</outputDirectory>
 		</fileSet>
 		<fileSet>
 			<directory>src/main/resources</directory>

@@ -237,14 +237,14 @@
             <id>dev</id>
             <properties>
                 <active>dev</active>
-                <wrapper.platform>dev-wrapper</wrapper.platform>
+                <wrapper.platform>linux-wrapper</wrapper.platform>
             </properties>
         </profile>
         <profile>
             <id>prod</id>
             <properties>
                 <active>prod</active>
-                <wrapper.platform>prod-wrapper</wrapper.platform>
+                <wrapper.platform>linux-wrapper</wrapper.platform>
             </properties>
         </profile>
     </profiles>
