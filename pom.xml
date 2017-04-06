@@ -47,9 +47,9 @@
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-elasticsearch</artifactId>
-            <version>2.1.1.RELEASE</version>
+  <!--          <version>2.1.1.RELEASE</version>-->
             <scope>system</scope>
-            <systemPath>D:/ht_git/creepers/repo/spring-data-elasticsearch-2.2.0.BUILD-SNAPSHOT.jar</systemPath>
+            <systemPath>${basedir}/repo/spring-data-elasticsearch-2.2.0.BUILD-SNAPSHOT.jar</systemPath>
         </dependency>
 
         <dependency>
