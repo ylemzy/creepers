@@ -8,7 +8,10 @@ import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.transport.InetSocketTransportAddress;
 import org.elasticsearch.transport.client.PreBuiltTransportClient;
+import org.elasticsearch.xpack.client.PreBuiltXPackTransportClient;
+import org.elasticsearch.xpack.security.authc.support.SecuredString;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.elasticsearch.core.ElasticsearchOperations;
@@ -17,6 +20,9 @@ import org.springframework.data.elasticsearch.repository.config.EnableElasticsea
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
+import java.util.Collections;
+
+import static org.elasticsearch.xpack.security.authc.support.UsernamePasswordToken.basicAuthHeaderValue;
 
 /**
  * Created by huangzebin on 2017/2/13.
@@ -26,18 +32,34 @@ import java.net.UnknownHostException;
 public class Config {
     private static final Logger logger = LogManager.getLogger();
     final int  port = 9300;
+    final String host = "localhost";
 
+    @Value("${xpack.security.user}")
+    String xpackUser;
 
     @Bean
-    public Client getNodeClient() throws UnknownHostException {
-        Settings settings = Settings.builder().put("cluster.name", "htbaobao").build();
-        TransportClient client = new PreBuiltTransportClient(settings)
-                .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("localhost"), port));
+    public Client xpackClient() throws UnknownHostException {
+        PreBuiltXPackTransportClient clientBuilder = new PreBuiltXPackTransportClient(Settings.builder()
+                .put("cluster.name", "htbaobao")
+                .put("xpack.security.user", xpackUser)
+                .build());
+
+        TransportClient client = clientBuilder
+                .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName(host), port));
+
         return client;
     }
 
+/*    @Bean
+    public Client getNodeClient() throws UnknownHostException {
+        Settings settings = Settings.builder().put("cluster.name", "htbaobao").build();
+        TransportClient client = new PreBuiltTransportClient(settings)
+                .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName(host), port));
+        return client;
+    }*/
+
     @Bean
     public ElasticsearchOperations elasticsearchTemplate() throws UnknownHostException {
-        return new ElasticsearchTemplate(getNodeClient());
+        return new ElasticsearchTemplate(xpackClient());
     }
 }

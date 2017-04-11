@@ -25,13 +25,13 @@ public class NewsRepositoryTest {
     @Test
     public void testSave(){
         News news = new News();
-        news.setId("123");
-        news.setUrl("http://www.baidu.com");
-        news.setWebId("baidu");
+        news.setId("20170411xpack");
+        news.setUrl("http://www.sina.com");
+        news.setWebId("sina");
 
         newsRepository.save(news);
 
-        News one = newsRepository.findOne("123");
+        News one = newsRepository.findOne("20170411xpack");
         System.out.println(JsonHelper.toJSON(one));
     }
 }
