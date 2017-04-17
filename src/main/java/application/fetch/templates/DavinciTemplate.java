@@ -2,10 +2,7 @@ package application.fetch.templates;/**
  * Created by huangzebin on 2017/4/17.
  */
 
-import application.fetch.AbstractTemplate;
-import application.fetch.Category;
-import application.fetch.News;
-import application.fetch.Request;
+import application.fetch.*;
 import application.util.DateTimeUtil;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -34,7 +31,8 @@ public class DavinciTemplate extends AbstractTemplate {
 
     @Override
     public Category category(Category root) throws Exception {
-        return null;
+        root.addChild(Category.makeFetchable("", "http://news.ifeng.com/", root));
+        return root;
     }
 
     @Override
@@ -50,6 +48,18 @@ public class DavinciTemplate extends AbstractTemplate {
 
     @Override
     protected boolean pageRequest(Request request) throws Exception {
+        Document document = get(request.getURL());
+        Elements a = document.getElementsByTag("a");
+        Set<String> url = new HashSet<>();
+        a.forEach(link->{
+            String href = link.absUrl("href");
+            if (!href.endsWith(".js") && !href.endsWith(".css"))
+                url.add(href);
+        });
+
+        url.forEach(link ->{
+            addRequest(RequestHelper.itemRequest(link, request));
+        });
         return false;
     }
 
@@ -164,7 +174,8 @@ public class DavinciTemplate extends AbstractTemplate {
 
         private Element findMediaText(Elements elements){
             for (Element element : elements) {
-                if (element.text().length() > 2){
+                String replace = element.text().replace("来源", "").replace("出自", "").replace("转载", "").replace("作者", "").replace(":", "").trim();
+                if (replace.length() > 2){
                     return element;
                 }
             }
