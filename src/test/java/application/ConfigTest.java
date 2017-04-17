@@ -1,6 +1,6 @@
 package application;
 
-import application.uil.JsonHelper;
+import application.util.JsonHelper;
 import org.elasticsearch.action.admin.cluster.health.ClusterHealthRequest;
 import org.elasticsearch.action.admin.cluster.health.ClusterHealthResponse;
 import org.elasticsearch.client.transport.TransportClient;

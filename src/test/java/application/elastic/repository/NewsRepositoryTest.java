@@ -1,7 +1,7 @@
 package application.elastic.repository;
 
 import application.fetch.News;
-import application.uil.JsonHelper;
+import application.util.JsonHelper;
 import org.elasticsearch.client.Client;
 import org.junit.Test;
 import org.junit.runner.RunWith;

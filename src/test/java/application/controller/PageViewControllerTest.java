@@ -1,14 +1,12 @@
 package application.controller;
 
-import application.uil.JsonHelper;
+import application.util.JsonHelper;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Map;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by huangzebin on 2017/3/6.

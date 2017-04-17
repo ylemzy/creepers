@@ -2,7 +2,7 @@ package application.fetch.templates;
 
 import application.fetch.*;
 import application.http.UrlMaker;
-import application.uil.JsonHelper;
+import application.util.JsonHelper;
 import org.apache.commons.lang.StringUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

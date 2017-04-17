@@ -1,8 +1,6 @@
 package application.fetch.templates;
 
 import application.fetch.*;
-import application.fetch.filter.RequestFilterManager;
-import application.uil.JsonHelper;
 import org.junit.Test;
 
 /**

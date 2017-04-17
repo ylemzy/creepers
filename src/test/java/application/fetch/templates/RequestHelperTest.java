@@ -3,7 +3,7 @@ package application.fetch.templates;
 import application.fetch.Template;
 import application.fetch.TemplateLoader;
 import application.http.UrlMaker;
-import application.uil.HashUtil;
+import application.util.HashUtil;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Test;

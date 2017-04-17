@@ -1,4 +1,4 @@
-package application.uil;
+package application.util;
 
 import org.elasticsearch.common.Strings;
 import org.slf4j.Logger;
