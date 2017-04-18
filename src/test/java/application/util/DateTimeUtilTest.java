@@ -77,8 +77,11 @@ public class DateTimeUtilTest {
     public void testBaidu() throws IOException {
 
         Connection connect = Jsoup.connect("https://www.baidu.com/");
+        connect.header("User-Agent", "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36");
+
         Connection.Response execute = connect.execute();
         Map<String, String> cookies = execute.cookies();
+        Map<String, String> headers = execute.headers();
 
         Connection connect1 = Jsoup.connect("https://www.baidu.com/s?ie=utf-8&mod=1&isbd=1&isid=FB107F7241711249&ie=utf-8&f=8&rsv_bp=0&rsv_idx=1&tn=baidu&wd=%E6%89%8B%E6%9C%BA%E7%99%BE%E5%BA%A6&rsv_pq=e2d02e4d0005de57&rsv_t=0941frNZV57%2BUXoiOrPPoaGWWrGM2tKf%2FZCQGcKWoJQSusNPxrloCEMyRCI&rqlang=cn&rsv_enter=1&rsv_sug3=3&rsv_n=2&rsv_sid=22584_1443_21095_18559_17001_22174_20928&_ss=1&clist=&hsug=&csor=4&pstg=2&_cr1=26691");
         connect1.cookies(cookies);
