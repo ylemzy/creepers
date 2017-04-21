@@ -17,7 +17,7 @@ import java.util.Map;
 /**
  * Created by huangzebin on 2017/4/5.
  */
-public class ConfigTest {
+public class ElasticsearchConfigTest {
 
     @Test
     public void testClient() throws UnknownHostException {

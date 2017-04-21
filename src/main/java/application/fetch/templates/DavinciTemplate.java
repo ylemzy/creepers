@@ -118,7 +118,7 @@ public class DavinciTemplate extends AbstractTemplate {
         public Element findTitle() throws Exception {
             title = findTagH();
             if (title == null){
-                    throw new Exception("Multiple title has found but uncertainly result");
+                    throw new Exception("No title has found but uncertainly result");
             }
             return title;
         }
