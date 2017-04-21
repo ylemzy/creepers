@@ -1,4 +1,4 @@
-package application.config;
+package application;
 
 import application.elastic.base.CustomElasticsearchRepositoryImpl;
 import org.apache.logging.log4j.LogManager;
@@ -12,18 +12,11 @@ import org.elasticsearch.xpack.client.PreBuiltXPackTransportClient;
 import org.elasticsearch.xpack.security.authc.support.SecuredString;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.cache.CacheManager;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.elasticsearch.core.ElasticsearchOperations;
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
-import org.springframework.data.redis.cache.RedisCacheManager;
-import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
-import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.data.redis.core.StringRedisTemplate;
-import redis.clients.jedis.JedisPoolConfig;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
@@ -69,5 +62,4 @@ public class ElasticsearchConfig {
     public ElasticsearchOperations elasticsearchTemplate() throws UnknownHostException {
         return new ElasticsearchTemplate(xpackClient());
     }
-
 }

@@ -1,4 +1,4 @@
-package application.config;/**
+package application;/**
  * Created by huangzebin on 2017/4/21.
  */
 
