@@ -7,4 +7,18 @@ import org.apache.logging.log4j.Logger;
 
 public class Url {
     private static final Logger logger = LogManager.getLogger();
+
+    private String url;
+
+    public Url(String url) {
+        this.url = url;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
 }

@@ -1,5 +1,6 @@
 package application.util;
 
+import application.http.UrlMaker;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jsoup.Connection;
@@ -9,6 +10,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.io.IOException;
+import java.net.URL;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -26,7 +28,22 @@ public class DateTimeUtilTest {
 
     @Test
     public void parseDaily() throws Exception {
+        URL url = new URL("http://localhost:8080/index/test?a=1&b=3");
+        String query = url.getQuery();
 
+        System.out.println(url.getHost());
+        System.out.println(url.getQuery());
+        System.out.println(url.getPath());
+        System.out.println(url.getRef());
+        System.out.println(url.getFile());
+        System.out.println(url.getPort());
+        System.out.println(url.getProtocol());
+
+        UrlMaker urlMaker = UrlMaker.make("http://localhost:8080/index/test?a=1&b=3");
+        System.out.println(urlMaker.getDomain());
+
+        UrlMaker urlMaker2 = UrlMaker.make("http://www.baidu.com/index/test?a=1&b=3");
+        System.out.println(urlMaker2.getDomain());
     }
 
     String[] dateTimes = new String[]{

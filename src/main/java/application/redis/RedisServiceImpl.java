@@ -3,6 +3,7 @@ package application.redis;/**
  */
 
 import application.util.JsonHelper;
+import io.reactivex.Observable;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +15,7 @@ import org.springframework.data.redis.serializer.RedisSerializer;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.concurrent.Callable;
 import java.util.concurrent.TimeUnit;
 
 @Service
@@ -36,12 +38,12 @@ public class RedisServiceImpl {
         return result;
     }
 
-    public String get(final String key){
+    public String get(final String key) {
         String result = redisTemplate.execute(new RedisCallback<String>() {
             @Override
             public String doInRedis(RedisConnection connection) throws DataAccessException {
                 RedisSerializer<String> serializer = redisTemplate.getStringSerializer();
-                byte[] value =  connection.get(serializer.serialize(key));
+                byte[] value = connection.get(serializer.serialize(key));
                 return serializer.deserialize(value);
             }
         });
@@ -54,19 +56,19 @@ public class RedisServiceImpl {
 
     public <T> boolean setList(String key, List<T> list) {
         String value = JsonHelper.toJSON(list);
-        return set(key,value);
+        return set(key, value);
     }
 
     public <T> List<T> getList(String key, Class<T> clz) {
         String json = get(key);
-        if(json!=null){
+        if (json != null) {
             List<T> list = JsonHelper.toList(json, clz);
             return list;
         }
         return null;
     }
 
-    public long lpush(final String key, Object obj) {
+    public long lPush(final String key, Object obj) {
         final String value = JsonHelper.toJSON(obj);
         long result = redisTemplate.execute(new RedisCallback<Long>() {
             @Override
@@ -79,7 +81,7 @@ public class RedisServiceImpl {
         return result;
     }
 
-    public long rpush(final String key, Object obj) {
+    public long rPush(final String key, Object obj) {
         final String value = JsonHelper.toJSON(obj);
         long result = redisTemplate.execute(new RedisCallback<Long>() {
             @Override
@@ -92,15 +94,36 @@ public class RedisServiceImpl {
         return result;
     }
 
-    public String lpop(final String key) {
+    public String lPop(final String key) {
         String result = redisTemplate.execute(new RedisCallback<String>() {
             @Override
             public String doInRedis(RedisConnection connection) throws DataAccessException {
                 RedisSerializer<String> serializer = redisTemplate.getStringSerializer();
-                byte[] res =  connection.lPop(serializer.serialize(key));
+                byte[] res = connection.lPop(serializer.serialize(key));
                 return serializer.deserialize(res);
             }
         });
         return result;
+    }
+
+    public boolean sAdd(final String key, final String value) {
+        return redisTemplate.execute(new RedisCallback<Boolean>() {
+            @Override
+            public Boolean doInRedis(RedisConnection redisConnection) throws DataAccessException {
+                RedisSerializer<String> serializer = redisTemplate.getStringSerializer();
+                redisConnection.sAdd(serializer.serialize(key), serializer.serialize(value));
+                return true;
+            }
+        });
+    }
+
+    public boolean sIsMember(final String key, final String value){
+        return redisTemplate.execute(new RedisCallback<Boolean>() {
+            @Override
+            public Boolean doInRedis(RedisConnection redisConnection) throws DataAccessException {
+                RedisSerializer<String> serializer = redisTemplate.getStringSerializer();
+                return redisConnection.sIsMember(serializer.serialize(key), serializer.serialize(value));
+            }
+        });
     }
 }

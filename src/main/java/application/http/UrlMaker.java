@@ -1,8 +1,13 @@
 package application.http;
 
+import org.apache.commons.lang.StringUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.util.Strings;
 import org.springframework.util.Assert;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -11,19 +16,45 @@ import java.util.Map;
  */
 public class UrlMaker {
 
+    private static final Logger logger = LogManager.getLogger();
+
     Map<String, String> params = new HashMap<>();
+    URL url = null;
+    String link = null;
     String uri = null;
+
+    String[] img = {
+            "jpg", "jpeg", "png", "gif", "ico"
+    };
+
+    String[] code = {
+            ".css", ".js", ""
+
+    };
 
     public static UrlMaker make(String url){
         return new UrlMaker(url);
     }
 
     public UrlMaker(String url) {
+        this.link = url;
+        try {
+            this.url = new URL(url);
+        } catch (MalformedURLException e) {
+            logger.error(e, e);
+        }
         parse(url);
     }
 
+    public String getUri() {
+        return uri;
+    }
+
+
     public String getUrl(){
-        String url = uri + "?";
+        if (params.size() == 0){
+            return uri;
+        }
 
         StringBuffer buffer = new StringBuffer();
         params.forEach( (k, v)->{
@@ -32,7 +63,11 @@ public class UrlMaker {
         if (buffer.length() > 0){
             buffer.setLength(buffer.length() - 1);
         }
-        return url + buffer.toString();
+        return uri + "?" + buffer.toString();
+    }
+
+    public String getHost(){
+        return url.getHost();
     }
 
     public UrlMaker param(String key, String value){
@@ -50,21 +85,27 @@ public class UrlMaker {
         return params.get(key);
     }
 
+    public String getDomain(){
+        return url.getHost() + (url.getPort() == -1 ? "" : ":" + url.getPort());
+    }
+
     private void parse(String strURL) {
 
-        String[] arrSplit = strURL.trim().toLowerCase().split("[?]");
-        if (arrSplit.length > 0) {
-            this.uri = arrSplit[0];
+        String query = url.getQuery();
+        if (StringUtils.isNotEmpty(query)){
+            this.uri = strURL.replace("?" + query, "");
+            parseParams(query);
+        }else{
+            this.uri = strURL;
         }
 
-        if (arrSplit.length > 1){
-            parseParams(arrSplit[1]);
-        }
 
         Assert.isTrue(!Strings.isBlank(this.uri));
     }
 
     private void parseParams(String paramUrl) {
+        if (StringUtils.isEmpty(paramUrl))
+            return;
 
         String[] split = paramUrl.split("[&]");
         for (String s : split) {
