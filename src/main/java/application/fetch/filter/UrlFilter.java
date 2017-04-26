@@ -38,7 +38,7 @@ public class UrlFilter {
     public void filter(Url url) {
         Observable.just(url)
                 .map(link -> new UrlMaker(link.getUrl()))
-                .filter(link -> true)
+                .filter(urlMake -> !redisService.sIsMember(urlMake.getHost(), urlMake.getUrl()))
                 .subscribe(urlMaker -> {
                     System.out.println(urlMaker.getUrl());
                     redisService.sAdd(urlMaker.getHost(), urlMaker.getUrl());
