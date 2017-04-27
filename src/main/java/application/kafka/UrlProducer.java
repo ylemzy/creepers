@@ -2,6 +2,7 @@ package application.kafka;/**
  * Created by huangzebin on 2017/4/26.
  */
 
+import application.fetch.filter.Url;
 import application.util.JsonHelper;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -13,14 +14,15 @@ import java.util.Date;
 import java.util.UUID;
 
 @Component
-public class Sender {
+public class UrlProducer {
     private static final Logger logger = LogManager.getLogger();
 
     @Autowired
     private KafkaTemplate kafkaTemplate;
 
-    public void sendMessage(){
+    public void sendUrl(Url url){
         KafkaMessage m = new KafkaMessage();
+        m.setUrl(url);
         m.setId(System.currentTimeMillis());
         m.setMsg(UUID.randomUUID().toString());
         m.setSendTime(new Date());

@@ -9,6 +9,7 @@ import org.apache.logging.log4j.Logger;
 import org.junit.Test;
 import org.springframework.util.Assert;
 
+import java.net.MalformedURLException;
 import java.util.*;
 
 /**
@@ -24,7 +25,7 @@ public class RequestHelperTest {
     }
 
     @Test
-    public void testUrl(){
+    public void testUrl() throws MalformedURLException {
         //String url = "http://feed.mix.sina.com.cn/api/roll/get?pageid=39&lid=561&num=20&versionNumber=1.2.8&page=1&encode=utf-8&callback=feedCardJsonpCallback&_=1488792450494";
 
         String url = "http://www.baidu.com?p1=123";

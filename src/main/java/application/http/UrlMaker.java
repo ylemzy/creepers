@@ -32,17 +32,13 @@ public class UrlMaker {
 
     };
 
-    public static UrlMaker make(String url){
+    public static UrlMaker make(String url) throws MalformedURLException {
         return new UrlMaker(url);
     }
 
-    public UrlMaker(String url) {
+    public UrlMaker(String url) throws MalformedURLException {
         this.link = url;
-        try {
-            this.url = new URL(url);
-        } catch (MalformedURLException e) {
-            logger.error(e, e);
-        }
+        this.url = new URL(url);
         parse(url);
     }
 

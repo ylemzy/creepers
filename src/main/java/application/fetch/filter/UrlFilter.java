@@ -2,17 +2,19 @@ package application.fetch.filter;/**
  * Created by huangzebin on 2017/4/19.
  */
 
-import application.fetch.templates.UrlDigger;
 import application.http.UrlMaker;
+import application.kafka.UrlProducer;
 import application.redis.RedisServiceImpl;
 import io.reactivex.Observable;
-import io.reactivex.Observer;
+import io.reactivex.Scheduler;
 import io.reactivex.annotations.NonNull;
+import io.reactivex.functions.Consumer;
 import io.reactivex.functions.Function;
+import io.reactivex.schedulers.Schedulers;
+import org.apache.commons.lang.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
@@ -24,25 +26,32 @@ public class UrlFilter {
     @Autowired
     private RedisServiceImpl redisService;
 
+    @Autowired
+    private UrlProducer urlProducer;
+
     private static UrlFilter filter;
 
     @PostConstruct
-    public void init(){
+    public void init() {
         filter = this;
     }
 
-    public static UrlFilter get(){
+    public static UrlFilter get() {
         return filter;
     }
 
     public void filter(Url url) {
         Observable.just(url)
+                .filter(link -> StringUtils.isNotEmpty(link.getUrl()))
                 .map(link -> new UrlMaker(link.getUrl()))
-                .filter(urlMake -> !redisService.sIsMember(urlMake.getHost(), urlMake.getUrl()))
+                .filter(urlMake -> !redisService.sIsMember("allUrl", urlMake.getUrl()))
                 .subscribe(urlMaker -> {
-                    System.out.println(urlMaker.getUrl());
-                    redisService.sAdd(urlMaker.getHost(), urlMaker.getUrl());
-                    new UrlDigger(urlMaker.getUrl()).dig();
-                });
+                            redisService.sAdd("allUrl", urlMaker.getUrl());
+                            urlProducer.sendUrl(url);
+                        },
+                        throwable -> {
+                            logger.error("url:" + url.getUrl(), throwable);
+                            redisService.sAdd("errorUlr", url.getUrl());
+                        });
     }
 }

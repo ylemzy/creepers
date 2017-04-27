@@ -2,6 +2,7 @@ package application.kafka;/**
  * Created by huangzebin on 2017/4/26.
  */
 
+import application.fetch.filter.Url;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -12,6 +13,7 @@ public class KafkaMessage {
     private Long id;
     private String msg;
     private Date sendTime;
+    private Url url;
 
     public Long getId() {
         return id;
@@ -35,5 +37,13 @@ public class KafkaMessage {
 
     public void setSendTime(Date sendTime) {
         this.sendTime = sendTime;
+    }
+
+    public Url getUrl() {
+        return url;
+    }
+
+    public void setUrl(Url url) {
+        this.url = url;
     }
 }
