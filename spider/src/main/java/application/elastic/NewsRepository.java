@@ -1,6 +1,6 @@
 package application.elastic;
 
-import application.fetch.News;
+import application.elastic.document.News;
 import elastic.repository.CustomElasticsearchRepository;
 
 /**

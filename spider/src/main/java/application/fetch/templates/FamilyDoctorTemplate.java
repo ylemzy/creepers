@@ -2,6 +2,7 @@ package application.fetch.templates;/**
  * Created by huangzebin on 2017/3/16.
  */
 
+import application.elastic.document.News;
 import application.fetch.*;
 import org.apache.commons.lang.StringUtils;
 import org.apache.logging.log4j.LogManager;

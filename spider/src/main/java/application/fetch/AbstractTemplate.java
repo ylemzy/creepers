@@ -1,5 +1,6 @@
 package application.fetch;
 
+import application.elastic.document.News;
 import application.fetch.filter.RequestFilter;
 import application.fetch.filter.RequestFilterManager;
 import org.apache.logging.log4j.LogManager;

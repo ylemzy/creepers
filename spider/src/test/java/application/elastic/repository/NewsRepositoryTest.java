@@ -1,7 +1,7 @@
 package application.elastic.repository;
 
 import application.elastic.NewsRepository;
-import application.fetch.News;
+import application.elastic.document.News;
 import util.JsonHelper;
 import org.elasticsearch.client.Client;
 import org.junit.Test;

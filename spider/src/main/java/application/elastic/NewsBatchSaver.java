@@ -1,7 +1,8 @@
 package application.elastic;
 
 
-import application.fetch.News;
+
+import application.elastic.document.News;
 import elastic.batch.BatchSaver;
 import org.springframework.stereotype.Service;
 

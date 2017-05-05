@@ -1,5 +1,6 @@
 package application.fetch.templates;
 
+import application.elastic.document.News;
 import application.fetch.*;
 import org.apache.commons.lang.StringUtils;
 import org.jsoup.nodes.Document;

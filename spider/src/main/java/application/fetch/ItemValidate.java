@@ -2,6 +2,7 @@ package application.fetch;/**
  * Created by huangzebin on 2017/3/21.
  */
 
+import application.elastic.document.News;
 import org.apache.commons.lang.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

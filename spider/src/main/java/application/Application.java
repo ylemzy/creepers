@@ -16,7 +16,7 @@ import java.util.concurrent.Executor;
 @SpringBootApplication
 @EnableScheduling
 @EnableAsync
-@ComponentScan(basePackages = {"application", "elastic"})
+@ComponentScan(basePackages = {"application"})
 public class Application extends AsyncConfigurerSupport {
 
     public static void main(String[] args) {

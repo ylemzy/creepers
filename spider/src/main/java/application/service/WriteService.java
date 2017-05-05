@@ -1,7 +1,7 @@
 package application.service;
 
 import application.elastic.NewsBatchSaver;
-import application.fetch.News;
+import application.elastic.document.News;
 import application.fetch.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

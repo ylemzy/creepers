@@ -1,7 +1,7 @@
 package application.controller;
 
 import application.elastic.NewsRepository;
-import application.fetch.News;
+import application.elastic.document.News;
 import util.JsonHelper;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

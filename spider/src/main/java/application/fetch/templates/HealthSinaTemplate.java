@@ -1,5 +1,6 @@
 package application.fetch.templates;
 
+import application.elastic.document.News;
 import application.fetch.*;
 import http.UrlMaker;
 import util.JsonHelper;
