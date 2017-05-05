@@ -1,5 +1,6 @@
 package application.elastic.repository;
 
+import application.elastic.NewsRepository;
 import application.fetch.News;
 import util.JsonHelper;
 import org.elasticsearch.client.Client;
