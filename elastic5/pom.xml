@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>conm.jungle.since</groupId>
-    <artifactId>elastic</artifactId>
+    <artifactId>elastic5</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <parent>

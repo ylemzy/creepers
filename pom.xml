@@ -31,7 +31,7 @@
 
     <modules>
         <module>common</module>
-        <module>elastic</module>
+        <module>elastic5</module>
         <module>spider</module>
     </modules>
 
