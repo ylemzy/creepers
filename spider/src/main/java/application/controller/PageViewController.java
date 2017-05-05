@@ -1,8 +1,8 @@
 package application.controller;
 
-import application.elastic.repository.NewsRepository;
+import application.elastic.NewsRepository;
 import application.fetch.News;
-import application.util.JsonHelper;
+import util.JsonHelper;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jsoup.Connection;

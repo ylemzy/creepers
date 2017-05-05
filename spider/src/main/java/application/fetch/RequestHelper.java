@@ -1,6 +1,6 @@
 package application.fetch;
 
-import application.util.HashUtil;
+import util.HashUtil;
 
 public class RequestHelper {
 

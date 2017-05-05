@@ -2,15 +2,10 @@ package application.fetch.filter;/**
  * Created by huangzebin on 2017/4/19.
  */
 
-import application.http.UrlMaker;
+import http.UrlMaker;
 import application.kafka.UrlProducer;
 import application.redis.RedisServiceImpl;
 import io.reactivex.Observable;
-import io.reactivex.Scheduler;
-import io.reactivex.annotations.NonNull;
-import io.reactivex.functions.Consumer;
-import io.reactivex.functions.Function;
-import io.reactivex.schedulers.Schedulers;
 import org.apache.commons.lang.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

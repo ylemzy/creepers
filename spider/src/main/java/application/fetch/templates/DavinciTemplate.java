@@ -3,7 +3,7 @@ package application.fetch.templates;/**
  */
 
 import application.fetch.*;
-import application.util.DateTimeUtil;
+import util.DateTimeUtil;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jsoup.nodes.Document;

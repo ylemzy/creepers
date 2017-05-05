@@ -1,6 +1,6 @@
 package application.service;
 
-import application.elastic.repository.NewsBatchSaver;
+import application.elastic.NewsBatchSaver;
 import application.fetch.News;
 import application.fetch.Response;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,7 +1,7 @@
 package application.fetch.filter;
 
 import application.fetch.Request;
-import application.util.JsonHelper;
+import util.JsonHelper;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

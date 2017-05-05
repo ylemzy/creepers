@@ -1,6 +1,6 @@
 package application.controller;
 
-import application.util.JsonHelper;
+import util.JsonHelper;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.junit.Test;

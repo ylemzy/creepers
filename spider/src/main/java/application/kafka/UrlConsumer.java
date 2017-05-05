@@ -3,7 +3,7 @@ package application.kafka;/**
  */
 
 import application.fetch.templates.UrlDigger;
-import application.util.JsonHelper;
+import util.JsonHelper;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.kafka.annotation.KafkaListener;
