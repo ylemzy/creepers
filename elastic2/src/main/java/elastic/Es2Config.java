@@ -9,7 +9,7 @@ import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 
 import static org.elasticsearch.node.NodeBuilder.nodeBuilder;
 
-public class Config {
+public class Es2Config {
     private static final Logger logger = LogManager.getLogger();
 
     public ElasticsearchOperations getTemplate() {

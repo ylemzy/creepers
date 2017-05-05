@@ -1,6 +1,6 @@
 package application;
 
-import elastic.Config;
+import elastic.Es2Config;
 import elastic.repository.CustomElasticsearchRepositoryImpl;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -10,7 +10,6 @@ import org.springframework.data.elasticsearch.core.ElasticsearchOperations;
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
 
-import static org.elasticsearch.node.NodeBuilder.nodeBuilder;
 
 /**
  * Created by huangzebin on 2017/2/13.
@@ -19,18 +18,24 @@ import static org.elasticsearch.node.NodeBuilder.nodeBuilder;
 @EnableElasticsearchRepositories(repositoryBaseClass = CustomElasticsearchRepositoryImpl.class)
 public class ElasticsearchConfig {
     private static final Logger logger = LogManager.getLogger();
-/*    @Bean
-    public ElasticsearchOperations elasticsearchTemplate() {
-        return new ElasticsearchTemplate(nodeBuilder().local(true).node().client());
-    }   */
-
     @Bean
     public ElasticsearchOperations elasticsearchTemplate() {
-        return new Config().getTemplate();
+        return new Es2Config().getTemplate();
     }
 
+/*    @ConfigurationProperties(prefix = "spring.data.elasticsearch")
+    @Bean
+    public Es5Config getConfig(){
+        return new Es5Config();
+    }
 
-   /* final int  port = 9300;
+    @Bean
+    public ElasticsearchOperations elasticsearchTemplate() throws UnknownHostException {
+        return getConfig().getTemplate();
+    }*/
+
+
+    /*final int  port = 9300;
     final String host = "localhost";
 
     @Value("${xpack.security.user}")
