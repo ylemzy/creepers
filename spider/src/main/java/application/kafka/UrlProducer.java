@@ -2,7 +2,7 @@ package application.kafka;/**
  * Created by huangzebin on 2017/4/26.
  */
 
-import application.fetch.filter.Url;
+import application.elastic.document.Url;
 import util.JsonHelper;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -26,6 +26,6 @@ public class UrlProducer {
         m.setId(System.currentTimeMillis());
         m.setMsg(UUID.randomUUID().toString());
         m.setSendTime(new Date());
-        kafkaTemplate.send("test1", JsonHelper.toJSON(m));
+        kafkaTemplate.send("url", JsonHelper.toJSON(m));
     }
 }

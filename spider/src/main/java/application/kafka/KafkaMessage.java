@@ -2,7 +2,7 @@ package application.kafka;/**
  * Created by huangzebin on 2017/4/26.
  */
 
-import application.fetch.filter.Url;
+import application.elastic.document.Url;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

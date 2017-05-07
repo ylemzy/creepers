@@ -2,7 +2,10 @@ package application.kafka;/**
  * Created by huangzebin on 2017/4/26.
  */
 
-import application.fetch.templates.UrlDigger;
+import application.elastic.UrlBatchSaver;
+import application.elastic.document.Url;
+import application.fetch.url.UrlDigger;
+import org.springframework.beans.factory.annotation.Autowired;
 import util.JsonHelper;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -16,15 +19,24 @@ public class UrlConsumer {
     private static final Logger logger = LogManager.getLogger();
 
 
-    @KafkaListener(topics = "test1")
+    @Autowired
+    UrlBatchSaver urlBatchSaver;
+
+    @KafkaListener(topics = "url")
     public void processMessage(String content) {
-        KafkaMessage kafkaMessage = JsonHelper.toObject(content, KafkaMessage.class);
-        //logger.info(JsonHelper.toJSON(kafkaMessage));
-        UrlDigger urlDigger = new UrlDigger(kafkaMessage.getUrl().getUrl());
-        try {
+        log("url", content);
+        try{
+            KafkaMessage kafkaMessage = JsonHelper.toObject(content, KafkaMessage.class);
+            Url url = kafkaMessage.getUrl();
+            urlBatchSaver.save(url);
+            UrlDigger urlDigger = new UrlDigger(url.getUrl());
             urlDigger.dig();
-        } catch (IOException e) {
+        }catch (Exception e){
             logger.error(e, e);
         }
+    }
+
+    private void log(String type, Object sendObject){
+        logger.info("Consumer {}:{} -> {}", type, Thread.currentThread().getName(), JsonHelper.toJSON(sendObject));
     }
 }

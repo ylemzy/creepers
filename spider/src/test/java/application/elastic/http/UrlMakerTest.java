@@ -13,9 +13,9 @@ public class UrlMakerTest {
     @Test
     public void test() throws MalformedURLException {
         UrlMaker urlMaker = UrlMaker.make("http://www.toutiao.com/");
-        System.out.println(urlMaker.getUrl());
+        System.out.println(urlMaker.getRowUrl());
 
         UrlMaker urlMaker2 = UrlMaker.make("http://www.toutiao.com/index?id=1&h=2");
-        System.out.println(urlMaker2.getUrl());
+        System.out.println(urlMaker2.getRowUrl());
     }
 }

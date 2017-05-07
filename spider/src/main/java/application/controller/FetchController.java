@@ -1,5 +1,6 @@
 package application.controller;
 
+import application.service.DigService;
 import application.service.NewsService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -22,6 +23,9 @@ public class FetchController {
     @Autowired
     NewsService newsService;
 
+    @Autowired
+    DigService digService;
+
     @RequestMapping(value = "/start", method = RequestMethod.GET)
     public ResponseEntity start(@RequestParam String id){
         logger.info("start id : {}", id);
@@ -30,6 +34,18 @@ public class FetchController {
             ids.add(id);
             newsService.start(ids);
             return ResponseEntity.ok("Start fetch id");
+        }catch (Exception e){
+            logger.error(e, e);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
+    }
+
+    @RequestMapping(value = "/dig", method = RequestMethod.POST)
+    public ResponseEntity dig(@RequestBody String url){
+        logger.info("Dig url : {}", url);
+        try{
+            digService.dig(url);
+            return ResponseEntity.ok("Start dig " + url);
         }catch (Exception e){
             logger.error(e, e);
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();

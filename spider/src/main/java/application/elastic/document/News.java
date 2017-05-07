@@ -1,7 +1,7 @@
 package application.elastic.document;
 
-import application.fetch.Request;
-import application.fetch.RequestHelper;
+import application.fetch.request.Request;
+import application.fetch.request.RequestHelper;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
 

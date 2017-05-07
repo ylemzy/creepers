@@ -46,8 +46,20 @@ public class UrlMaker {
         return uri;
     }
 
+    public URL getUrl() {
+        try {
+            return new URL(getRowUrl());
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 
-    public String getUrl(){
+    public void setUrl(URL url) {
+        this.url = url;
+    }
+
+    public String getRowUrl(){
         if (params.size() == 0){
             return uri;
         }

@@ -1,8 +1,8 @@
 package application.service;
 
-import application.fetch.Category;
-import application.fetch.Template;
-import application.fetch.TemplateLoader;
+import application.fetch.request.Category;
+import application.fetch.request.Template;
+import application.fetch.request.TemplateLoader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Service;

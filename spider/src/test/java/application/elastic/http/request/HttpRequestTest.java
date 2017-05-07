@@ -33,6 +33,13 @@ public class HttpRequestTest {
         System.out.println(document.html());
     }
 
+   @Test
+    public void testToutiao() throws IOException {
+        Document document = Jsoup.connect("http://www.toutiao.com/").get();
+        System.out.println(document.html());
+    }
+
+
 
 
 }
