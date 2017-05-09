@@ -10,6 +10,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Test;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
@@ -29,13 +31,19 @@ public class LinkFilterTest {
     UrlFilter urlFilter;*/
 
     @Test
-    public void test() {
-        //Link url = new Link("http://www.baidu.com/index/test?a=1&b=3");
+    public void test() throws MalformedURLException {
+        URL url = new URL("http://baidu.com.ss.ff.ee:9999/");
+        logger.info("host {}", url.getHost());
+        logger.info("auth {}", url.getAuthority());
+        logger.info("path {}", url.getPath());
+        logger.info("protocol {}", url.getProtocol());
+        logger.info("ref {}", url.getRef());
+        logger.info("userInfo {}", url.getUserInfo());
 
     }
 
     @Test
-    public void tesTfilter() throws InterruptedException {
+    public void testFilter() throws InterruptedException {
         List<Link> list = new ArrayList<>();
         for (int i = 0; i < 1000; ++i){
             list.add(new Link("http://www." + i + "baidu.com"));
@@ -76,8 +84,6 @@ public class LinkFilterTest {
         }catch (Exception e){
             logger.error("----------------<<<<<<>>>><><><><>");
         }
-
-
 
         Thread.sleep(TimeUnit.SECONDS.toMillis(10));
     }

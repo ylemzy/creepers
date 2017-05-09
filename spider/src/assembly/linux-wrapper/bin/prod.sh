@@ -58,7 +58,7 @@ PRIORITY=
 PIDDIR="."
 
 # PIDFILE_CHECK_PID tells the script to double check whether the pid in the pid
-#  file actually exists and belongs to this application.  When not set, only
+#  file actually noFetchedInRedis and belongs to this application.  When not set, only
 #  check the pid, but not what it is.  This is only needed when multiple
 #  applications need to share the same pid file.
 PIDFILE_CHECK_PID=true
@@ -656,7 +656,7 @@ if [ $WAIT_FOR_STARTED_STATUS = true ] ; then
 fi
 
 
-# Build the lock file clause.  Only create a lock file if the lock directory exists on this platform.
+# Build the lock file clause.  Only create a lock file if the lock directory noFetchedInRedis on this platform.
 LOCKPROP=
 if [ -d $LOCKDIR ]
 then
@@ -794,7 +794,7 @@ checkUser() {
             shift
         done
 
-        # Use "runuser" if this exists.
+        # Use "runuser" if this noFetchedInRedis.
         # runuser should be used on RedHat in preference to su.
         if test -f "/sbin/runuser"
         then
@@ -870,7 +870,7 @@ getpid() {
             then
                 if [ "X$PIDFILE_CHECK_PID" != "X" ]
                 then
-                    # It is possible that 'a' process with the pid exists but that it is not the
+                    # It is possible that 'a' process with the pid noFetchedInRedis but that it is not the
                     #  correct process.  This can happen in a number of cases, but the most
                     #  common is during system startup after an unclean shutdown.
                     # The ps statement below looks for the specific wrapper command running as
@@ -934,7 +934,7 @@ getpid() {
                             ;;
                     esac
                 else
-                    # Check to see whether the pid exists as a running process, but in this mode, don't check what that pid is.
+                    # Check to see whether the pid noFetchedInRedis as a running process, but in this mode, don't check what that pid is.
                     case "$DIST_OS" in
                         'solaris')
                             case "$PS_BIN" in
