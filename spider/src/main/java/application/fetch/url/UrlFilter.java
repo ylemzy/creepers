@@ -2,11 +2,9 @@ package application.fetch.url;/**
  * Created by huangzebin on 2017/4/19.
  */
 
-import application.elastic.UrlBatchSaver;
-import application.elastic.document.Url;
+import application.elastic.document.Link;
 import application.kafka.ProducerPipeline;
 import http.UrlMaker;
-import application.kafka.UrlProducer;
 import application.redis.RedisServiceImpl;
 import io.reactivex.Observable;
 import org.apache.commons.lang.StringUtils;
@@ -38,7 +36,7 @@ public class UrlFilter {
         return filter;
     }
 
-    public void filter(Url url) {
+    public void filter(Link url) {
         Observable.just(url)
                 .filter(link -> StringUtils.isNotEmpty(link.getUrl()))
                 .map(link -> new UrlMaker(link.getUrl()))

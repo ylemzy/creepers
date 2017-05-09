@@ -1,12 +1,11 @@
 package application.kafka;
 
-import application.elastic.document.Url;
+import application.elastic.document.Link;
 import application.fetch.request.Request;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import util.JsonHelper;
 
 import javax.annotation.PostConstruct;
 
@@ -43,9 +42,9 @@ public class ProducerPipeline {
         log("request",request);
     }
 
-    public void send(Url url){
-        urlProducer.sendUrl(url);
-        log("url", url);
+    public void send(Link link){
+        urlProducer.sendUrl(link);
+        log("url", link);
     }
 
 }

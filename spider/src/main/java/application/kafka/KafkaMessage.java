@@ -2,7 +2,7 @@ package application.kafka;/**
  * Created by huangzebin on 2017/4/26.
  */
 
-import application.elastic.document.Url;
+import application.elastic.document.Link;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -13,7 +13,7 @@ public class KafkaMessage {
     private Long id;
     private String msg;
     private Date sendTime;
-    private Url url;
+    private Link link;
 
     public Long getId() {
         return id;
@@ -39,11 +39,11 @@ public class KafkaMessage {
         this.sendTime = sendTime;
     }
 
-    public Url getUrl() {
-        return url;
+    public Link getLink() {
+        return link;
     }
 
-    public void setUrl(Url url) {
-        this.url = url;
+    public void setLink(Link link) {
+        this.link = link;
     }
 }

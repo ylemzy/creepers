@@ -10,7 +10,7 @@ import org.springframework.data.elasticsearch.annotations.Document;
 import util.HashUtil;
 
 @Document(indexName = "url", type = "1")
-public class Url {
+public class Link {
 
 
     private static final Logger logger = LogManager.getLogger();
@@ -22,9 +22,9 @@ public class Url {
     @Id
     private String id;
 
-    public Url(){}
+    public Link(){}
 
-    public Url(String url) {
+    public Link(String url) {
         this.url = url;
         this.id = HashUtil.MD5(url);
     }

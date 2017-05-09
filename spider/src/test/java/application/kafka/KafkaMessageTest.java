@@ -1,6 +1,6 @@
 package application.kafka;
 
-import application.elastic.document.Url;
+import application.elastic.document.Link;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,8 +25,8 @@ public class KafkaMessageTest {
 
     @Test
     public void test() throws InterruptedException {
-        Url url = new Url("https://www.baidu.com/");
-        urlProducer.sendUrl(url);
+        Link link = new Link("https://www.baidu.com/");
+        urlProducer.sendUrl(link);
         Thread.sleep(TimeUnit.SECONDS.toMillis(5));
     }
 }

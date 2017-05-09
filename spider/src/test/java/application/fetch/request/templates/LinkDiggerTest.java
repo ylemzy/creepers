@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class UrlDiggerTest {
+public class LinkDiggerTest {
 
     @Test
     public void dig() throws IOException, InterruptedException {

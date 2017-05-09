@@ -1,6 +1,6 @@
 package application.fetch.request.filter;
 
-import application.elastic.document.Url;
+import application.elastic.document.Link;
 import http.UrlMaker;
 import io.reactivex.Observable;
 import io.reactivex.annotations.NonNull;
@@ -23,22 +23,22 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 /*@RunWith(SpringRunner.class)
 @SpringBootTest*/
-public class UrlFilterTest {
+public class LinkFilterTest {
     private static final Logger logger = LogManager.getLogger();
 /*    @Autowired
     UrlFilter urlFilter;*/
 
     @Test
     public void test() {
-       /* Url url = new Url("http://www.baidu.com/index/test?a=1&b=3");
-        urlFilter.filter(url);*/
+        //Link url = new Link("http://www.baidu.com/index/test?a=1&b=3");
+
     }
 
     @Test
     public void tesTfilter() throws InterruptedException {
-        List<Url> list = new ArrayList<>();
+        List<Link> list = new ArrayList<>();
         for (int i = 0; i < 1000; ++i){
-            list.add(new Url("http://www." + i + "baidu.com"));
+            list.add(new Link("http://www." + i + "baidu.com"));
         }
 
         ExecutorService executorService =

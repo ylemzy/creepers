@@ -8,7 +8,7 @@ import java.net.MalformedURLException;
 /**
  * Created by huangzebin on 2017/4/21.
  */
-public class UrlMakerTest {
+public class LinkMakerTest {
 
     @Test
     public void test() throws MalformedURLException {
