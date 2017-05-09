@@ -4,6 +4,7 @@ package application.fetch.url;/**
 
 import application.elastic.document.Link;
 import application.kafka.ProducerPipeline;
+import application.redis.RedisKeyConfig;
 import application.redis.RedisServiceImpl;
 import http.UrlMaker;
 import org.apache.commons.lang.StringUtils;
@@ -40,9 +41,8 @@ public class Rx {
     }
 
     public boolean noFetchedInRedis(UrlMaker urlMaker){
-        return !redisService.sIsMember("allUrl", urlMaker.getRowUrl());
+        return !redisService.sIsMember(RedisKeyConfig.DIG_URL, urlMaker.getRowUrl());
     }
-
 
     public List<UrlMaker> dig(UrlMaker urlMaker) throws IOException {
         Document document = Jsoup.connect(urlMaker.getRowUrl()).get();
@@ -60,12 +60,12 @@ public class Rx {
 
     public void toQueue(Link url, UrlMaker urlMaker){
         url.setType(UrlHelper.filter(urlMaker));
-        redisService.sAdd("allUrl", urlMaker.getRowUrl());
+        redisService.sAdd(RedisKeyConfig.DIG_URL, urlMaker.getRowUrl());
         producerPipeline.send(url);
     }
 
     public void error(Link url, Throwable throwable){
         logger.error("url:" + url.getUrl(), throwable);
-        redisService.sAdd("errorUlr", url.getUrl());
+        redisService.sAdd(RedisKeyConfig.ERROR_URL, url.getUrl());
     }
 }

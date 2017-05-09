@@ -29,7 +29,7 @@ public class UrlFlow {
         return filter;
     }
 
-    public void filter(Link url) {
+    public void flow(Link url) {
         Observable.just(url)
                 .filter( link -> rx.isValid(link))
                 .map(link -> rx.make(link))

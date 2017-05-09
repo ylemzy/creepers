@@ -6,6 +6,8 @@ import application.elastic.UrlBatchSaver;
 import application.elastic.document.Link;
 import application.fetch.url.ExecutorManager;
 import application.fetch.url.UrlDigger;
+import application.fetch.url.UrlFlow;
+import io.reactivex.Observable;
 import org.springframework.beans.factory.annotation.Autowired;
 import util.JsonHelper;
 import org.apache.logging.log4j.LogManager;
@@ -22,6 +24,9 @@ import java.util.concurrent.TimeUnit;
 public class UrlConsumer {
     private static final Logger logger = LogManager.getLogger();
 
+    @Autowired
+    UrlFlow urlFlow;
+
     int sleepTime = 0;
     @PostConstruct
     public void start(){
@@ -32,8 +37,7 @@ public class UrlConsumer {
         ExecutorManager.getDiggerService().execute(new Runnable() {
             @Override
             public void run() {
-                UrlDigger urlDigger = new UrlDigger(link.getUrl());
-                urlDigger.dig();
+                urlFlow.flow(link);
             }
         });
     }
@@ -41,9 +45,7 @@ public class UrlConsumer {
     @Autowired
     UrlBatchSaver urlBatchSaver;
 
-    @KafkaListener(topics = "url")
-    public void processMessage(String content) {
-        log("url", content);
+    private void process(String content){
         try{
             KafkaMessage kafkaMessage = JsonHelper.toObject(content, KafkaMessage.class);
             Link link = kafkaMessage.getLink();
@@ -52,6 +54,14 @@ public class UrlConsumer {
         }catch (Exception e){
             logger.error(e, e);
         }
+    }
+
+    @KafkaListener(topics = "url")
+    public void processMessage(String content) {
+        log("url", content);
+
+        Observable<String> just = Observable.just(content);
+
 
         ThreadPoolExecutor diggerService = (ThreadPoolExecutor) ExecutorManager.getDiggerService();
         int activeCount = diggerService.getActiveCount();
@@ -61,15 +71,13 @@ public class UrlConsumer {
 
         int sleep = diggerService.getQueue().size() / diggerService.getMaximumPoolSize();
         while (sleep > 10){
-            try {
-                Thread.sleep(TimeUnit.SECONDS.toMillis(sleep));
-                logger.info("Sleep {}s...", sleep);
-            } catch (InterruptedException e) {
-                logger.error(e, e);
-            }
+            just = just.delay(sleep, TimeUnit.SECONDS);
+            logger.info("Sleep {}s...", sleep);
             sleepTime += sleep;
             sleep = queue.size() / diggerService.getMaximumPoolSize();
         }
+
+        just.subscribe(str -> processMessage(str));
 
     }
 

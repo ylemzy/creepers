@@ -29,7 +29,7 @@ public class UrlDigger {
                             Document document = Jsoup.connect(url).get();
                             Elements urls = document.getElementsByTag("a");
                             urls.forEach(a -> {
-                                UrlFlow.get().filter(new Link(a.absUrl("href")));
+                                UrlFlow.get().flow(new Link(a.absUrl("href")));
                             });
                         },
                         throwable -> {
