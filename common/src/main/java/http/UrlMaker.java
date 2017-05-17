@@ -100,12 +100,21 @@ public class UrlMaker {
     private void parse(String strURL) {
 
         String query = url.getQuery();
+
         if (StringUtils.isNotEmpty(query)){
-            this.uri = strURL.replace("?" + query, "");
             parseParams(query);
-        }else{
-            this.uri = strURL;
         }
+
+        StringBuffer tmp = new StringBuffer();
+        tmp.append(url.getProtocol());
+        tmp.append("://");
+        tmp.append(url.getHost());
+
+        if (url.getPort() != -1){
+            tmp.append(":");
+            tmp.append(url.getPort());
+        }
+        uri = tmp.toString();
 
 
         Assert.isTrue(!Strings.isBlank(this.uri), "Uri is empty");

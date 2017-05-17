@@ -4,9 +4,11 @@ package util;/**
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import sun.security.pkcs11.P11Util;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -17,6 +19,8 @@ public class DateTimeUtil {
     final static String dateRegx = "([0-9]{4})[-\\.年]([0-1]?[0-9]{1})[-\\.月]([0-3]?[0-9]{1})[日]?[ ]*(([0-2]?[0-9][:时])([0-6][0-9][:分]?)([0-6][0-9][秒]?)?)?";
     public static Pattern pattern = Pattern.compile(dateRegx);
 
+    private final static SimpleDateFormat format = new SimpleDateFormat("yyy-MM-dd");
+
     private static String[] dailyFormats = new String[]{
             "yyyy-MM-dd",              // 2013-09-19
             "yyyy-MM-dd HH:mm",           // 2013-09-19 14:22
@@ -26,7 +30,7 @@ public class DateTimeUtil {
             "yyyy年MM月dd日",
     };
 
-    private static String[] formats = new String[] {
+    private static String[] formats = new String[]{
 
             "yyyy-MM-dd",              // 2013-09-19
             "yyyy-MM-dd HH:mm",           // 2013-09-19 14:22
@@ -74,22 +78,54 @@ public class DateTimeUtil {
         return null;
     }
 
-    public static Date parseDaily(String dateTime){
+    public static Date parseDaily(String dateTime) {
         return parse(dateTime, dailyFormats);
     }
 
 
-    public static boolean matchDate(String input){
+    public static boolean matchDate(String input) {
         Matcher matcher = pattern.matcher(input);
         return matcher.find();
     }
 
 
-    public static String findDate(String input){
+    public static String findDate(String input) {
         Matcher matcher = pattern.matcher(input);
-        if (matcher.find()){
+        if (matcher.find()) {
             return matcher.group();
         }
         return null;
     }
+
+
+    public static Date firstMillisInMonth(int month) {
+        Calendar cal = Calendar.getInstance();
+        cal.set(Calendar.MONTH, month);
+        cal.set(Calendar.DAY_OF_MONTH, 1);
+        cal.set(Calendar.HOUR_OF_DAY, 0);
+        cal.set(Calendar.MINUTE, 0);
+        cal.set(Calendar.SECOND, 0);
+        cal.set(Calendar.MILLISECOND, 0);
+        return cal.getTime();
+    }
+
+    public static Date firstMillisInMonth() {
+        return firstMillisInMonth(Calendar.getInstance().get(Calendar.MONTH));
+    }
+
+    public static Date lastMillisInMonth(int month) {
+        Calendar cal = Calendar.getInstance();
+        cal.set(Calendar.MONTH, month);
+        cal.set(Calendar.DAY_OF_MONTH, cal.getActualMaximum(Calendar.DAY_OF_MONTH));
+        cal.set(Calendar.HOUR_OF_DAY, 23);
+        cal.set(Calendar.MINUTE, 59);
+        cal.set(Calendar.SECOND, 59);
+        cal.set(Calendar.MILLISECOND, 999);
+        return cal.getTime();
+    }
+
+    public static Date lastMillisInMonth(){
+        return lastMillisInMonth(Calendar.getInstance().get(Calendar.MONTH));
+    }
+
 }

@@ -107,4 +107,20 @@ public class DateTimeUtilTest {
         logger.info(document.html());
     }
 
+   /* @Test
+    public void testFirstTimeInMonth(){
+        Date date = new Date();
+        Calendar calendar = DateTimeUtil.firstMillisInMonth(date.getMonth());
+        System.out.println(calendar.getTime());
+        System.out.println(new Date(calendar.getTimeInMillis() - 1));
+    }
+
+    @Test
+    public void testLastTimeInMonth(){
+        Date date = new Date();
+        Calendar calendar = DateTimeUtil.lastMillisInMonth(date.getMonth());
+        System.out.println(calendar.getTime());
+        System.out.println(new Date(calendar.getTimeInMillis() + 1));
+    }*/
+
 }

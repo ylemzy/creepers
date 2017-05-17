@@ -9,15 +9,13 @@ import io.reactivex.schedulers.Schedulers;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Test;
+import util.JsonHelper;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ThreadFactory;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
@@ -32,8 +30,10 @@ public class LinkFilterTest {
 
     @Test
     public void test() throws MalformedURLException {
-        URL url = new URL("http://baidu.com.ss.ff.ee:9999/");
+        URL url = new URL("http://baidu.com.ss.ff.ee/test?ss=ee");
+        logger.info("-------------------------");
         logger.info("host {}", url.getHost());
+        logger.info("port {}", url.getPort());
         logger.info("auth {}", url.getAuthority());
         logger.info("path {}", url.getPath());
         logger.info("protocol {}", url.getProtocol());
@@ -45,47 +45,64 @@ public class LinkFilterTest {
     @Test
     public void testFilter() throws InterruptedException {
         List<Link> list = new ArrayList<>();
-        for (int i = 0; i < 1000; ++i){
+        for (int i = 0; i < 100; ++i) {
             list.add(new Link("http://www." + i + "baidu.com"));
         }
 
         ExecutorService executorService =
                 Executors.newFixedThreadPool(10, new ThreadFactory() {
                     AtomicInteger atomic = new AtomicInteger();
+
                     @Override
                     public Thread newThread(Runnable r) {
                         return new Thread(r, "Thread " + atomic.getAndIncrement());
                     }
                 });
 
-        try{
-            list.forEach(url->{
-                Observable.just(url)
-                        .map(link -> {
-                            logger.info("Map: Current thread " + Thread.currentThread().getName());
-                            return new UrlMaker(link.getUrl());})
-                        //.filter(urlMake -> !redisService.sIsMember(urlMake.getHost(), urlMake.getRowUrl()))
-                        .subscribeOn(Schedulers.from(executorService))
-                        .subscribe(new Consumer<UrlMaker>() {
-                                       @Override
-                                       public void accept(@NonNull UrlMaker urlMaker) throws Exception {
-                                           logger.info("accept: Current thread " + Thread.currentThread().getName());
-                                       }
-                                   },
-                                new Consumer<Throwable>() {
-                                    @Override
-                                    public void accept(@NonNull Throwable throwable) throws Exception {
-                                        logger.error("sss:" + url.getUrl(), throwable);
-                                    }
-                                }
-                        );
-            });
 
-        }catch (Exception e){
-            logger.error("----------------<<<<<<>>>><><><><>");
-        }
+        list.forEach(item -> {
+            Observable<UrlMaker> map = Observable.just(item)
+                    .map(link -> {
+                        logger.info("Map {}: thread {}", ((Link) link).getUrl(), Thread.currentThread().getName());
+                        return new UrlMaker(((Link) link).getUrl());
+                    });
 
-        Thread.sleep(TimeUnit.SECONDS.toMillis(10));
+            map.delay(5, TimeUnit.SECONDS, Schedulers.single())
+                    .map(link -> {
+                        ThreadPoolExecutor executorService1 = (ThreadPoolExecutor) executorService;
+                        logger.info("queue {}", executorService1.getQueue().size());
+                        return link;
+                    });
+            map.map(link -> {
+                logger.info("keep map");
+                Thread.sleep(3000);
+                //Observable.just(1).delay(5, TimeUnit.SECONDS, Schedulers.single());
+                return link;
+            }).map(link -> {
+                logger.info("after delay");
+                return link;
+            }).observeOn(Schedulers.from(executorService))
+                    .map(link -> {
+
+                        List<String> res = new ArrayList<>();
+                        for (int i = 0; i < 1; ++i) {
+                            res.add(link.getUrl() + "<>" + i);
+                        }
+                        Thread.sleep(1000);
+                        logger.info("Map to list {}: thread {}", JsonHelper.toJSON(res), Thread.currentThread().getName());
+                        return res;
+                    })
+                    .subscribe(urlMaker -> logger.info("Subscribe {}: thread {}", JsonHelper.toJSON(urlMaker), Thread.currentThread().getName()),
+                            throwable -> logger.error("sss:", throwable)
+                    );
+
+            logger.info("----------------------- {}", item);
+
+        });
+
+        logger.info(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+
+        Thread.sleep(TimeUnit.SECONDS.toMillis(13));
     }
 
 

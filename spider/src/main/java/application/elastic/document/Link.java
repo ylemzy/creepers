@@ -9,7 +9,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
 import util.HashUtil;
 
-@Document(indexName = "url", type = "1")
+@Document(indexName = "row-link", type = "1")
 public class Link {
 
 

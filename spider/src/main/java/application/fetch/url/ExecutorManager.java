@@ -15,7 +15,7 @@ public class ExecutorManager {
     private static final Logger logger = LogManager.getLogger();
 
     static ExecutorService executorService =
-            Executors.newFixedThreadPool(10, new ThreadFactory() {
+            Executors.newFixedThreadPool(20, new ThreadFactory() {
                 AtomicInteger atomic = new AtomicInteger();
 
                 @Override

@@ -1,28 +1,31 @@
-package application.elastic;
+package application.fetch.url;
 
 import application.elastic.document.Link;
-import application.fetch.url.UrlType;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import static org.junit.Assert.*;
+
 /**
- * Created by J on 5/7/2017.
+ * Created by huangzebin on 2017/5/10.
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class LinkRepositoryTest {
+public class UrlFlowTest {
+
 
     @Autowired
-    LinkRepository linkRepository;
+    UrlFlow urlFlow;
 
     @Test
-    public void test(){
-        Link link = new Link("http://www.baidu.com");
-        link.setType(UrlType.FIX);
-        linkRepository.save(link);
+    public void flow() throws Exception {
+        Link link = new Link("http://www.toutiao.com/");
+        urlFlow.flow(link, true);
+
+        Thread.sleep(10000);
     }
 
 }

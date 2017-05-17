@@ -23,18 +23,6 @@ public class UrlDigger {
 
     public void dig() {
 
-        Observable.just(url)
-                .subscribe(link -> {
-                    logger.info("Jsoup: {} -> {}", Thread.currentThread().getName(), url);
-                            Document document = Jsoup.connect(url).get();
-                            Elements urls = document.getElementsByTag("a");
-                            urls.forEach(a -> {
-                                UrlFlow.get().flow(new Link(a.absUrl("href")));
-                            });
-                        },
-                        throwable -> {
-                            //logger.error("dig url:" + url, throwable);
-                        });
     }
 
 }
