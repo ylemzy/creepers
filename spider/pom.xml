@@ -159,6 +159,12 @@
             <artifactId>spring-kafka</artifactId>
             <version>1.2.0.RELEASE</version>
         </dependency>
+
+        <dependency>
+            <groupId>io.dropwizard.metrics</groupId>
+            <artifactId>metrics-core</artifactId>
+            <version>3.2.2</version>
+        </dependency>
     </dependencies>
 
     <build>
