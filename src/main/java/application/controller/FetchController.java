@@ -37,4 +37,15 @@ public class FetchController {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
         }
     }
+
+    @RequestMapping(value = "/test", method = RequestMethod.GET)
+    public ResponseEntity test(){
+        logger.info("test performance");
+        try{
+            return ResponseEntity.ok("Start test performance");
+        }catch (Exception e){
+            logger.error(e, e);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
+    }
 }

@@ -16,8 +16,8 @@ import static org.elasticsearch.node.NodeBuilder.nodeBuilder;
 @EnableElasticsearchRepositories(repositoryBaseClass = CustomElasticsearchRepositoryImpl.class)
 public class Config {
 
-    @Bean
+ /*   @Bean
     public ElasticsearchOperations elasticsearchTemplate() {
         return new ElasticsearchTemplate(nodeBuilder().local(true).node().client());
-    }
+    }*/
 }
