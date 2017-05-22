@@ -7,17 +7,17 @@ import application.fetch.request.AbstractTemplate;
 import application.fetch.request.Category;
 import application.fetch.request.Request;
 import application.fetch.request.RequestHelper;
-import util.DateTimeUtil;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.springframework.util.Assert;
+import util.DateTimeUtil;
+import util.ElementUtil;
 
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -37,9 +37,21 @@ public class DavinciTemplate extends AbstractTemplate {
 
     @Override
     public Category category(Category root) throws Exception {
-        root.addChild(Category.makeFetchable("", "http://news.ifeng.com/", root));
+
+        Document document = get(root.getLink());
+        Elements allLink = document.getElementsByTag("a");
+
+        Elements shortTextLink = allLink.stream().filter(element -> element.text().length() > 6).collect(Collectors.toCollection(Elements::new));
+
+        Map<Element, Set> elementSetMap = ElementUtil.ModuleFinder.aggModuleInElement(shortTextLink);
+
+
+        //root.addChild(Category.makeFetchable("", "http://news.ifeng.com/", root));
         return root;
     }
+
+
+
 
     @Override
     protected News itemRequest(Request request) throws Exception {
@@ -118,7 +130,7 @@ public class DavinciTemplate extends AbstractTemplate {
                 allH.addAll(elementsByTag.stream().filter(element -> element.text().length() > 0).collect(Collectors.toList()));
             }
 
-            Element element = Finder.maxCost(allH);
+            Element element = ElementUtil.CostFinder.maxCost(allH);
             return element;
         }
 
@@ -136,7 +148,7 @@ public class DavinciTemplate extends AbstractTemplate {
         }
 
         private Element findDateTime() throws Exception {
-            Element commonParent = findCommonParent(content, title);
+            Element commonParent = ElementUtil.findCommonParent(content, title);
             if (commonParent == null) {
                 throw new Exception("Can't find common parent");
             }
@@ -160,7 +172,7 @@ public class DavinciTemplate extends AbstractTemplate {
                 }
             }
 
-            Element commonParent = findCommonParent(publishTime, title);
+            Element commonParent = ElementUtil.findCommonParent(publishTime, title);
 
             media = findMediaBySiblingTop(publishTime, commonParent);
             return media;
@@ -190,24 +202,6 @@ public class DavinciTemplate extends AbstractTemplate {
             return null;
         }
 
-        public Element findCommonParent(Element a, Element b) {
-            Assert.notNull(a);
-            Assert.notNull(b);
-
-            Element parent = a;
-            while (parent != null) {
-                Element bParent = b;
-                while (bParent != null) {
-                    if (bParent == parent)
-                        return parent;
-                    bParent = bParent.parent();
-                }
-
-                parent = parent.parent();
-            }
-            return null;
-        }
-
         public void make(News news) throws Exception {
             Element title = findTitle();
             news.setTitle(title.text());
@@ -222,81 +216,5 @@ public class DavinciTemplate extends AbstractTemplate {
         }
     }
 
-    static class Finder {
 
-        static class ElementCost {
-            List<Integer> siblings = new ArrayList<>();
-            Element element;
-
-            public ElementCost(Element element) {
-                this.element = element;
-            }
-
-            public List<Integer> getSiblings() {
-                return siblings;
-            }
-
-            public void setSiblings(List<Integer> siblings) {
-                this.siblings = siblings;
-            }
-
-            public Element getElement() {
-                return element;
-            }
-
-            public void setElement(Element element) {
-                this.element = element;
-            }
-
-            public void addSibling(int sibling){
-                siblings.add(sibling);
-            }
-
-            public int compare(ElementCost elementCost){
-                List<Integer> other = elementCost.getSiblings();
-                for (int i = 0; i < this.siblings.size() && i < other.size(); ++i){
-                    int c = this.siblings.get(i) - other.get(i);
-                    if (c != 0){
-                        logger.info("{} - {} = {} ", this.siblings, other, c);
-                        return c;
-                    }
-                }
-                return 0;
-            }
-        }
-
-        public static Element maxCost(Elements elements) {
-            ElementCost min = null;
-            for (Element element : elements) {
-                ElementCost cost = toCost(findParentPath(element));
-                if (min == null){
-                    min = cost;
-                }else if (min.compare(cost) > 0){
-                    min = cost;
-                }
-            }
-            if (min == null)
-                return null;
-            return min.getElement();
-        }
-
-        public static Elements findParentPath(Element element) {
-            Elements elements = new Elements();
-            Element tmp = element;
-            while (tmp != null) {
-                elements.add(tmp);
-                tmp = tmp.parent();
-            }
-            return elements;
-        }
-
-        public static ElementCost toCost(Elements elements) {
-            ElementCost elementCost = new ElementCost(elements.first());
-            for (int i = elements.size() - 1; i >= 0; --i){
-               elementCost.addSibling(elements.get(i).elementSiblingIndex());
-            }
-
-            return elementCost;
-        }
-    }
 }

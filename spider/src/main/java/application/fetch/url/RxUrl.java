@@ -28,7 +28,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 @Component
-public class Rx {
+public class RxUrl {
     private static final Logger logger = LogManager.getLogger();
 
     @Autowired

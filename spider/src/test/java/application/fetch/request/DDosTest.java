@@ -46,7 +46,7 @@ public class DDosTest {
 
 
         List<Integer> list = new ArrayList<>();
-        for (int i = 0; i < 1000; ++i){
+        for (int i = 0; i < 10000; ++i){
             list.add(i);
         }
 
@@ -82,7 +82,8 @@ public class DDosTest {
         //Thread.sleep(TimeUnit.SECONDS.toMillis(1));
         Timer.Context time = timer.time();
 
-        String remote = "http://106.75.148.97:9994/recommend/all?custId=14941330911700845&day=400";
+        //String remote = "http://106.75.148.97:9994/recommend/all?custId=14941330911700845&day=400";
+        String remote = "http://localhost:9994/recommend/all?custId=14941330911700845&day=400";
         try{
             Document document =
                     Jsoup.connect(remote)
