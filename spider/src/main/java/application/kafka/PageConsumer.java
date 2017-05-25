@@ -24,7 +24,7 @@ public class PageConsumer implements UrlConsumer{
         try{
             KafkaMessage kafkaMessage = JsonHelper.toObject(content, KafkaMessage.class);
             Link link = kafkaMessage.getLink();
-            urlFlow.flow(link, true);
+            //urlFlow.flow(link, true);
             log("Page", kafkaMessage);
         }catch (Exception e){
             logger.error(content, e);

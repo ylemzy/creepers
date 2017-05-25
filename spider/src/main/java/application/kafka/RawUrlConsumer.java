@@ -25,7 +25,7 @@ public class RawUrlConsumer implements UrlConsumer{
         try{
             KafkaMessage kafkaMessage = JsonHelper.toObject(content, KafkaMessage.class);
             Link link = kafkaMessage.getLink();
-            urlFlow.flow(link, true);
+            //urlFlow.flow(link, true);
             //log("Raw", kafkaMessage);
         }catch (Exception e){
             logger.error(content, e);
