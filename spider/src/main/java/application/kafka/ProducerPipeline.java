@@ -44,7 +44,5 @@ public class ProducerPipeline {
 
     public void send(Link link){
         urlProducer.sendUrl(link);
-        log("url", link);
     }
-
 }

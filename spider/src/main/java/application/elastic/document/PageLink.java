@@ -9,8 +9,8 @@ import org.springframework.data.elasticsearch.annotations.Document;
 
 import java.sql.Timestamp;
 
-@Document(indexName = "host-link", type = "1")
-public class HostLink {
+@Document(indexName = "page-link", type = "1")
+public class PageLink {
     private static final Logger logger = LogManager.getLogger();
 
     @Id

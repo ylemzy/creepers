@@ -1,7 +1,7 @@
 package application.elastic;
 
 import application.elastic.document.Link;
-import application.fetch.url.UrlType;
+import application.fetch.UrlType;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

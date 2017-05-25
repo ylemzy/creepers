@@ -43,15 +43,13 @@ public class DavinciTemplate extends AbstractTemplate {
 
         Elements shortTextLink = allLink.stream().filter(element -> element.text().length() > 6).collect(Collectors.toCollection(Elements::new));
 
-        Map<Element, Set> elementSetMap = ElementUtil.ModuleFinder.aggModuleInElement(shortTextLink);
+        //Map<Element, Set> elementSetMap = ElementUtil.ModuleFinder.aggModuleInElement(shortTextLink);
+
 
 
         //root.addChild(Category.makeFetchable("", "http://news.ifeng.com/", root));
         return root;
     }
-
-
-
 
     @Override
     protected News itemRequest(Request request) throws Exception {

@@ -16,7 +16,7 @@ import java.util.regex.Pattern;
 public class DateTimeUtil {
     private static final Logger logger = LogManager.getLogger();
 
-    final static String dateRegx = "([0-9]{4})[-\\.年]([0-1]?[0-9]{1})[-\\.月]([0-3]?[0-9]{1})[日]?[ ]*(([0-2]?[0-9][:时])([0-6][0-9][:分]?)([0-6][0-9][秒]?)?)?";
+    final static String dateRegx = "(([0-9]{4})[-\\.年])?([0-1]?[0-9]{1})[-\\.月]([0-3]?[0-9]{1})[日]?[ ]*(([0-2]?[0-9][:时])([0-6][0-9][:分]?)([0-6][0-9][秒]?)?)?";
     public static Pattern pattern = Pattern.compile(dateRegx);
 
     private final static SimpleDateFormat format = new SimpleDateFormat("yyy-MM-dd");

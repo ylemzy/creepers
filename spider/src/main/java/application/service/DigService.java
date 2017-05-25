@@ -1,12 +1,9 @@
 package application.service;
 
 import application.elastic.document.Link;
-import application.fetch.url.UrlDigger;
-import application.fetch.url.UrlFlow;
+import application.fetch.url.RawUrlFlow;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.io.IOException;
 
 /**
  * Created by J on 5/7/2017.
@@ -15,10 +12,10 @@ import java.io.IOException;
 public class DigService {
 
     @Autowired
-    UrlFlow urlFlow;
+    RawUrlFlow rawUrlFlow;
 
     public void dig(String url){
         Link link = new Link(url);
-        urlFlow.flow(link, false);
+        rawUrlFlow.flow(link, false);
     }
 }

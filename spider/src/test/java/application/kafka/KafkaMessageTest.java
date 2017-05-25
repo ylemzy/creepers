@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 public class KafkaMessageTest {
 
     @Autowired
-    UrlConsumer urlConsumer;
+    RawUrlConsumer rawUrlConsumer;
 
     @Autowired
     UrlProducer urlProducer;

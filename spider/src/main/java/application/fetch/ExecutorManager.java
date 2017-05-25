@@ -1,4 +1,4 @@
-package application.fetch.url;/**
+package application.fetch;/**
  * Created by huangzebin on 2017/5/8.
  */
 

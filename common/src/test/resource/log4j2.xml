@@ -41,7 +41,7 @@
     </Appenders>
 
     <Loggers>
-        <Root level="info">
+        <Root level="debug">
             <AppenderRef ref="SYSOUT"/>
             <AppenderRef ref="DEBUG_ROLLING_FILE"/>
             <AppenderRef ref="ERROR_ROLLING_FILE"/>

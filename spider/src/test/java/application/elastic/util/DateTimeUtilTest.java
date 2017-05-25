@@ -70,11 +70,11 @@ public class DateTimeUtilTest {
 
     @Test
     public void testSpe() {
-        boolean b = DateTimeUtil.matchDate("2017-02-17");
-        Assert.assertTrue(b);
+        /*boolean b = DateTimeUtil.matchDate("2017-02-17");
+        Assert.assertTrue(b);*/
 
         String date = DateTimeUtil.findDate("[日期：2017-02-17]");
-        logger.info("Find result:{}", date);
+        logger.info("---------------------------Find result:{}", date);
     }
 
     @Test

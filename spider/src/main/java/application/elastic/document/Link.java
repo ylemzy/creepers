@@ -2,7 +2,7 @@ package application.elastic.document;/**
  * Created by huangzebin on 2017/4/19.
  */
 
-import application.fetch.url.UrlType;
+import application.fetch.UrlType;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.data.annotation.Id;
@@ -26,6 +26,12 @@ public class Link {
 
     public Link(String url) {
         this.url = url;
+        this.id = HashUtil.MD5(url);
+    }
+
+    public Link(String url, UrlType type) {
+        this.url = url;
+        this.type = type;
         this.id = HashUtil.MD5(url);
     }
 
