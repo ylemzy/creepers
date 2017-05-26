@@ -22,7 +22,7 @@ public class RawUrlFlow implements UrlFlow{
     @Override
     public void flow(Link url, boolean wait) {
         Observable.just(url)
-                /*.filter(link -> rawUrlTap.isValid(link))
+                .filter(link -> rawUrlTap.isValid(link))
                 .filter(link -> rawUrlTap.noFetchedInRedis(link))
                 .map(link -> rawUrlTap.saveRedis(link))
                 .map(link -> rawUrlTap.saveLink(link))
@@ -34,7 +34,7 @@ public class RawUrlFlow implements UrlFlow{
                 .observeOn(Schedulers.from(ExecutorManager.getDiggerService()))
                 .flatMapIterable(link -> rawUrlTap.dig(link))
                 .filter(link -> rawUrlTap.excludeFormat(link))
-                .filter(link -> rawUrlTap.noFetchedInRedis(link))*/
+                .filter(link -> rawUrlTap.noFetchedInRedis(link))
                 .subscribe(link -> rawUrlTap.toQueue(link),
                         throwable -> rawUrlTap.error(url, throwable));
     }

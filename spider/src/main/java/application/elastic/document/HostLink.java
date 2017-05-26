@@ -16,6 +16,8 @@ public class HostLink {
     @Id
     private String host;
 
+    private String fromUrl;
+
     private boolean forbid;
 
     private String forbidReason;
@@ -23,8 +25,6 @@ public class HostLink {
     private String forbidSelectorScript;
 
     private Timestamp fetchedTime;
-
-    private String hostUrl;
 
     private String webName;
 
@@ -68,19 +68,19 @@ public class HostLink {
         this.fetchedTime = fetchedTime;
     }
 
-    public String getHostUrl() {
-        return hostUrl;
-    }
-
-    public void setHostUrl(String hostUrl) {
-        this.hostUrl = hostUrl;
-    }
-
     public String getWebName() {
         return webName;
     }
 
     public void setWebName(String webName) {
         this.webName = webName;
+    }
+
+    public String getFromUrl() {
+        return fromUrl;
+    }
+
+    public void setFromUrl(String fromUrl) {
+        this.fromUrl = fromUrl;
     }
 }

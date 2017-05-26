@@ -1,5 +1,8 @@
 package application.elastic.http.request;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.junit.Test;
@@ -10,6 +13,7 @@ import java.io.IOException;
  * Created by huangzebin on 2017/3/2.
  */
 public class HttpRequestTest {
+    private static final Logger logger = LogManager.getLogger();
 
     @Test
     public void test() throws IOException {
@@ -27,10 +31,23 @@ public class HttpRequestTest {
 
 
    @Test
-    public void testBaidu() throws IOException {
-        Document document = Jsoup.connect("http://www.baidu.com/s?ie=utf-8&mod=1&isbd=1&isid=dfd2c4fd0004fd94&ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%E7%99%BE%E5%BA%A6&oq=%25E7%2599%25BE%25E5%25BA%25A6&rsv_pq=dfd2c4fd0004fd94&rsv_t=1d07cq6VyejfDiRT3uvkBb2swOTLCQcq1n5d%2FeLlTqT5h1I58QRanVF8TsY&rqlang=cn&rsv_enter=0&bs=%E7%99%BE%E5%BA%A6&rsv_sid=22584_1443_21095_18559_17001_22174_20928&_ss=1&clist=97fa6eda6c430ef9&hsug=&f4s=1&csor=2&_cr1=28622")
-                .ignoreContentType(true).get();
-        System.out.println(document.html());
+    public void testBaidu() {
+       Connection connect = Jsoup.connect("http://www.fx678.com/")
+               //.header("Host", "news.hexun.com")
+               .header("User-Agent", "Mozilla")
+               //.header("Accept","text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8")
+               ;
+       System.out.println("" +  connect.request().headers().toString());
+       System.out.println("" +  connect.response().headers().toString());
+
+       Document document = null;
+       try {
+           document = connect.timeout(10000)
+                    .get();
+       } catch (IOException e) {
+           logger.error(e, e);
+       }
+       System.out.println(document.html());
     }
 
    @Test
@@ -38,6 +55,7 @@ public class HttpRequestTest {
         Document document = Jsoup.connect("http://www.toutiao.com/").get();
         System.out.println(document.html());
     }
+
 
 
 

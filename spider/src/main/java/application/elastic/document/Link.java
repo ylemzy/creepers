@@ -11,11 +11,11 @@ import util.HashUtil;
 
 @Document(indexName = "row-link", type = "1")
 public class Link {
-
-
     private static final Logger logger = LogManager.getLogger();
 
     private String url;
+
+    private String fromUrl;
 
     private UrlType type;
 
@@ -57,5 +57,13 @@ public class Link {
 
     public void setType(UrlType type) {
         this.type = type;
+    }
+
+    public String getFromUrl() {
+        return fromUrl;
+    }
+
+    public void setFromUrl(String fromUrl) {
+        this.fromUrl = fromUrl;
     }
 }

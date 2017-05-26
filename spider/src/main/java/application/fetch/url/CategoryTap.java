@@ -8,6 +8,7 @@ import application.elastic.document.Link;
 import application.elastic.document.PageLink;
 import application.fetch.RxUrlBase;
 import application.fetch.UrlType;
+import application.fetch.http.Rest;
 import application.kafka.ProducerPipeline;
 import application.redis.RedisKeyConfig;
 import application.redis.RedisServiceImpl;
@@ -35,8 +36,6 @@ import java.util.stream.Collectors;
 public class CategoryTap extends RxUrlBase {
     private static final Logger logger = LogManager.getLogger();
 
-
-
     @Autowired
     UrlBatchSaver urlBatchSaver;
 
@@ -50,14 +49,12 @@ public class CategoryTap extends RxUrlBase {
 
     public List<Link> dig(Link link) throws IOException {
         logger.info("Dig category {}", link.getUrl());
-        Document document = Jsoup.connect(link.getUrl())
-                .timeout((int)TimeUnit.SECONDS.toMillis(10))
-                .get();
+        Document document = Rest.get(link.getUrl());
         Elements elements = document.getElementsByTag("a");
 
         Elements shortTextLink = elements
                 .stream()
-                .filter(element -> element.text().length() > 0)
+                .filter(element -> UrlMaker.isURL(element.absUrl("href")) && element.text().length() > 0)
                 .collect(Collectors.toCollection(Elements::new));
 
         Map<Element, Set<Element>> elementSetMap = ElementUtil.ModuleFinder.aggModuleInElement(shortTextLink);
@@ -75,6 +72,7 @@ public class CategoryTap extends RxUrlBase {
         categorySet.forEach((k, v) ->{
             for (Element element : v) {
                 Link category = new Link(element.absUrl("href"), UrlType.CATEGORY);
+                category.setFromUrl(link.getUrl());
                 result.add(category);
             }
         });

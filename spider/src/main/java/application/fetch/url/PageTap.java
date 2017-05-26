@@ -23,7 +23,8 @@ public class PageTap extends RxUrlBase{
 
     public Link savePageLink(Link link) throws MalformedURLException {
         PageLink pageLink = new PageLink();
-        pageLink.setHost(link.getUrl());
+        pageLink.setUrl(link.getUrl());
+        pageLink.setFromUrl(link.getFromUrl());
         pageLinkBatchSaver.save(pageLink);
         return link;
     }

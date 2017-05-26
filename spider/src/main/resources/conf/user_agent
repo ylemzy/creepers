@@ -1,0 +1,5042 @@
+[
+  {
+    "id": "227febf5dcde37ea43a5af5170c388cf",
+    "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "1171bfb5d3a1629a3f9beca2d3b43731",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.1 Safari/537.36",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "7b8775ddd450bc39c114764cfd5eb430",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "1724bf75c3c3bde5c211365c9f571f32",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "cf433c19fa341737eee10a495d0c4348",
+    "value": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36",
+    "system": "Windows NT",
+    "enable": true
+  },
+  {
+    "id": "111941d0a02f6e5d3cf64a836ec08cdc",
+    "value": "Mozilla/5.0 (Windows NT 6.4; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2225.0 Safari/537.36",
+    "system": "Windows NT",
+    "enable": true
+  },
+  {
+    "id": "e9d502b00c431b71776a4b59be66bc3c",
+    "value": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2225.0 Safari/537.36",
+    "system": "Windows NT",
+    "enable": true
+  },
+  {
+    "id": "42d914b155721507109610940718aede",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2224.3 Safari/537.36",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "8211864436dc37885218cf903cb9f23c",
+    "value": "Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36",
+    "system": "Windows 10",
+    "enable": true
+  },
+  {
+    "id": "cc5373eb978620ab9d6a7bbed9ef56f4",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "91532f0a84878d909e2deed33e9932cf",
+    "value": "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36",
+    "system": "Windows NT",
+    "enable": true
+  },
+  {
+    "id": "1a34c24b7fed5264267d1216ab9af67b",
+    "value": "Mozilla/5.0 (Windows NT 4.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36",
+    "system": "Windows NT",
+    "enable": true
+  },
+  {
+    "id": "98f46094a2b590bdc8ba7d99ca6e5c44",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "4450a5ad59f7dc641f05de088da0da13",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "66817a5dd0371af7d1c64e5d05386ae8",
+    "value": "Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36",
+    "system": "OpenBSD",
+    "enable": true
+  },
+  {
+    "id": "4a8d6ec5f1f23ca464e2d90a4eec443e",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1944.0 Safari/537.36",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "4700ae44a86b7d29fb6ff5749ec16611",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.3319.102 Safari/537.36",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "2497811cda6d811af56fe19349938270",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.2309.372 Safari/537.36",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "8fca815727c2ab7011eb15612c0351e0",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.2117.157 Safari/537.36",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "1092a8bc2fd0036df77b3a338bda8376",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "8e39011bcc64efc8a150e8a2636bdce5",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1866.237 Safari/537.36",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "15847556e199a912fa9e0f30fe1433e0",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/4E423F",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "c9be890bb58c7bc9ded193603dee310f",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36 Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B334b Safari/531.21.10",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "fc96862463ff6b2e4a2c10cefd06ff9f",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.517 Safari/537.36",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "e8b0204c73be560dc1e6c764f5906874",
+    "value": "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1667.0 Safari/537.36",
+    "system": "Windows 8",
+    "enable": true
+  },
+  {
+    "id": "4383b79d9b8e3f82f184a78e64f76c01",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1664.3 Safari/537.36",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "4380eb00e2037b0e2140e3037269f6f3",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1664.3 Safari/537.36",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "10dcb2e69027335f28728b6b5f318bb5",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.16 Safari/537.36",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "cc6b916c74cddca501f3c62f6efb365d",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1623.0 Safari/537.36",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "5fb702e0c2f7c62fd3e789f2d05ce441",
+    "value": "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.17 Safari/537.36",
+    "system": "Windows 8",
+    "enable": true
+  },
+  {
+    "id": "c4f7369ac5b074ae4dd6f18e63755b74",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.62 Safari/537.36",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "1e08be42190c1ec5fd2651edcc6ec47d",
+    "value": "Mozilla/5.0 (X11; CrOS i686 4319.74.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36",
+    "system": "Chrome",
+    "enable": true
+  },
+  {
+    "id": "bfab2031b361971da103e0241b74975f",
+    "value": "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.2 Safari/537.36",
+    "system": "Windows 8",
+    "enable": true
+  },
+  {
+    "id": "d2fb6ec1df8028cc337bf84847f79901",
+    "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1468.0 Safari/537.36",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "ad3ef8db044778eb47ee7a1b8ad0a3ed",
+    "value": "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36",
+    "system": "Windows 8",
+    "enable": true
+  },
+  {
+    "id": "0bca280bfad440a82d2e292407a3397d",
+    "value": "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1464.0 Safari/537.36",
+    "system": "Windows 8",
+    "enable": true
+  },
+  {
+    "id": "9662419914d7ecfefdc9b0e64e2b23f9",
+    "value": "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1500.55 Safari/537.36",
+    "system": "Windows 8",
+    "enable": true
+  },
+  {
+    "id": "621246cfbaf854b628551538453e5c35",
+    "value": "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36",
+    "system": "Windows 8",
+    "enable": true
+  },
+  {
+    "id": "5bba5af72960d0d572dcca6a126fdf2e",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "e8bdfd0aefc6de335e070879f91993d3",
+    "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "8789c9f8ea46cbe3ea54c9e26f832c48",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "090664c7435c046ed8666bf4a6423753",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "2b6326abde559bd4c95eb5c92b1d12f9",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "3a1676c99ec1fe37e640105636b450c0",
+    "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.90 Safari/537.36",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "5b01b875498ec30fe1140be41beaee22",
+    "value": "Mozilla/5.0 (X11; NetBSD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36",
+    "system": "NetBSD",
+    "enable": true
+  },
+  {
+    "id": "38a435f93341d1f45b1befcb66a219da",
+    "value": "Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36",
+    "system": "Chrome",
+    "enable": true
+  },
+  {
+    "id": "b4ba149b18d2a2ff6c4796cd46e1d300",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.60 Safari/537.17",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "1b842436d78a70b7b6bdf91ae6d2b440",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1309.0 Safari/537.17",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "53ab69bea2725855e5df04b5910572d1",
+    "value": "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.15 (KHTML, like Gecko) Chrome/24.0.1295.0 Safari/537.15",
+    "system": "Windows 8",
+    "enable": true
+  },
+  {
+    "id": "b644106c9bb596cf718e811f1a40d3cb",
+    "value": "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.14 (KHTML, like Gecko) Chrome/24.0.1292.0 Safari/537.14",
+    "system": "Windows 8",
+    "enable": true
+  },
+  {
+    "id": "8cd2dad85aee22a1cac54fc2d2e69400",
+    "value": "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.13 (KHTML, like Gecko) Chrome/24.0.1290.1 Safari/537.13",
+    "system": "Windows 8",
+    "enable": true
+  },
+  {
+    "id": "59e127c9752d5300efc08d51df90102f",
+    "value": "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.13 (KHTML, like Gecko) Chrome/24.0.1290.1 Safari/537.13",
+    "system": "Windows 8",
+    "enable": true
+  },
+  {
+    "id": "6cdadbb6c7e48ec8d0cd835f87609d79",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.13 (KHTML, like Gecko) Chrome/24.0.1290.1 Safari/537.13",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "a746fd9e53657fd8fe3e1ad30856b5d4",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.13 (KHTML, like Gecko) Chrome/24.0.1290.1 Safari/537.13",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "4a99db1d4f114ed5191dc18f966c90dd",
+    "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.13 (KHTML, like Gecko) Chrome/24.0.1284.0 Safari/537.13",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "2638c85c7d81c4178fc75d20cacf4462",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.6 Safari/537.11",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "16418825269fc7e9b1be61c229565873",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.6 Safari/537.11",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "ae0d8e2dffcb39639332b2a861991b28",
+    "value": "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.26 Safari/537.11",
+    "system": "Windows 8",
+    "enable": true
+  },
+  {
+    "id": "668b0ef20389ac3d4c7f9139bb223b47",
+    "value": "Mozilla/5.0 (Windows NT 6.0) yi; AppleWebKit/345667.12221 (KHTML, like Gecko) Chrome/23.0.1271.26 Safari/453667.1221",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "ab7409a264690848d4aae4ae65e57238",
+    "value": "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.17 Safari/537.11",
+    "system": "Windows 8",
+    "enable": true
+  },
+  {
+    "id": "1acb2c040b78e0801234ced9edafe5ea",
+    "value": "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4",
+    "system": "Windows 8",
+    "enable": true
+  },
+  {
+    "id": "4e7e9fee07fa1572ffb6614ef152594d",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_0) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "ee965aa780fc108ecc05fe49e8e2bdb9",
+    "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.2 (KHTML, like Gecko) Chrome/22.0.1216.0 Safari/537.2",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "b5e11c97afa8a02b91fba14b094345f5",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "3674830fa06a9f5e82fe62a5174bb696",
+    "value": "Mozilla/5.0 (X11; CrOS i686 2268.111.0) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11",
+    "system": "Chrome",
+    "enable": true
+  },
+  {
+    "id": "3e4be7de8c48c47aa5094c815ce90f1b",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.6 (KHTML, like Gecko) Chrome/20.0.1092.0 Safari/536.6",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "b46440bc70a0f502706bfb23f9af501d",
+    "value": "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.6 (KHTML, like Gecko) Chrome/20.0.1090.0 Safari/536.6",
+    "system": "Windows 8",
+    "enable": true
+  },
+  {
+    "id": "dbca15fc666d2bd4ee035d530251b88f",
+    "value": "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/19.77.34.5 Safari/537.1",
+    "system": "Windows 8",
+    "enable": true
+  },
+  {
+    "id": "9b0a48b50d02f95c6e7ed928c520a05a",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.9 Safari/536.5",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "b7d5da5129a8a3380205fca49fbf1197",
+    "value": "Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/536.5 (KHTML like Gecko) Chrome/19.0.1084.56 Safari/1EA69",
+    "system": "FreeBSD",
+    "enable": true
+  },
+  {
+    "id": "21d176327110690b585aa343bc7a9d18",
+    "value": "Mozilla/5.0 (Windows NT 6.0) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.36 Safari/536.5",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "88e0268ec9f782cf18697487320fbdc6",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "c45547f0264edd96293b24c12eef76dd",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "bb3849a9ee7c85cef84ee27285ff6303",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_0) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "8f0fb9aea74037c3922ba1f0589d775f",
+    "value": "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1062.0 Safari/536.3",
+    "system": "Windows 8",
+    "enable": true
+  },
+  {
+    "id": "07994efd490bc89185fc4bb18d141a0f",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1062.0 Safari/536.3",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "afeb0a92c18e7d3fc687bd2f98e9343d",
+    "value": "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.1 Safari/536.3",
+    "system": "Windows 8",
+    "enable": true
+  },
+  {
+    "id": "559bc7a211356b18270165676e59b3c0",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.1 Safari/536.3",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "ca0965481969024a13a64bd347a1a001",
+    "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.1 Safari/536.3",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "ee8ad138b51201b98d82aeb0cdc7ef13",
+    "value": "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.0 Safari/536.3",
+    "system": "Windows 8",
+    "enable": true
+  },
+  {
+    "id": "e392157ee200a28ef791c72a24f663a7",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "d4869610a37d8be001a052667b77250f",
+    "value": "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24",
+    "system": "Windows 8",
+    "enable": true
+  },
+  {
+    "id": "06e08f91295dbaed2fbb7b670c194cb2",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "ec09acbece232a94d78794167214ba3b",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.22 (KHTML, like Gecko) Chrome/19.0.1047.0 Safari/535.22",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "0480590cb96450a2155051eba3a2e4f3",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.21 (KHTML, like Gecko) Chrome/19.0.1042.0 Safari/535.21",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "24cf28c5e29613fc5486f1cfa7f71a42",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.21 (KHTML, like Gecko) Chrome/19.0.1041.0 Safari/535.21",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "4a1d01947f6c1ee1fb4866759834fb79",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.20 (KHTML, like Gecko) Chrome/19.0.1036.7 Safari/535.20",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "a97e3b01897406efd24f833760a350a8",
+    "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/18.6.872.0 Safari/535.2 UNTRUSTED/1.0 3gpp-gba UNTRUSTED/1.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "0710f0736d417e299afed62f154f790d",
+    "value": "Mozilla/5.0 (Macintosh; AMD Mac OS X 10_8_2) AppleWebKit/535.22 (KHTML, like Gecko) Chrome/18.6.872",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "4cc30a5b0b82783e2a0060ccd90771e5",
+    "value": "Mozilla/5.0 (X11; CrOS i686 1660.57.0) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.46 Safari/535.19",
+    "system": "Chrome",
+    "enable": true
+  },
+  {
+    "id": "6ac16fcb9947d5c13798980b61624fc5",
+    "value": "Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.45 Safari/535.19",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "b2585d6d12b3c6003b07a912efe88ddb",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.45 Safari/535.19",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "178a2174ce6d1c1d18191f47ce6d6513",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.45 Safari/535.19",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "16dae8e2c6d478658b1c6f00ee89d8aa",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "cc1039871121b779e00d3c25935ac5ca",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.151 Safari/535.19",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "86fbc4c6089fde19a2a7f33420e422ed",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/11.10 Chromium/18.0.1025.142 Chrome/18.0.1025.142 Safari/535.19",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "08f2b672ac77813f2c69f442e7129922",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.11 Safari/535.19",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "0067f08313de4cab8eb3126eee889f93",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.66 Safari/535.11",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "45e2bdca2ac9e25e0fc126f767cc008e",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.66 Safari/535.11",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "b4a3ab9fc95687bb7a2a1c40f1b356d0",
+    "value": "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.66 Safari/535.11",
+    "system": "Windows 8",
+    "enable": true
+  },
+  {
+    "id": "f643a1409d49aa2ff62119f2a8471bdd",
+    "value": "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.66 Safari/535.11",
+    "system": "Windows 8",
+    "enable": true
+  },
+  {
+    "id": "ec4e65b5b5e6bacf3a3b006c3365dc72",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.66 Safari/535.11",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "486ce12e362da5c3e773c9e89e570cb7",
+    "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.66 Safari/535.11",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "cbf1a119c69d016aa21b467bd61d3957",
+    "value": "Mozilla/5.0 (Windows NT 6.0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.66 Safari/535.11",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "d4db3b139b7d08e3799d443791435631",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.66 Safari/535.11",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "e63256b155af83325a33ab8c26669221",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.66 Safari/535.11",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "5b9c6479e90e89df64f181e4dd4f700c",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.66 Safari/535.11",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "93bfdaaf203f5a5627aa34cd58ff8882",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.66 Safari/535.11",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "1399830cf109e5d1b5aa9146be0ef753",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.66 Safari/535.11",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "6eb86d3f1f9b4434f12f8c10577ac7df",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Ubuntu/11.10 Chromium/17.0.963.65 Chrome/17.0.963.65 Safari/535.11",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "7b924a7b751e8dd3683f6dc0388c91b2",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Ubuntu/11.04 Chromium/17.0.963.65 Chrome/17.0.963.65 Safari/535.11",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "379752acf45740841742a17d161dde7b",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Ubuntu/10.10 Chromium/17.0.963.65 Chrome/17.0.963.65 Safari/535.11",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "fa7fa2a7bdbc62d10d73db21961f0ec0",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Ubuntu/11.10 Chromium/17.0.963.65 Chrome/17.0.963.65 Safari/535.11",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "4faaa88c6c92db3cb50429f75fbc0bc9",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.65 Safari/535.11",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "8765ccde1a7f752b5830d2e85ae4ecf5",
+    "value": "Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.65 Safari/535.11",
+    "system": "FreeBSD",
+    "enable": true
+  },
+  {
+    "id": "268dca8b0ba02fb61483695b9f6d722e",
+    "value": "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.65 Safari/535.11",
+    "system": "Windows 8",
+    "enable": true
+  },
+  {
+    "id": "cbc29f3df94785b44755bc6e42d416b2",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.65 Safari/535.11",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "7bb2d02cacbafa9b671f0c24554e6408",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.65 Safari/535.11",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "31ee2c2a0ff7ceb79c2c43db3af62dc8",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_4) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.65 Safari/535.11",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "b77835de038b34ad1db775c993f1cbac",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Ubuntu/11.04 Chromium/17.0.963.56 Chrome/17.0.963.56 Safari/535.11",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "95502d65a58c00542f7072e0873543d9",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "7fc9d999c304648fc1eb63b9a7f9eea3",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "02d7e508d933420a61012c707b34df0f",
+    "value": "Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "0cac7695af08289672174b4a48cc0f2d",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "bc2e8a8b86fd1c6de7a80ba7eb9880b0",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.8 (KHTML, like Gecko) Chrome/17.0.940.0 Safari/535.8",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "75a7d4442e83cf3fa021d72c5835077a",
+    "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.77 Safari/535.7ad-imcjapan-syosyaman-xkgi3lqg03!wgz",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "92d9048f4138b43e9b68eb8b9f7716c2",
+    "value": "Mozilla/5.0 (X11; CrOS i686 1193.158.0) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.75 Safari/535.7",
+    "system": "Chrome",
+    "enable": true
+  },
+  {
+    "id": "7d32be534a8d54517ee81160de89b829",
+    "value": "Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.75 Safari/535.7",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "41df335ab4a9ba0225ba273fc275ba1e",
+    "value": "Mozilla/5.0 (Windows NT 6.0) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.75 Safari/535.7",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "b401601ab51b900f82c6e2e21eedf9c5",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.63 Safari/535.7xs5D9rRDFpg2g",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "e531197f3a8c0abc39c2ebc303119f63",
+    "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.8 (KHTML, like Gecko) Chrome/16.0.912.63 Safari/535.8",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "93a6b15c42fcc47a906243c0fbe9992b",
+    "value": "Mozilla/5.0 (Windows NT 5.2; WOW64) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.63 Safari/535.7",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "30caf2e9dcaad062bcb8750e019812a8",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.36 Safari/535.7",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "edafff167e3216019f80e3c3279bce42",
+    "value": "Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.36 Safari/535.7",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "bebfbd9d5317f9989af19ad508961d6b",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.36 Safari/535.7",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "a07060243209b43f14107627b569b120",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.6 (KHTML, like Gecko) Chrome/16.0.897.0 Safari/535.6",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "77d4d2acf6ec4c5409b47f4a104bdb31",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.54 Safari/535.2",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "e8f5496fc0238633f6f8f4057a75b732",
+    "value": "Mozilla/5.0 (X11; FreeBSD i386) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.121 Safari/535.2",
+    "system": "FreeBSD",
+    "enable": true
+  },
+  {
+    "id": "4cc4ce4e057bff917fb2f71a62ac6d63",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.2 (KHTML, like Gecko) Ubuntu/11.10 Chromium/15.0.874.120 Chrome/15.0.874.120 Safari/535.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "8e2d0cb8583959c8a5d0869290d0fafa",
+    "value": "Mozilla/5.0 (Windows NT 6.0) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.120 Safari/535.2",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "ab894071793fb7e5c87d0cc0f8025600",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.872.0 Safari/535.2",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "3670f68705360fa839ce13d2c50544cc",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.2 (KHTML, like Gecko) Ubuntu/11.04 Chromium/15.0.871.0 Chrome/15.0.871.0 Safari/535.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "5dd9084bacd3e6bde252b7e6f3f070bb",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.864.0 Safari/535.2",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "6441f11e30e1131cffa03d78a9dc447a",
+    "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.861.0 Safari/535.2",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "005ffa15e38349e12ed0a1592602a537",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.861.0 Safari/535.2",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "07b43794e614884d8d871af09b97d9e9",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.861.0 Safari/535.2",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "31d28f8f428b61c0ddc7e9800d829a7c",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.860.0 Safari/535.2",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "043711c442d19c7c77303a7fbde87a56",
+    "value": "Chrome/15.0.860.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/15.0.860.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "b99e986f26ea39ee086582eb2be3db2a",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.835.186 Safari/535.1",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "a6105dc36c637d2433cda9ebf08af4ce",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.834.0 Safari/535.1",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "dad90dcb0f9e445551d6640c437175ab",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.1 (KHTML, like Gecko) Ubuntu/11.04 Chromium/14.0.825.0 Chrome/14.0.825.0 Safari/535.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "7e6b465ee8426ee9eb86edf032724017",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.824.0 Safari/535.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "80a8792f73707fc46d6cc082407d0194",
+    "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.815.10913 Safari/535.1",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "6f70f1376cb583778aba7b241cce8d7d",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.815.0 Safari/535.1",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "6d54f3d65591dd24f999493a9fbf454a",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.1 (KHTML, like Gecko) Ubuntu/11.04 Chromium/14.0.814.0 Chrome/14.0.814.0 Safari/535.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "22e325267b65b2f76d0bc7bbc881459e",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.814.0 Safari/535.1",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "88943162227d4772d98e128717d2155f",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.1 (KHTML, like Gecko) Ubuntu/10.04 Chromium/14.0.813.0 Chrome/14.0.813.0 Safari/535.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "59249968958f89924ff708f9eb6c6597",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.813.0 Safari/535.1",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "1e7abfff73d29c503398bc5a4f58c2c4",
+    "value": "Mozilla/5.0 (Windows NT 5.2) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.813.0 Safari/535.1",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "174c44e264a52bc7f8b2c72ca4ee058f",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.813.0 Safari/535.1",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "ebb33a2c843f124e591962fcb986540c",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_7) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.813.0 Safari/535.1",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "206c331fdf7de05da73e4809d98ba48b",
+    "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.812.0 Safari/535.1",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "f129d681830fac5aee00f47cdc4bda6b",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.811.0 Safari/535.1",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "fea4b5883da96461d97d657d90ee1c1f",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.810.0 Safari/535.1",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "1579dc81f45cfefe9a1b7917e068de4f",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.810.0 Safari/535.1",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "489c3a99b988acbfa792c5e31153e582",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.809.0 Safari/535.1",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "e085aa1344c10463cebc76432585a939",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Ubuntu/10.10 Chromium/14.0.808.0 Chrome/14.0.808.0 Safari/535.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "dcf2b6b45470b0515204c037fe916847",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.1 (KHTML, like Gecko) Ubuntu/10.04 Chromium/14.0.808.0 Chrome/14.0.808.0 Safari/535.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "517ed2974d6b8ddbd9ac0a5a87168e47",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.1 (KHTML, like Gecko) Ubuntu/10.04 Chromium/14.0.804.0 Chrome/14.0.804.0 Safari/535.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "4501dd00a902e177510dbfd43ea40dd5",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.803.0 Safari/535.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "185e8f9f3cde84814545cddaf8b50f1d",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.1 (KHTML, like Gecko) Ubuntu/11.04 Chromium/14.0.803.0 Chrome/14.0.803.0 Safari/535.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "f54b9b905264ea372f340972761898f8",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.803.0 Safari/535.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "c9940a1b6caaa8e3178ebab4b3b347e8",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.803.0 Safari/535.1",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "5d80db913132c35a1ffe60ab10565553",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_7) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.803.0 Safari/535.1",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "bdcddba5602568eca54b7845b9bcd51e",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.803.0 Safari/535.1",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "6c762cc66c9b2065c8b1e3762c6857c0",
+    "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.801.0 Safari/535.1",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "c1388c41bb4d90b94e70afa16aa6644e",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.801.0 Safari/535.1",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "e2d698aad20a33ea959c77a0e92922b1",
+    "value": "Mozilla/5.0 (Windows NT 5.2) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.794.0 Safari/535.1",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "4380b2f9975172b9fe785cbf8ce0ae70",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.794.0 Safari/535.1",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "85ae186d18261cef68cec84b77cdac97",
+    "value": "Mozilla/5.0 (Windows NT 6.0) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.792.0 Safari/535.1",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "9ba75c2ea7d0cac1565ce16af6eee8ad",
+    "value": "Mozilla/5.0 (Windows NT 5.2) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.792.0 Safari/535.1",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "07e33829c22a6b6137ff73f48a404d98",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.792.0 Safari/535.1",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "1f5a3b6c6a171e060260498016fac0ac",
+    "value": "Mozilla/5.0 (Macintosh; PPC Mac OS X 10_6_7) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.790.0 Safari/535.1",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "32970299da740cc768f2d45f4d2e5bc3",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_7) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.790.0 Safari/535.1",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "bd89f729a75c5a926a5cfd923f2241c1",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1) AppleWebKit/526.3 (KHTML, like Gecko) Chrome/14.0.564.21 Safari/526.3",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "962af9a3c8953161c264d7c598968238",
+    "value": "Mozilla/5.0 (X11; CrOS i686 13.587.48) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.43 Safari/535.1",
+    "system": "Chrome",
+    "enable": true
+  },
+  {
+    "id": "c6c9b0e281d60c2e7a45c0afe97b7ae4",
+    "value": "Mozilla/5.0 Slackware/13.37 (X11; U; Linux x86_64; en-US) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.41",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "22e946f48bad620903b80dd0b74b0556",
+    "value": "Mozilla/5.0 ArchLinux (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.41 Safari/535.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "14445673b9d7a2f2f0c509a16627d4c0",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Ubuntu/11.04 Chromium/13.0.782.41 Chrome/13.0.782.41 Safari/535.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "88ef543dfd627cf160c97844688a0166",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.41 Safari/535.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "b7cb200a6e791436997eb7713826a4fd",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.41 Safari/535.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "3742f80287d080bed20690dc14ae52b7",
+    "value": "Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.41 Safari/535.1",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "bb3f4a0282b7a9caac7c82c22a8836e1",
+    "value": "Mozilla/5.0 (Windows NT 6.0) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.41 Safari/535.1",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "8e92268d841c94b164fbbaac208279d3",
+    "value": "Mozilla/5.0 (Windows NT 5.2; WOW64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.41 Safari/535.1",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "18be1e6544039ace3c1a3d0957834fa5",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.41 Safari/535.1",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "914590c8a15bad0649fc6bff3e77a30e",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_7) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.41 Safari/535.1",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "20524a7d3b4650f35b005df41d74ffba",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_3) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.41 Safari/535.1",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "bd52ea1ef354fef08bc475266cf146f4",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_2) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.41 Safari/535.1",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "e6cb1e0a86a8dee6c13271104a8636a4",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_3) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.32 Safari/535.1",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "7b8ca25064c425a516c1c20584df701c",
+    "value": "Mozilla/5.0 (X11; Linux amd64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.24 Safari/535.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "194ddfc64fbc1b27b7edd511cb54ccff",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.24 Safari/535.1",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "0b88e3ea72009136b016785b36583106",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.24 Safari/535.1",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "c9efc5ee5ba90859cac13d16d57b5b1c",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "65fee95e95cc4e4c2c203f157642241b",
+    "value": "Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "6c6e0937a581ab3505c1fe6213525ca8",
+    "value": "Mozilla/5.0 (Windows NT 6.0) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.220 Safari/535.1",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "ae3de23a5490e0c468bb0cd6b09b4e2a",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "706b52d4bae26a1748b7e1d18ff19583",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "9594d1a53beb9c6703714d0c1301bdb5",
+    "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "7839d2580cdd756c3595a7875415c30c",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "5eca2fa78021183c09939f51aba443bb",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.20 Safari/535.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "131cac1acefc8713d03e72a6bcc7d8b4",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.20 Safari/535.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "a117b1995246659d1a0b35468574249d",
+    "value": "Mozilla/5.0 (Windows NT 6.0) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.20 Safari/535.1",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "999211932b52cd1a00e131ad2d8e3ec5",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.20 Safari/535.1",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "3201d52ded0c6cd9c6f3efa643076fac",
+    "value": "Mozilla/5.0 (X11; CrOS i686 0.13.587) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.14 Safari/535.1",
+    "system": "Chrome",
+    "enable": true
+  },
+  {
+    "id": "cea9cd9035f6f3a3eb38e5b0383fe687",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.107 Safari/535.1",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "198a6c68e8db4aac83ed2c30073c6bd7",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_2) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.107 Safari/535.1",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "0f47da87b52dcb61337520c1fed6b3e2",
+    "value": "Mozilla/5.0 (Windows NT 6.0) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.1 Safari/535.1",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "d0c3c630aaf830006ca10c322889926e",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.36 (KHTML, like Gecko) Chrome/13.0.766.0 Safari/534.36",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "3f89823dfef407ed0b5ae35bea92bce0",
+    "value": "Mozilla/5.0 (X11; Linux amd64) AppleWebKit/534.36 (KHTML, like Gecko) Chrome/13.0.766.0 Safari/534.36",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "6d12454a72924a5309c3998fae3d1bf5",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.35 (KHTML, like Gecko) Ubuntu/10.10 Chromium/13.0.764.0 Chrome/13.0.764.0 Safari/534.35",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "70659ed2eb7e678f181e15e9ff2c6389",
+    "value": "Mozilla/5.0 (X11; CrOS i686 0.13.507) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/13.0.763.0 Safari/534.35",
+    "system": "Chrome",
+    "enable": true
+  },
+  {
+    "id": "dcdcb79356e2d1677c90d7fa99450488",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.33 (KHTML, like Gecko) Ubuntu/9.10 Chromium/13.0.752.0 Chrome/13.0.752.0 Safari/534.33",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "4620ef8010adba356b0c49edbce5600c",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/534.31 (KHTML, like Gecko) Chrome/13.0.748.0 Safari/534.31",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "1264244ed5ca49b7be2eb4586644be21",
+    "value": "Mozilla/5.0 (Windows NT 6.1; en-US) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.750.0 Safari/534.30",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "4daf484c0966b26569a70b0e88518329",
+    "value": "Mozilla/5.0 (X11; CrOS i686 12.433.109) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.93 Safari/534.30",
+    "system": "Chrome",
+    "enable": true
+  },
+  {
+    "id": "6923ff0c963a689a5db7a2c9aec6a272",
+    "value": "Mozilla/5.0 (X11; CrOS i686 12.0.742.91) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.93 Safari/534.30",
+    "system": "Chrome",
+    "enable": true
+  },
+  {
+    "id": "9cc2ffe64d5b688d905009d4311f2ee6",
+    "value": "Mozilla/5.0 Slackware/13.37 (X11; U; Linux x86_64; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/12.0.742.91",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "a47faba99bf9b6e354243955cc93212e",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.91 Chromium/12.0.742.91 Safari/534.30",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "89df63e41a77d9ff1a27a15dd14d1814",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.68 Safari/534.30",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "b4ae6491daab058a18483a4a0a7074cb",
+    "value": "Mozilla/5.0 ArchLinux (X11; U; Linux x86_64; en-US) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.60 Safari/534.30",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "0de12dbfee80fbcde384d7f263b6dcd3",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.53 Safari/534.30",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "a8267f225e177010b9def65608edc1e1",
+    "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.113 Safari/534.30",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "b15c59214bd63e93891826a406d6b858",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.30 (KHTML, like Gecko) Ubuntu/11.04 Chromium/12.0.742.112 Chrome/12.0.742.112 Safari/534.30",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "d62eb9b915cead0fdbe1dbe5a6bbcf24",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.30 (KHTML, like Gecko) Ubuntu/10.10 Chromium/12.0.742.112 Chrome/12.0.742.112 Safari/534.30",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "a59640450b6f314a33c57b8f55c23032",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.30 (KHTML, like Gecko) Ubuntu/10.04 Chromium/12.0.742.112 Chrome/12.0.742.112 Safari/534.30",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "c021e28cd77058fbd63cbdc7da4af3e5",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Ubuntu/11.04 Chromium/12.0.742.112 Chrome/12.0.742.112 Safari/534.30",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "d2b70c12c77234c910ff643400bd9fc6",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Ubuntu/10.10 Chromium/12.0.742.112 Chrome/12.0.742.112 Safari/534.30",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "23c947680b058d49da589863a5c1d587",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Ubuntu/10.04 Chromium/12.0.742.112 Chrome/12.0.742.112 Safari/534.30",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "fb479433e0eae47e37de8813bdba5fcc",
+    "value": "Mozilla/5.0 (Windows NT 7.1) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.112 Safari/534.30",
+    "system": "Windows NT",
+    "enable": true
+  },
+  {
+    "id": "7c4aa76e06ad9df580d33a4e8d13b8f9",
+    "value": "Mozilla/5.0 (Windows NT 5.2) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.112 Safari/534.30",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "52ae94ca430d4d314e6c739e558d3576",
+    "value": "Mozilla/5.0 (Windows 8) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.112 Safari/534.30",
+    "system": "",
+    "enable": true
+  },
+  {
+    "id": "d7c4a2c20a4dfc51507b3ad87b20f816",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_6) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.112 Safari/534.30",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "db2bc32074e864fda90b6278df8121af",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_4) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.112 Safari/534.30",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "de086f2483214a32f4304823f8e27075",
+    "value": "Mozilla/5.0 (X11; CrOS i686 12.433.216) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.105 Safari/534.30",
+    "system": "Chrome",
+    "enable": true
+  },
+  {
+    "id": "b682c1584fc94adc16488ec9ff26b088",
+    "value": "Mozilla/5.0 ArchLinux (X11; U; Linux x86_64; en-US) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "a052f4c0dff07fdcad4663d4a325fccf",
+    "value": "Mozilla/5.0 ArchLinux (X11; U; Linux x86_64; en-US) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "48e933fdf4391756ae0884242d6a7ea9",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Slackware/Chrome/12.0.742.100 Safari/534.30",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "909f51b6b4c30a7759fc9f0eadf5833e",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "f18649086fafb51d0c9ffcc177095adf",
+    "value": "Mozilla/5.0 (Windows NT 6.0) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "32e1326a7b5a37152b6c48ce89c9082a",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "b97a29d5b5236fcd5ead6019b6e10936",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_4) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "8cefc6dd275f78da6ae26fd3c18e881c",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.724.100 Safari/534.30",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "210ad430c97eee2bbb69079db88af20c",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/534.25 (KHTML, like Gecko) Chrome/12.0.706.0 Safari/534.25",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "4da17f6209007684db809561d8c04059",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/534.25 (KHTML, like Gecko) Chrome/12.0.704.0 Safari/534.25",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "901035b6ef15ef68aa0882e44762cdf0",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Ubuntu/10.10 Chromium/12.0.703.0 Chrome/12.0.703.0 Safari/534.24",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "3ea5d6a8a6dde45b99e1c34c955028c2",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.24 (KHTML, like Gecko) Ubuntu/10.10 Chromium/12.0.702.0 Chrome/12.0.702.0 Safari/534.24",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "b048d32ca5c4417a4f91d3cfad06885f",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/12.0.702.0 Safari/534.24",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "a56161cb65199f0fa15fcec6279d6d8d",
+    "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/12.0.702.0 Safari/534.24",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "b42d30c238e081f3868d0361d8f3361a",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.700.3 Safari/534.24",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "c6c3702f43d47b659fa44c38fa1b81b8",
+    "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.699.0 Safari/534.24",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "f5b11271fc95bca46ebf8d2dc3375fe2",
+    "value": "Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.699.0 Safari/534.24",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "ea9be3128d3d5b1d8415c87b4942464a",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_6) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.698.0 Safari/534.24",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "7570fda4f54b18b4e6091fa5a1436a53",
+    "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.697.0 Safari/534.24",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "dc1bcf97badddf278b3dbf4ab4ac06da",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.71 Safari/534.24",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "e22124bbd37b1263b556c081f1c34d5e",
+    "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.68 Safari/534.24",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "2ebb6563127d3d0d599a6a8fcdc1451e",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_7) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.68 Safari/534.24",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "896305486d4ea6033eb866d4b98d4f3f",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.68 Safari/534.24",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "a0a1aa229c9f8f698317ed48be201a9b",
+    "value": "Mozilla/5.0 Slackware/13.37 (X11; U; Linux x86_64; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/11.0.696.50",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "a21b3970f3c8ea9a4ce0f05dca3ebcf2",
+    "value": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.43 Safari/534.24",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "526924fad365b164282a3d003d5dda92",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.34 Safari/534.24",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "252426adcd761898f3330d7bb64ab903",
+    "value": "Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.34 Safari/534.24",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "9f9ad4effc9ac98795898b1db3c129f5",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.3 Safari/534.24",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "ad6f753e94387954e486b7e615c5cced",
+    "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.3 Safari/534.24",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "7e19ac38bd8686c5faebce3d72afc050",
+    "value": "Mozilla/5.0 (Windows NT 6.0) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.3 Safari/534.24",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "efa3da8367ee718684e1f82891a22081",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.14 Safari/534.24",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "30fa50898b3210ed0952c6f4540473a0",
+    "value": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.12 Safari/534.24",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "f9d98fd0bdd09571289e9300fa3ffb85",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_6) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.12 Safari/534.24",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "85eb1f60c5c7a241ba7a16727427c30b",
+    "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Ubuntu/10.04 Chromium/11.0.696.0 Chrome/11.0.696.0 Safari/534.24",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "d223d3b949e5d388ceecfd6455ea9468",
+    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.0 Safari/534.24",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "8be657f55e84af2543104c07c5e50a7a",
+    "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.694.0 Safari/534.24",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "3f319945c546a3f11d6b37e9971eb9e2",
+    "value": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.23 (KHTML, like Gecko) Chrome/11.0.686.3 Safari/534.23",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "0c755b74b6acde663f5208e69ebbad02",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.21 (KHTML, like Gecko) Chrome/11.0.682.0 Safari/534.21",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "5feaef6e15e7bc86c13a9887e27cb6d4",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.21 (KHTML, like Gecko) Chrome/11.0.678.0 Safari/534.21",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "84930b77546baa2d3c70f2dd8f493b35",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_7_0; en-US) AppleWebKit/534.21 (KHTML, like Gecko) Chrome/11.0.678.0 Safari/534.21",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "68a9fe49c9691a6edda9b055a2d067f9",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/534.20 (KHTML, like Gecko) Chrome/11.0.672.2 Safari/534.20",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "53c4dabd49b3a7d1b0d5e501730894b2",
+    "value": "Mozilla/5.0 (Windows NT) AppleWebKit/534.20 (KHTML, like Gecko) Chrome/11.0.672.2 Safari/534.20",
+    "system": "Windows NT",
+    "enable": true
+  },
+  {
+    "id": "58e1521f544a7131d6abfd85a932b9e2",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-US) AppleWebKit/534.20 (KHTML, like Gecko) Chrome/11.0.672.2 Safari/534.20",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "07d9c6aa01fb866a233b3582536b995a",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.20 (KHTML, like Gecko) Chrome/11.0.669.0 Safari/534.20",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "e2d871ffc6e63535e0b0c7434219f661",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.19 (KHTML, like Gecko) Chrome/11.0.661.0 Safari/534.19",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "d32c164fd676f03d9d5ace2ad405c6ad",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.18 (KHTML, like Gecko) Chrome/11.0.661.0 Safari/534.18",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "bf5fc3a2bab84336fa7e110dee70699a",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-US) AppleWebKit/534.18 (KHTML, like Gecko) Chrome/11.0.660.0 Safari/534.18",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "655424620d01289a3eae22d18cf6a204",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/11.0.655.0 Safari/534.17",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "8ae3b78a76f366aeed039400d777290a",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; en-US) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/11.0.655.0 Safari/534.17",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "f2bbc27e28007831ac20f4f69a82daba",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/11.0.654.0 Safari/534.17",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "ed398f4b1996208f6953cb4323718651",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/11.0.652.0 Safari/534.17",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "127d58df93aa962e144f8bc0107f35dd",
+    "value": "Mozilla/4.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/11.0.1245.0 Safari/537.36",
+    "system": "Windows NT",
+    "enable": true
+  },
+  {
+    "id": "9856e8ca62b7e3b3c5903920be8064c8",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "ab9d7bf8c711815eb9c853243456df34",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "2e9e97669933cf25191087396ba5e246",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.82 Safari/534.16",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "59f8cd64e7e405fda5023cd477617664",
+    "value": "Mozilla/5.0 (X11; U; Linux armv7l; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.204 Safari/534.16",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "465db97cdd649e513faf66116d6a1858",
+    "value": "Mozilla/5.0 (X11; U; FreeBSD x86_64; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.204 Safari/534.16",
+    "system": "FreeBSD",
+    "enable": true
+  },
+  {
+    "id": "ca4878e2844186c3d0abfd5d421be9af",
+    "value": "Mozilla/5.0 (X11; U; FreeBSD i386; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.204 Safari/534.16",
+    "system": "FreeBSD",
+    "enable": true
+  },
+  {
+    "id": "71fda349e481b2b62bd674341afc81f8",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.204",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "5c749190a01ed0917fdf79a25bacb8a6",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.134 Safari/534.16",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "0e164d22c8248e7316afbc80a5409a51",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.134 Safari/534.16",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "ab48f7011f91258d14d5fc6e31fda6ca",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.134 Safari/534.16",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "0719376b9448afdfeae45178f621801d",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.134 Safari/534.16",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "5258a5a2ccb29ed05d0f6dc49a6d7462",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Ubuntu/10.10 Chromium/10.0.648.133 Chrome/10.0.648.133 Safari/534.16",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "9e0a060d4626dd5922cdcc2f39d24fcf",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.133 Safari/534.16",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "513bf6a356457b574cc998c206eb01e2",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Ubuntu/10.10 Chromium/10.0.648.133 Chrome/10.0.648.133 Safari/534.16",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "1464e17bd5e1f36beffcea6d496fb7f1",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.133 Safari/534.16",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "aefd0edca8e61a4cfe129cca3d440d6a",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.133 Safari/534.16",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "50bde58b91a427c8040f119f83a54383",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.133 Safari/534.16",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "2b9832a31234d49716554fe1b943bb9c",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_2; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.133 Safari/534.16",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "75f9cd5bfa3c709c328e96f46d018bef",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Ubuntu/10.10 Chromium/10.0.648.127 Chrome/10.0.648.127 Safari/534.16",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "681776e4c2261776fd99b21db2a8f608",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.127 Safari/534.16",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "cf9742a69113e7161a16d398c37e3d94",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.127 Safari/534.16",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "d02168119af303f9779817d75654c952",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.127 Safari/534.16",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "9c8526e0d8a9588a7a7be4e433f180bd",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.11 Safari/534.16",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "80a55b91d9713b6e46b8b6f51f7cf845",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; ru-RU; AppleWebKit/534.16; KHTML; like Gecko; Chrome/10.0.648.11;Safari/534.16)",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "7a9477e19627be6add49789d5787057b",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; ru-RU) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.11 Safari/534.16",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "55f7eeb8dbc64b407b1a53846c1d4d35",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.11 Safari/534.16",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "31352e7bd776473903db681fe88b9133",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Ubuntu/10.10 Chromium/10.0.648.0 Chrome/10.0.648.0 Safari/534.16",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "445b6ba770f48f41603b0e63fba9a120",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Ubuntu/10.10 Chromium/10.0.648.0 Chrome/10.0.648.0 Safari/534.16",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "bca166eea0221f225c53fe9f82f55ece",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.0 Safari/534.16",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "39b37506971a99d55caab03fd22bb23d",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Ubuntu/10.10 Chromium/10.0.642.0 Chrome/10.0.642.0 Safari/534.16",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "a0cd3b946e810af8323f9a59df36f31f",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.639.0 Safari/534.16",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "7d816ff6138dfec71cd496be5715b6ac",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.638.0 Safari/534.16",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "a17e9ee829eff622b5867d60ec02dcfc",
+    "value": "Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.634.0 Safari/534.16",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "824002f16ad9b35f27ae2c52b481b64e",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.634.0 Safari/534.16",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "83d04e234a76b94995593c1ecec4220e",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.16 SUSE/10.0.626.0 (KHTML, like Gecko) Chrome/10.0.626.0 Safari/534.16",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "c08505561bd91713dc9ff7be9990d641",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.15 (KHTML, like Gecko) Chrome/10.0.613.0 Safari/534.15",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "13c7333a8fc7d82bb47786e10f2abf82",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.15 (KHTML, like Gecko) Ubuntu/10.10 Chromium/10.0.613.0 Chrome/10.0.613.0 Safari/534.15",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "bd4b42570be02b11739e6266ff84f209",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.15 (KHTML, like Gecko) Ubuntu/10.04 Chromium/10.0.612.3 Chrome/10.0.612.3 Safari/534.15",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "166428c669e12f036c2635985dde8e7e",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.15 (KHTML, like Gecko) Chrome/10.0.612.1 Safari/534.15",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "ce925393701f1c52f2e94e45873a8fc5",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.15 (KHTML, like Gecko) Ubuntu/10.10 Chromium/10.0.611.0 Chrome/10.0.611.0 Safari/534.15",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "70fddb202a57dda0d43437593e2882f1",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.14 (KHTML, like Gecko) Chrome/10.0.602.0 Safari/534.14",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "a6e4f8b042ff44315f5b466ce940395d",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.14 (KHTML, like Gecko) Chrome/10.0.601.0 Safari/534.14",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "1e4e67b219436b55a2433202ce890ce1",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.14 (KHTML, like Gecko) Chrome/10.0.601.0 Safari/534.14",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "3ba1cd8975743de48f65ba6a3e22f327",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/540.0 (KHTML,like Gecko) Chrome/9.1.0.0 Safari/540.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "6921e10fde8d26f5df48d7ae6f8ed263",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/540.0 (KHTML, like Gecko) Ubuntu/10.10 Chrome/9.1.0.0 Safari/540.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "8c9c8d91d0b11684c0061b45c27943c7",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/534.14 (KHTML, like Gecko) Chrome/9.0.601.0 Safari/534.14",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "cb702c4d4dbd47129d18b3dccc919585",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.14 (KHTML, like Gecko) Ubuntu/10.10 Chromium/9.0.600.0 Chrome/9.0.600.0 Safari/534.14",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "e38d9c29a22956a8f08445944a5491fb",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.14 (KHTML, like Gecko) Chrome/9.0.600.0 Safari/534.14",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "6e0e52b6a968a6b48d7fedce4717428f",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.599.0 Safari/534.13",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "438d7b77ebcb32cf95224459d91db444",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-CA) AppleWebKit/534.13 (KHTML like Gecko) Chrome/9.0.597.98 Safari/534.13",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "7b934bf069128d9de4ac445ebf41e0ca",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.84 Safari/534.13",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "07f2e7e7074a678b67986f466cf3aaff",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.44 Safari/534.13",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "6df1889e71915c5d848c7fbc1facb455",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.19 Safari/534.13",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "8687258631cbf0f923ba6ad18ec96800",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.15 Safari/534.13",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "83b2943425186a10cea7f24ba418e00f",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.15 Safari/534.13",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "ca3bafbda62547e000d187cb588eb71f",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13 v1416748405.3871",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "43f7dd281a7c6d846ea424b7d22bb013",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13 v1416670950.695",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "70056f63045d82b68f78974f69ca305f",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13 v1416664997.4379",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "7dd68da4b700eafcfba5e4f14f67b04a",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13 v1333515017.9196",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "d806f516cecda6c6fc8de200800d25f2",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.0 Safari/534.13",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "5ac518d7eedfc3756639d5c31c43e28a",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US)  AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.0 Safari/534.13",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "6b363b11614533907a74f83d1bd5d3ae",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.0 Safari/534.13",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "8f46463dd3922761e55ee0625abbb837",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.0 Safari/534.13",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "d46cdca3e63ff0abf17c38513a2e2770",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.0 Safari/534.13",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "4af77b7aba3a77e8697b9b5516b20aca",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.0 Safari/534.13",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "af97b192696c05d3dac71b652028514e",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.596.0 Safari/534.13",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "e05217e81030bcb28c31b72342295260",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Ubuntu/10.04 Chromium/9.0.595.0 Chrome/9.0.595.0 Safari/534.13",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "d67a108cd9de9d9bd291903a7db32b65",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Ubuntu/9.10 Chromium/9.0.592.0 Chrome/9.0.592.0 Safari/534.13",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "ed1801bb3861f34947ec0482fa63a83b",
+    "value": "Mozilla/5.0 (X11; U; Windows NT 6; en-US) AppleWebKit/534.12 (KHTML, like Gecko) Chrome/9.0.587.0 Safari/534.12",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "35f634755c503b7ce5123ff9274bfe97",
+    "value": "Mozilla/5.0 (Windows  U  Windows NT 5.1  en-US) AppleWebKit/534.12 (KHTML, like Gecko) Chrome/9.0.583.0 Safari/534.12",
+    "system": "Windows NT",
+    "enable": true
+  },
+  {
+    "id": "e1794493d1df76400e02f9e46adcfffd",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.12 (KHTML, like Gecko) Chrome/9.0.579.0 Safari/534.12",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "c7b4680e1957d436ce2c8263cb2e0587",
+    "value": "Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US) AppleWebKit/534.12 (KHTML, like Gecko) Chrome/9.0.576.0 Safari/534.12",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "ca2fad8c9f80889efe290afa54125ae4",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/540.0 (KHTML, like Gecko) Ubuntu/10.10 Chrome/8.1.0.0 Safari/540.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "b93af6f2f5e7b113cc2eb1a28a9968e9",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.558.0 Safari/534.10",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "4de1618bc955063bc881935406886ab6",
+    "value": "Mozilla/5.0 (X11; U; CrOS i686 0.9.130; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.344 Safari/534.10",
+    "system": "Chrome",
+    "enable": true
+  },
+  {
+    "id": "d1df0f241c1b9817d434011440dd6e39",
+    "value": "Mozilla/5.0 (X11; U; CrOS i686 0.9.128; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.343 Safari/534.10",
+    "system": "Chrome",
+    "enable": true
+  },
+  {
+    "id": "033346e0fbf8faa59708ae068b1fddc0",
+    "value": "Mozilla/5.0 (X11; U; CrOS i686 0.9.128; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.341 Safari/534.10",
+    "system": "Chrome",
+    "enable": true
+  },
+  {
+    "id": "cda8136869552c36abcb9cb9f06cbd37",
+    "value": "Mozilla/5.0 (X11; U; CrOS i686 0.9.128; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.339 Safari/534.10",
+    "system": "Chrome",
+    "enable": true
+  },
+  {
+    "id": "79c11ec5936a563dac122c4b1fd6e5fa",
+    "value": "Mozilla/5.0 (X11; U; CrOS i686 0.9.128; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.339",
+    "system": "Chrome",
+    "enable": true
+  },
+  {
+    "id": "8d83e82b0e44a6417214ef5105592100",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Ubuntu/10.10 Chromium/8.0.552.237 Chrome/8.0.552.237 Safari/534.10",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "78f7bb4215e743809fec8ac4f07241fb",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.224 Safari/534.10",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "e6b25eb603158a62f63f73c67b7034d9",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.3 (KHTML, like Gecko) Chrome/8.0.552.224 Safari/533.3",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "bd1bb9f11b6c13554b96e0da69bb55e0",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.224 Safari/534.10",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "dc97c96ff1dcb0135622fa3adc8e51fe",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.224 Safari/534.10",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "994cb18dd311e76d2ae1ae9a9a5b3767",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.215 Safari/534.10",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "f9aa13e23e451858f56f6431146f14e8",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.215 Safari/534.10",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "84372751c4561aaa698f5f1b259df82f",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.215 Safari/534.10",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "2a612e01e53bceca5cdd3921a36f5d7f",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.210 Safari/534.10",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "05dc695f362e83a0aae6c9ac4b65abfe",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.200 Safari/534.10",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "a5a38be26b69320425810881fc8f7f7a",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.551.0 Safari/534.10",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "0c94eeb08d7d165703395cd22f7b8d61",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/7.0.548.0 Safari/534.10",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "23ddfd7823fbb07aebcc947df4f26e9e",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/7.0.544.0 Safari/534.10",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "6a9d01d2e858c68d053f0c0be174a567",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.15) Gecko/20101027 Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/7.0.540.0 Safari/534.10",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "2be9f2a116fe664d1be1d21dd8cf5f34",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/7.0.540.0 Safari/534.10",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "30c1014ea234fe28e36f43a0c6379035",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/7.0.540.0 Safari/534.10",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "974c9713f86f3e92ccd0e2539d1488f1",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/7.0.540.0 Safari/534.10",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "1554cca368c887a6fe7a31f8fd804e10",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.9 (KHTML, like Gecko) Chrome/7.0.531.0 Safari/534.9",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "3997315e18d3840e91d5f558f5488f56",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/534.8 (KHTML, like Gecko) Chrome/7.0.521.0 Safari/534.8",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "9fe83f901047a12274d91afabb3a01f5",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.517.24 Safari/534.7",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "eab28c7f844d0366d4334d86c984a820",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; fr-FR) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.514.0 Safari/534.7",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "1a912ab33930846b5f5c066c00fe4182",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.514.0 Safari/534.7",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "b0615ccb06d627d1a8c1742c676a55e5",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.514.0 Safari/534.7",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "a928513f56d9a924e80941455e98c916",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.6 (KHTML, like Gecko) Chrome/7.0.500.0 Safari/534.6",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "1d35afedf680e52f76a0090b9e4bdddc",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.6 (KHTML, like Gecko) Chrome/7.0.498.0 Safari/534.6",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "694bb9430c402d461f0ada5517109c0f",
+    "value": "Mozilla/5.0 (ipad Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.6 (KHTML, like Gecko) Chrome/7.0.498.0 Safari/534.6",
+    "system": "",
+    "enable": true
+  },
+  {
+    "id": "93072ddde80112fb5df5485ab25568b4",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/7.0.0 Safari/700.13",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "f15ecf7d32e66ee98e3453edb75f93af",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/534.4 (KHTML, like Gecko) Chrome/6.0.481.0 Safari/534.4",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "61f4ed68771f897c89b64e90334359cb",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "16118fd37176af26087b8c572d1343dc",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.53 Safari/534.3",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "78466cb1f35ff26e1db6cccbb9f32494",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.33 Safari/534.3",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "236b64188f08ff0e27d64d79654c47dc",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.470.0 Safari/534.3",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "40f238d2736cbc2f6e9f6ebd894782ea",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.464.0 Safari/534.3",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "7d78a9689dcf0081bbe830829d4fb962",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.464.0 Safari/534.3",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "d1afb4b07be643dcadb82ef0848b89ef",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.463.0 Safari/534.3",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "7c49524e8163997ba4670ebc10efc2b5",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.462.0 Safari/534.3",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "7393f90be66cbb940c99b7f0cabcafe9",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.462.0 Safari/534.3",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "d69173b29f4007ab36a08d6de1e1d407",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.461.0 Safari/534.3",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "63e35d2d391a116d7bd261ea974907fd",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.461.0 Safari/534.3",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "46ceaab0a35e0bcd56aaa6bc4b56c07d",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.461.0 Safari/534.3",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "669206be7c1b007dedac21725ac2e664",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.460.0 Safari/534.3",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "7f71066c120c64df9859c3fd5a39302d",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.460.0 Safari/534.3",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "ed4ed1b644debc91aa05e99770cc06aa",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.460.0 Safari/534.3",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "dce12166e15d92eba386564bb66917fc",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.459.0 Safari/534.3",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "e7230f9a855b3cd9665a8443131c6813",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.458.1 Safari/534.3",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "d6c11b1cb011beaf8096f1f4642fdb8d",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.458.1 Safari/534.3",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "6bc2c905e973a80cc781f729bd9988d5",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.458.1 Safari/534.3",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "105b0c43fd32115cd8a734c4e094a6ae",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.458.1 Safari/534.3",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "7ec30f69aa82f0e8e40ed957bb1c7cb0",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.458.1 Safari/534.3",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "c960829bd3533d3f628ef4890c59774f",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.458.0 Safari/534.3",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "756d2447f69d1e5a2aa49e5d4b6a8cdd",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.458.0 Safari/534.3",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "bdad98001a52c4383b386e16b11b636f",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.457.0 Safari/534.3",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "e301183d4022fb91ea042042ee529f56",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.456.0 Safari/534.3",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "f417d28e6918b1bd0db2ef42efa604d1",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.2 (KHTML, like Gecko) Chrome/6.0.454.0 Safari/534.2",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "d965576147fce10df1ce2ddd1ee67457",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/534.2 (KHTML, like Gecko) Chrome/6.0.454.0 Safari/534.2",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "3acfba632e7ec553c4b67c24a2dad826",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.2 (KHTML, like Gecko) Chrome/6.0.453.1 Safari/534.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "f19d80cd1585453eb83ab8c5e7d91617",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-US) AppleWebKit/534.2 (KHTML, like Gecko) Chrome/6.0.453.1 Safari/534.2",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "07e843ebfa574c4b9536f2f5704ecf17",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/534.2 (KHTML, like Gecko) Chrome/6.0.453.1 Safari/534.2",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "06c6fc6687a10bb7ab9837df95cb93e1",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; en-US) AppleWebKit/534.2 (KHTML, like Gecko) Chrome/6.0.451.0 Safari/534.2",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "f819d2449ce5b5660fb6b60bfd583df9",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.1 SUSE/6.0.428.0 (KHTML, like Gecko) Chrome/6.0.428.0 Safari/534.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "78e897b2871d32b570dd4db4303cac07",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.1 (KHTML, like Gecko) Chrome/6.0.428.0 Safari/534.1",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "8d76630cdf91053a7cb5f536b4ebb2eb",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB) AppleWebKit/534.1 (KHTML, like Gecko) Chrome/6.0.428.0 Safari/534.1",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "71f477f64133cef015682eb0de9aec1d",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-US) AppleWebKit/534.1 (KHTML, like Gecko) Chrome/6.0.428.0 Safari/534.1",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "a29a459e577309b7256b2b160ae0242a",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.1 (KHTML, like Gecko) Chrome/6.0.427.0 Safari/534.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "f1a4d02f1daece14d9f9df7c84231702",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/534.1 (KHTML, like Gecko) Chrome/6.0.422.0 Safari/534.1",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "eb6674862c3f28c8ebb02b0c0eeb6a49",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.1 (KHTML, like Gecko) Chrome/6.0.417.0 Safari/534.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "3ea966293165e4433b016ec8ab75cdd2",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.1 (KHTML, like Gecko) Chrome/6.0.416.0 Safari/534.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "f6fdc0d58a58cfdb834cefb9e011f849",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; en-US) AppleWebKit/534.1 (KHTML, like Gecko) Chrome/6.0.414.0 Safari/534.1",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "cb93afe856b63020916760c69fa894a8",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533.9 (KHTML, like Gecko) Chrome/6.0.400.0 Safari/533.9",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "ed08fde18cfd50e5de08e1c549c5ce54",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.8 (KHTML, like Gecko) Chrome/6.0.397.0 Safari/533.8",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "76d1db8857efcfc46a6c11bb03fc2b28",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/6.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "e13c818c0d1fbb0d2294198e3fb78755",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.999 Safari/533.4",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "1122fd2e12b609195960eb4ab6b4a42f",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "0c6b5a5a734e1b3a0ddb918c4e2e4eba",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "c691009e1aaaf5acd7a977490215e686",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_2; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "ed7f240363686919cf2ab82e06eeccd2",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_0; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "4585e11ad210d92418a26d4fc110aaf0",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_6; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "033ef778d0b78c9898d12c091d631674",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.86 Safari/533.4",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "9d25baebafd234cbd42ee5aec1d01d29",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_1; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.86 Safari/533.4",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "061a94ca517e60b2cd5a513d007a518b",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_0; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.86 Safari/533.4",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "66fff486cc14136d6bc575dc81ed478b",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_2; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.70 Safari/533.4",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "3ec1fd59c19e66be57681ecd3e6e8efb",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.127 Safari/533.4",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "a78ab472a676a3c0c2b14db7af7f4c84",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.126 Safari/533.4",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "cfc96d3fedd4723bf35ad1dd3a1d74ab",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; fr-FR) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.126 Safari/533.4",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "a3707608dc0a5a46a9e1869fe677b96b",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.125 Safari/533.4",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "7276aeb944ba7a75a1edc9960d04cf36",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.370.0 Safari/533.4",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "67bda6d32d51ffb0db5ba9237c6c7a57",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.368.0 Safari/533.4",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "1540b67a9443e57ac3ec33b76eb8d2a8",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.366.2 Safari/533.4",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "6eda4678ab005eeddb53ea1319fc4f42",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.366.0 Safari/533.4",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "20ff23c179ea31a96c2413eb59d30966",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_2; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.366.0 Safari/533.4",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "ebece76743a845a26e9496911f8199af",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-US) AppleWebKit/533.3 (KHTML, like Gecko) Chrome/5.0.363.0 Safari/533.3",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "94221005b9c2f746aa720dd169b5c9e2",
+    "value": "Mozilla/5.0 (X11; U; OpenBSD i386; en-US) AppleWebKit/533.3 (KHTML, like Gecko) Chrome/5.0.359.0 Safari/533.3",
+    "system": "OpenBSD",
+    "enable": true
+  },
+  {
+    "id": "c0d14d8d13a5c2b8cec93e0e2e94810b",
+    "value": "Mozilla/5.0 (X11; U; x86_64 Linux; en_GB, en_US) AppleWebKit/533.3 (KHTML, like Gecko) Chrome/5.0.358.0 Safari/533.3",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "b87180ccbb0bd7f62ce43a7f6774dc85",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.3 (KHTML, like Gecko) Chrome/5.0.358.0 Safari/533.3",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "215f32f352c6def03509b3c2d7e46d22",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/533.3 (KHTML, like Gecko) Chrome/5.0.358.0 Safari/533.3",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "cf9baf1ae56f4fb0f28170e2bfd9c7aa",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.3 (KHTML, like Gecko) Chrome/5.0.357.0 Safari/533.3",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "1869fe34417695b418336b9a500d8f0b",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.3 (KHTML, like Gecko) Chrome/5.0.356.0 Safari/533.3",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "e97d8129d1b9d11abb7a3ea7eb42558c",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.3 (KHTML, like Gecko) Chrome/5.0.355.0 Safari/533.3",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "45af2315cbf44e1e86147afa8bc263a0",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.3 (KHTML, like Gecko) Chrome/5.0.354.0 Safari/533.3",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "d6282e1fb42160cfef80987544fa8b17",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533.3 (KHTML, like Gecko) Chrome/5.0.354.0 Safari/533.3",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "7f7e11560784ff0085a6963e6201a421",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.3 (KHTML, like Gecko) Chrome/5.0.353.0 Safari/533.3",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "970e8bc757712c29eece42068fef11be",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.3 (KHTML, like Gecko) Chrome/5.0.353.0 Safari/533.3",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "20ded01cc704f3603b9263e09bc59595",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_2; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.343.0 Safari/533.2",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "879b65603f2c564c4b3b505eaf5eedc7",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.343.0 Safari/533.2",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "b689c9436bf487a11f5ff60eefc7a4c1",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_7_0; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.7 Safari/533.2",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "f533f19496209a2cb4ed8970c299d1ba",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.7 Safari/533.2",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "b2e50eda6f298ab9c825c6912957affd",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.5 Safari/533.2",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "f6db2a241d40aef12f22d01499b16829",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.3 Safari/533.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "f98402cce28c2ff40842a15c475c4e62",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.3 Safari/533.2",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "e5f40a116d59c9dc045b93c6e0074e29",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.2 Safari/533.2",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "8fe4636e7e6ddb3f6c67356c21ed19a7",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "0c14397a46214768ac717fa58b368615",
+    "value": "Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "d19f2a9f6f7f047460612e7b782f6334",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "7ed9ea785598c4a82d6c7bf1e91fcafa",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.1 (KHTML, like Gecko) Chrome/5.0.335.0 Safari/533.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "fbb7be39bcebd6fe9f81bcfc7488c0b1",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN) AppleWebKit/533.16 (KHTML, like Gecko) Chrome/5.0.335.0 Safari/533.16",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "9707dd7bb352e17e31a675ff553d54e4",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.9 (KHTML, like Gecko) Chrome/5.0.310.0 Safari/532.9",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "ca0e201f68d09a69130852cde25a568e",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.9 (KHTML, like Gecko) Chrome/5.0.309.0 Safari/532.9",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "4cedce5cb1461c2f2f90f55d4b18b297",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.9 (KHTML, like Gecko) Chrome/5.0.308.0 Safari/532.9",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "97b25780743352bf3ab54a9acac7fb53",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_0; en-US) AppleWebKit/532.9 (KHTML, like Gecko) Chrome/5.0.307.11 Safari/532.9",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "987b7872324af881941170c23795ec0e",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.9 (KHTML, like Gecko) Chrome/5.0.307.1 Safari/532.9",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "1165f74f87fb4d647762f2580569f425",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Chrome/4.1.249.1025 Safari/532.5",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "d6a33a8c74c2576329c027f6f7996475",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/532.8 (KHTML, like Gecko) Chrome/4.0.302.2 Safari/532.8",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "768f511b85967c6cc0078cc126bd235d",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.8 (KHTML, like Gecko) Chrome/4.0.288.1 Safari/532.8",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "d53ffe382ae3a9465f74c1f06f4a8c8e",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.8 (KHTML, like Gecko) Chrome/4.0.277.0 Safari/532.8",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "2f417ce9ccbb3b4589afdef026207512",
+    "value": "Mozilla/5.0 (X11; U; Slackware Linux x86_64; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Chrome/4.0.249.30 Safari/532.5",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "164a767cf75594226124367b70e51bb1",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; it-IT) AppleWebKit/532.5 (KHTML, like Gecko) Chrome/4.0.249.25 Safari/532.5",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "cabd1f87a22424eb53861bfe2439f1eb",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Chrome/4.0.249.0 Safari/532.5",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "eb3fccca6543a2892b46f6295ba4ac45",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_8; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Chrome/4.0.249.0 Safari/532.5",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "c6ef0b3dab120ad60fc0deb372f82c58",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Chrome/4.0.246.0 Safari/532.5",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "285c63ac8fbc04ae7e3ded17764555d8",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.4 (KHTML, like Gecko) Chrome/4.0.241.0 Safari/532.4",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "0ac657fb73df31997dbd9e3fabb6639c",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.4 (KHTML, like Gecko) Chrome/4.0.237.0 Safari/532.4 Debian",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "3af52cf5f0cbd3fcd1bb3221a05ce6fb",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.3 (KHTML, like Gecko) Chrome/4.0.227.0 Safari/532.3",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "c136e898668c0b378b4e7be1dde23f05",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.3 (KHTML, like Gecko) Chrome/4.0.224.2 Safari/532.3",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "e4d4709fa72dec2217cf1f3aac958814",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.3 (KHTML, like Gecko) Chrome/4.0.223.5 Safari/532.3",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "1d6e47dd917ccd329d3661c3c9d01bad",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.223.4 Safari/532.2",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "99dae4e032fc815605920897e6599df8",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.223.3 Safari/532.2",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "24473f4604bb67c0d025396240d38cd2",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; de-DE) Chrome/4.0.223.3 Safari/532.2",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "3a8fe6e2f31f24191400ac650c67ffc4",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.223.2 Safari/532.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "31bb6894cc99b11568b5151fe6ed399b",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.223.2 Safari/532.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "736011fe2e0c0b8e3fc145548fc0ff9d",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.223.2 Safari/532.2",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "4f667a460c26a8f089925f255954e1e2",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.223.2 Safari/532.2",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "c3accc71ede8c3a729482c70c7fa6534",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.223.1 Safari/532.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "ad7d81f15f2549c28421a0960658f6fc",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.223.1 Safari/532.2",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "03288979f8309d46332f675496da8d80",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.223.1 Safari/532.2",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "bcc592d611de081a47c81d9c50410252",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.223.0 Safari/532.2",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "0edff63dba804e1b6bf8e4e66eeaa2cb",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.8 Safari/532.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "d4261f2a4a552378a8bd630b01dd2b43",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.7 Safari/532.2",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "d167ed1543e4a67903056fa0167633f9",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.6 Safari/532.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "5e7794be6657d33d6b239b2a288596eb",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.6 Safari/532.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "9faf27a248dcf9c89293eb2b22de15d7",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.6 Safari/532.2",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "04c4631d2bb928cf2b720e14c03c0ca0",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.5 Safari/532.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "601d36e0e255b0d0e80095969fa5e0fc",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.5 Safari/532.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "c382aa183c4c7a7f8383c100535f6d40",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.5 Safari/532.2",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "ae14e45155879f6d6a3ef0d405456278",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.5 Safari/532.2",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "7a97473d9e162be2db3d2887e8b4a2da",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.4 Safari/532.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "7fb5c93ff4593acf08f45c9bdea5e533",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.4 Safari/532.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "3d35a1aa19bbcdbf509027255ea29802",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.4 Safari/532.2",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "e4fbf7b9d616f1d225132a69cb30b0d6",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_1; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.4 Safari/532.2",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "a0db2c458ba4cb06f4e9a851089c6261",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.3 Safari/532.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "a1049b74a80b5d4762e732cd0325e634",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.3 Safari/532.2",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "240f85f3921ea1ff68185df3c26f5597",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.3 Safari/532.2",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "fe20ab5b43c709f857b8514a7db6835a",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.2 Safari/532.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "623a8d3429c1b2ced7fb16c7e4cafb2b",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.2 Safari/532.2",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "01190e522e938d1788b47f79f67c9234",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.12 Safari/532.2",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "40f8e8c457f8208254b8c6f297dca39e",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.12 Safari/532.2",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "bbc4b3adb9d579e8d0af7f62e4f7c1d8",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.12 Safari/532.2",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "c22e20681d655b59788d976a07620eb5",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.1 Safari/532.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "9feceb680e8ecb1cafa41f731e2987a2",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.0 Safari/532.2",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "0a9ac89de51e41402c29f51e008f69a2",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.221.8 Safari/532.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "b44c3d6a27a9d3c45e496b5a462360e3",
+    "value": "Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.221.8 Safari/532.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "e26a8734cfade438c5841c300e3bf6a5",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_1; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.221.8 Safari/532.2",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "afef386ccc1d065bf3250be00f2393ea",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.221.8 Safari/532.2",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "658b62c3b6c6d4aee8ba104b2580feab",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.221.7 Safari/532.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "e3239eedb7c38656e022ef25764c1ad3",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.221.6 Safari/532.2",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "d361dc5ae2e6d5a6880ef84088200ef2",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.221.6 Safari/532.2",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "71f2cb180053dcfc204ad41f36371058",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.221.6 Safari/532.2",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "e1bb4bc5b5ea6debb2c52f1271b39978",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.221.3 Safari/532.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "08b85b6500f4779eb12237432dc64f2c",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.221.0 Safari/532.2",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "c7c1c694e0e6a8435911491281454509",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.220.1 Safari/532.1",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "adaef9937aee2938e985c805f2f5b7f1",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.219.6 Safari/532.1",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "8f22bc3256caac88c4b630b5b7c5a102",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.219.5 Safari/532.1",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "fdf5883bbae8e0af83abfc81f24c795d",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.219.5 Safari/532.1",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "2f515188ccb9ee57d8da3093d3065756",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.219.4 Safari/532.1",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "e9630d9993a78a556906c028a43eeaac",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.219.3 Safari/532.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "d1a236b900fcd2433571a14f507e5102",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.219.3 Safari/532.1",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "c8b8838f53336d71cff6bec92395ae71",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.219.3 Safari/532.1",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "01b28e1ab9db27c1d6d8dd255e74cde2",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.219.0 Safari/532.1",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "ad3bded5a55bf76ceade4212ba462bd1",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.213.1 Safari/532.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "280fc0be933d74f051f53cb78babd0bb",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.213.1 Safari/532.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "e1a48a6d61dc0f51ac964efebc048938",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.213.1 Safari/532.1",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "f09b49af77a5de36f796e18366812df0",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.213.1 Safari/532.1",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "3c5e1c8b7ff9cfa2c81b71116ec9749d",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.213.1 Safari/532.1",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "00653c82cf65d793467ba97bdf0adc45",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.213.1 Safari/532.1",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "2cd8284a050ba32916fea0a96c854f25",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.213.0 Safari/532.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "65396c96f72c46cea4e59f3750630f35",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.213.0 Safari/532.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "55fb21a4caffb0f8ad9d808adf257e05",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.213.0 Safari/532.1",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "5f79a14c03783d4b38998ba140e74995",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.213.0 Safari/532.1",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "fac100a28400fe9c126d84032a2eaed2",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_0; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.212.1 Safari/532.1",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "b04d769a99e81fe5dac2f94630df8c86",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.212.1 Safari/532.1",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "372bf8b4a39a9d2baf2ba1b8a247b9c9",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.212.0 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "cefb510fb8abbaabb90d0400d83e495e",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.212.0 Safari/532.1",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "32244b7c7c1d2075cb7c5d86bbcce718",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.212.0 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "c8e579e7ca093f7ea32e6b09043b901a",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.212.0 Safari/532.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "52f52e062f4e8192ddf0e585936635ed",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.212.0 Safari/532.0",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "2b3bd7d7cd7181d88041be488d7e7856",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.212.0 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "fbb13e20d01b05f3b800fccb858980b4",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.212.0 Safari/532.0",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "710b44f9f81163ed80d97608b5e8910b",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.211.7 Safari/532.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "cafe36e42eb8fc25e6c1f3083e885245",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.211.7 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "9b68292fb07ab1d514438882d00b51b0",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.211.4 Safari/532.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "3e7849c37735ecde6ae4b96d5bfe5f99",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.211.4 Safari/532.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "69d042509fc212a18880e0e90de3221a",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.211.4 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "15d2361c2e8767a6580db640b82b1368",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.211.2 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "91522e8b90272b51ae12e3c5432a2579",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.211.2 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "fe784d55110cc5fb92991caeaf6896ad",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.211.2 Safari/532.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "9642644e4216021056c9bf3855df97e1",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.211.2 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "9f7c6fc55f16600dd6854a99ce4e9de1",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.211.2 Safari/532.0",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "0abc19e9f2ecf7838c0ab87814ecc8da",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.211.2 Safari/532.0",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "f474cf6bbd2c8b42b4f5ed2e963134aa",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.211.0 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "eb57c1e336769b0351e32a2d470818bf",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.211.0 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "655de7a16a991c02a3c078d01e55f4e4",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.211.0 Safari/532.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "51ebcf9ee1c81b4147599982f91e45d5",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.211.0 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "d3432b97fdf0ddce5278b4ed7ac0b8d8",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.210.0 Safari/532.0",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "c341748826a6403a3e464c08ac75a8f6",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.210.0 Safari/532.0",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "ed81bc3f5e289ff2086e20cd63005a09",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.209.0 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "d4d6e05ca18396a29e43816f2f241609",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.209.0 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "bb4cb43dd01952d11816a2e443bc7684",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.209.0 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "151eccc9f1c8087167c63d8bbcd78cd1",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.209.0 Safari/532.0",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "bbecf4dcef90837509831a0346651dc4",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.208.0 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "92af3f850ff1dab77cb9dfe569977352",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.208.0 Safari/532.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "d69813b97b26462a890285df2fc32304",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.208.0 Safari/532.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "cad7642a59b99f2a2c2828ed33850b8c",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.208.0 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "cd550e0f45353191031dd0b0a25b3b57",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.208.0 Safari/532.0",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "23ea4383726f004fa45e1b4cf2a3af72",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.207.0 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "4c46a5159bb73f4485e04df18165314e",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.207.0 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "4fe4a313b98253f34d6abc46d66a071d",
+    "value": "Mozilla/5.0 (X11; U; FreeBSD i386; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.207.0 Safari/532.0",
+    "system": "FreeBSD",
+    "enable": true
+  },
+  {
+    "id": "9f5401caac6893fe48c09b26b2591397",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.207.0 Safari/532.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "24a7edc182d937e0cec937a8290c0c4a",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.207.0 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "531a5fa0fb3f21efb5a6b34ca9f45ece",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.207.0 Safari/532.0",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "052bf46f81f09ba5670bd68f5d53e0bb",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.207.0 Safari/532.0",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "dbb998fc68ffc8449fb925ba1e4b8edd",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.206.1 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "38293421878372f4e137587958754678",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.206.1 Safari/532.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "fa65a6df5ca01269cada88727def302a",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.206.1 Safari/532.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "95d4d0b92505e3ea70cb163175b5dc08",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.206.1 Safari/532.0",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "848c442f8cb4f2ac77060ba6514cf512",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.206.1 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "d9887dd003f71c4e963591aeb6a12f46",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.206.1 Safari/532.0",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "d955c557922adfaa0c945d02e67089ff",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.206.0 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "e07db98f23f2c71df9b2bd2c4edbe421",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.206.0 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "fe18b0b2cba139847384de6db91a2536",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.206.0 Safari/532.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "8dc9e113e2b12e71d71d5968373503de",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.206.0 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "eade2cfb351a2bcf08c9b031090638b8",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.205.0 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "b127f5f1c8efbf1f9e5adb3243e1d29b",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.204.0 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "143f442c3a922f421776f8fac53c8ad7",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.204.0 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "33a7d4078a639b2a3d3848b2d9c3c5f9",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.204.0 Safari/532.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "187770e9e47a1f7b148cd48749823b5a",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.204.0 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "a7cb5015822ee6a0e963662a6d6cc4e6",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.204.0 Safari/532.0",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "b3ce1f850391fbe5127c4054af732286",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.4 Safari/532.0",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "a3afba92fe03e5efc72b6cdf722ab9f3",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.2 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "9439aa98ed3c6a18b45a6a3d65024c61",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.2 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "62486232710a0b613cfcd881a7c3bd9f",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.2 Safari/532.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "ca3b05b52723677a47963505b56acabd",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.2 Safari/532.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "d03b9f9c5e199d752f22f657955621a5",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.2 Safari/532.0",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "c59f719b11a852536e25c4eb614e42e4",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.2 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "65c73264c8257de4968e52bbeb88bec3",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.0 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "2d72dcf7f7f1cb110cd9816053e3f814",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.0 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "c3a6c6638d19f615590832bdc6371a4e",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.0 Safari/532.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "472ba63468bc35f3b8cad90afa2c0bad",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.0 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "b7257c8261f69a5fd97712e50dad9158",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.0 Safari/532.0",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "41cb95af7c15c6ce60dd9c73fa93210f",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.0 Safari/532.0",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "2a509d212d89f914273c435b217587f4",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.2 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "ddeba8942fb168a4872a18b1adc5df2e",
+    "value": "Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.2 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "58023a326e4082127df0a2b4c871b05e",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0 (x86_64); de-DE) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.2 Safari/532.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "45c50df552b12431788709389ffc5c0b",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; de-DE) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.2 Safari/532.0",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "748a1b61b614e7023f5894c5c125074b",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "f51251dbd20e5266c90db1296e0467de",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/532.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "c4187416afd3071f80248e15be010b87",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/532.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "bcafae8fc3789833a6a4cf7cfb8dcde8",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/532.0",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "a3e3fe0bef84d2f983d540ac2847f302",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/525.13.",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "6fe0f96e9cc23738273bfb4aff72be88",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/532.0",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "54aed334253eb549861dbcbe34bac352",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/532.0",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "6b7b9942b2b422e0b39a2925b2854a0c",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/532.0",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "803489949dd853fea57b56a059ff92cc",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_6; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/532.0",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "46a93b583821ad67f9942f7a0198d65a",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.201.1 Safari/532.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "07d4741be80506f98e8c4727484e92b7",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.201.1 Safari/532.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "b27f3f4961b11e8b853a9128a467cebf",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.201.1 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "851189bc8e3dc6e520afd087505d6cfa",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.201.0 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "ca6e1808760185367837c00a82a188fe",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.198.1 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "b5d94486d71e4e5da806c972e58aafbd",
+    "value": "Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.198.1 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "602a56b3df23a5aa5531d68ba7ba294e",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.198.0 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "fb4b5dfb6ea4354eaced1f59db120593",
+    "value": "Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.198.0 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "0dc983744ea3206671b969e261534a5d",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.198.0 Safari/532.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "c1a3bbabd9376ad1c42c035d6828095e",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.198.0 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "930039273cab14208ba3c7c6f106395e",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.198 Safari/532.0",
+    "system": "Windows 2000",
+    "enable": true
+  },
+  {
+    "id": "0221d6cc3c32b8e2b3df78ece2017285",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.198 Safari/532.0",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "dfb4342eeb0115f5c574bb30ae4dd077",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.198 Safari/532.0",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "49830e97d63ba665819a01b5a9de997b",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.197.11 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "8012c3e1768aa33b868aac81a653b407",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.197.11 Safari/532.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "977d26239159505eee58f0d096cb1605",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.197.11 Safari/532.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "d9751c62954f8d9a4567444dbca27c66",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.197.11 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "dae83594dee1efa238cea4cf0938fd6d",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.197.0 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "fb3aa12909ea225500c8c7d647b76403",
+    "value": "Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.197.0 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "081c0ce388e5a47c92ea93d49ab6ae48",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.197.0 Safari/532.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "089b5aa57954ff7be1f3146cf530b6c4",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.197 Safari/532.0",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "c9204f5dd2659d5c9f757885c8bd3439",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.196.2 Safari/532.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "68f5203882a204a0c3a06d5752481204",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.196.2 Safari/532.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "06b10a3af3db020e22cdd7b8084d2a3d",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.196.2 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "63dd8a25303f44fae9c3218aa016b893",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.196.0 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "3a9c4dd6e3bfb95e5f8b8a12c04368cb",
+    "value": "Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.196.0 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "5388b932dc5e809a864c39467984a2bb",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.196 Safari/532.0",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "583df71f3c44b793eee71492fd493a34",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.6 Safari/532.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "74ec8a9d922346ba3e2a3ddf0e217dc0",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.6 Safari/532.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "89844e04984d69df2f28dfd54ae03d36",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.6 Safari/532.0",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "3d878503d7e17e90d6f818c9fe54c6fd",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.6 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "1c1b9da001724389fd173fb05af47667",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.6 Safari/532.0",
+    "system": "Windows 2000",
+    "enable": true
+  },
+  {
+    "id": "b479c632c4ab4585886cb3b2f99f5fad",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.4 Safari/532.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "16caf41195e3d20a0cbac16b919743b2",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.33 Safari/532.0",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "98882019ef3aa8db8157f75008ad46c9",
+    "value": "Mozilla/4.0 (Windows; U; Windows NT 5.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.33 Safari/532.0",
+    "system": "Windows 2000",
+    "enable": true
+  },
+  {
+    "id": "ce3ccd96b3541d7b49b438b3745c25a1",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.3 Safari/532.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "e098e6cdede7f6a533f4c650224a31e3",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.3 Safari/532.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "f1b698114eb3bb5acfca765121444324",
+    "value": "Mozilla/6.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.27 Safari/532.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "7de2a4f9d7fa53d4b43afe140a395be1",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.27 Safari/532.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "b2bb3b4ff9a8abf29b46a9a5616ee530",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.27 Safari/532.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "ff292a78bd4c10add76adb7f466922d3",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.27 Safari/532.0",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "553f01e8d7b331547a54011a9f2d9cbf",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML,like Gecko) Chrome/3.0.195.27",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "fb0d6ac224ced0a4a7ab4c7a76db6b3e",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.27 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "a73bd1f6f4c02f2b62ed06a3070788d1",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.27 Safari/532.0",
+    "system": "Windows 2000",
+    "enable": true
+  },
+  {
+    "id": "095c7baa7c2970e4a328b7a8305239de",
+    "value": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.24 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "86c68c1b1e839725f7bc01a1e1f392c8",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.24 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "b1029ebc31ef159d2c812d7a8cadeb28",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.21 Safari/532.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "a251f5fb1fac75ab6d8604127573f5a2",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.21 Safari/532.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "6357902465cc9c34c916653131ae038b",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.21 Safari/532.0",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "cb6e25e2a47b0bfd5b6a4994c0d00152",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.21 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "3e69c50bd5c24766693deb438072a28f",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.20 Safari/532.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "7afa2048741417aef22d95827c2569ec",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.20 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "fe8cbd00c4a1b8449bf45b6ec4c22ed0",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.17 Safari/532.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "cf496f5671f00664db9a4be1df35d2da",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.17 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "6ef923d7a880e0a0d7cac2fce3e4fdfb",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.10 Safari/532.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "fd1c244d72d27ca470b015ba48f0fe51",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.10 Safari/532.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "19b68719aefeceb2d2b1e3cb29dede78",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.10 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "c6be7317d8287bcea2f706a9bee6ddd8",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.1 Safari/532.0",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "e60ac1a0b9888a9ba3f2169f33d39a40",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.1 Safari/532.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "8be8a47effa414402af69999fa302e91",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.1 Safari/532.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "043a8f255e3494e9f8d0f3f7071abd39",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.1 Safari/532.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "da181adb61e13be36b92de567397cdcb",
+    "value": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/531.4 (KHTML, like Gecko) Chrome/3.0.194.0 Safari/531.4",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "ea6cdc57663f602df25e8f0b8b1c87d2",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/531.4 (KHTML, like Gecko) Chrome/3.0.194.0 Safari/531.4",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "702460c85a44aee9a05da8bb5c60fbba",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/531.3 (KHTML, like Gecko) Chrome/3.0.193.2 Safari/531.3",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "3b8a0bd1ede71d0a1565b67327662b20",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/531.3 (KHTML, like Gecko) Chrome/3.0.193.2 Safari/531.3",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "daa58623fb1a6e157e34315a5ed11b77",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/531.3 (KHTML, like Gecko) Chrome/3.0.193.2 Safari/531.3",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "10ecd8dc012b6c7a63fd2303d04d2971",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/531.3 (KHTML, like Gecko) Chrome/3.0.193.0 Safari/531.3",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "a9aae8fd5a748d040f48ac0eade12843",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-US) AppleWebKit/531.3 (KHTML, like Gecko) Chrome/3.0.192 Safari/531.3",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "02d7aa6f608db2be55669787ed66a0b7",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/531.2 (KHTML, like Gecko) Chrome/3.0.191.3 Safari/531.2",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "1095ee5561d8b4f3320749ea87dce350",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/531.0 (KHTML, like Gecko) Chrome/3.0.191.0 Safari/531.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "7701c1b9615e16fca6d166b0c7479993",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/531.0 (KHTML, like Gecko) Chrome/3.0.191.0 Safari/531.0",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "ad692c7acbaa1901571d70e871c94248",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/531.0 (KHTML, like Gecko) Chrome/2.0.182.0 Safari/532.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "67961c990a0fccc4f98d23cf4384d874",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/531.0 (KHTML, like Gecko) Chrome/2.0.182.0 Safari/531.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "fc80a3f5b7489ff966615111e1af82a8",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/530.0 (KHTML, like Gecko) Chrome/2.0.182.0 Safari/531.0",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "86d3d247ceb629e8030a9c959526fb44",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.8 (KHTML, like Gecko) Chrome/2.0.178.0 Safari/530.8",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "e2fa92121f63b40c321f517832321f7e",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.8 (KHTML, like Gecko) Chrome/2.0.177.1 Safari/530.8",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "7b2acf5239de31ada8e9095dd8308830",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.8 (KHTML, like Gecko) Chrome/2.0.177.0 Safari/530.8",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "60f1c8629697330acdd54f6ccd89f9bc",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.7 (KHTML, like Gecko) Chrome/2.0.177.0 Safari/530.7",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "41d0850ce9081a5697a022ebb91e737a",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/530.7 (KHTML, like Gecko) Chrome/2.0.176.0 Safari/530.7",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "77b7f06ba0946322af14a79160591d55",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.7 (KHTML, like Gecko) Chrome/2.0.176.0 Safari/530.7",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "201b8569edc786d63bb2b1bf9740f5f3",
+    "value": "Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US) AppleWebKit/530.7 (KHTML, like Gecko) Chrome/2.0.175.0 Safari/530.7",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "b1d07ab937fbccbfad53851955204d58",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.7 (KHTML, like Gecko) Chrome/2.0.175.0 Safari/530.7",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "835797fcb39f413296745f322b256e55",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.6 (KHTML, like Gecko) Chrome/2.0.175.0 Safari/530.6",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "d28e4d0223c9e7709bbe10030d593749",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/530.6 (KHTML, like Gecko) Chrome/2.0.174.0 Safari/530.6",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "676e48bf50bb201f288a2bfa2738e24d",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/530.6 (KHTML, like Gecko) Chrome/2.0.174.0 Safari/530.6",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "df6305658f821c31331733581a8f1cb6",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.6 (KHTML, like Gecko) Chrome/2.0.174.0 Safari/530.6",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "6e50606de6f672a6279659753a7ad8d4",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.174.0 Safari/530.5",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "cbb038f2dce8254de03e2671812d5132",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_2; en-US) AppleWebKit/530.6 (KHTML, like Gecko) Chrome/2.0.174.0 Safari/530.6",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "bfe579034974d4d319a8c2c23457b581",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.173.1 Safari/530.5",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "7fe9dadeb512670dea038c7d4ab72604",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.173.1 Safari/530.5",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "8c4e4e1a3b201d5f4363dc56c2e3e363",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.173.0 Safari/530.5",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "811504f78c52e68f559e59b2e457c27f",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.8 Safari/530.5",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "fb6e3456e4791696b014c85b01e621c6",
+    "value": "Mozilla/6.0 (Windows; U; Windows NT 6.0; en-US) Gecko/2009032609 Chrome/2.0.172.6 Safari/530.7",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "c950f9b89dfd65dadc081c6f8d7c926f",
+    "value": "Mozilla/6.0 (Windows; U; Windows NT 6.0; en-US) Gecko/2009032609 (KHTML, like Gecko) Chrome/2.0.172.6 Safari/530.7",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "38c6559b2858f0fd2c59693c49abbf03",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.6 Safari/530.5",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "47db8403c2fe71262680c7f73c0b8f5d",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.43 Safari/530.5",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "7c2bd47a578d6fa3f9b72677c914de36",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.43 Safari/530.5",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "e4b8b899da03c7f27840d2cbd966ee50",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.43 Safari/530.5",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "9245b95f542c3ca43bb0c536bd1e7454",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.43 Safari/530.5",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "7eeaa1c2f7413267ce8ac0119f92dba2",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.42 Safari/530.5",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "fa01438e4d063964c3119d77822495b4",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.40 Safari/530.5",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "f4bccc3e9cb94a2e9992563f4e99f12a",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.40 Safari/530.5",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "7844c1922c2a23aa20eb027df2f20c03",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.39 Safari/530.5",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "7fc916b03cb5914eba68ee74f51288d3",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.39 Safari/530.5",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "5c4fe2e458f1b63716e1291410d3dad6",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.23 Safari/530.5",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "a803a62f6c25b3ed3fc5de409e034944",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.2 Safari/530.5",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "a4bb90e9013ae539b81af5824f1a356a",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.2 Safari/530.5",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "8bff25317cbd4abd36be88a771c93eec",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/530.4 (KHTML, like Gecko) Chrome/2.0.172.0 Safari/530.4",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "6578b34f3a9b1e66b68e57ec962f564a",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; eu) AppleWebKit/530.4 (KHTML, like Gecko) Chrome/2.0.172.0 Safari/530.4",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "1318ec8e1294673bb1cdc05050db17b6",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/530.4 (KHTML, like Gecko) Chrome/2.0.172.0 Safari/530.4",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "9d72ddabce8a9d9d1cf10c5694a4c17e",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.0 Safari/530.5",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "fecebbc7c1fe0390050718ec9e9e07dc",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/530.4 (KHTML, like Gecko) Chrome/2.0.171.0 Safari/530.4",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "4d9fb26b385249373308194a94893ac3",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.1 (KHTML, like Gecko) Chrome/2.0.170.0 Safari/530.1",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "bff7c5b41dd4bd00379ea900201ca3ec",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.1 (KHTML, like Gecko) Chrome/2.0.169.0 Safari/530.1",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "222caee58347396c9d4517c0ebb1a6cb",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/530.1 (KHTML, like Gecko) Chrome/2.0.168.0 Safari/530.1",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "714b01ac8f76d65eca514a62af024a95",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/530.1 (KHTML, like Gecko) Chrome/2.0.164.0 Safari/530.1",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "b59fc2c0739ad9fca5ef2a7b3e8b268c",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/530.0 (KHTML, like Gecko) Chrome/2.0.162.0 Safari/530.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "566fce5f2e2d45275260e76020593ec4",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/530.0 (KHTML, like Gecko) Chrome/2.0.160.0 Safari/530.0",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "a34840853edbf785059138acdf083126",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/528.10 (KHTML, like Gecko) Chrome/2.0.157.2 Safari/528.10",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "8acc3b1adb6009904b17f1ac9c5a8696",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/528.10 (KHTML, like Gecko) Chrome/2.0.157.2 Safari/528.10",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "adf671ad511d288349bab25819a9c4a1",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_0; en-US) AppleWebKit/528.10 (KHTML, like Gecko) Chrome/2.0.157.2 Safari/528.10",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "ca937a9fb593b46705fcdec1ce3d6fbe",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/528.11 (KHTML, like Gecko) Chrome/2.0.157.0 Safari/528.11",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "f5f3960c1e905285cd922f5db5e4e944",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/528.9 (KHTML, like Gecko) Chrome/2.0.157.0 Safari/528.9",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "d0f9e074a3815408d9c550d8d7cc5b5d",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/528.11 (KHTML, like Gecko) Chrome/2.0.157.0 Safari/528.11",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "174afaa098a534034b669e6fbd5267ae",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/528.10 (KHTML, like Gecko) Chrome/2.0.157.0 Safari/528.10",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "72f06bceef2a589fb6d17d03a383db44",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/528.8 (KHTML, like Gecko) Chrome/2.0.156.1 Safari/528.8",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "872aad920a134fca48018ade264ab366",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/528.8 (KHTML, like Gecko) Chrome/2.0.156.1 Safari/528.8",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "ff5aa2cc069d285a78952caa371c5ab8",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/528.8 (KHTML, like Gecko) Chrome/2.0.156.1 Safari/528.8",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "78d0f3e80d5ad42db058e08f1c626517",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/528.8 (KHTML, like Gecko) Chrome/2.0.156.0 Version/3.2.1 Safari/528.8",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "32ca5ec814eca4cd5b75ff44eedbb856",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/528.8 (KHTML, like Gecko) Chrome/2.0.156.0 Safari/528.8",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "6b529a87ebaa28ebac37e0a239660143",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/528.8 (KHTML, like Gecko) Chrome/1.0.156.0 Safari/528.8",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "eec184ea1e295aeb9be3aba3b63f3804",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.59 Safari/525.19",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "8b9cf6ff4886fd855f3b6370f7d109fe",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.59 Safari/525.19",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "5fbf9d61493363800d41c5a893b6330c",
+    "value": "Mozilla/4.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.59 Safari/525.19",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "2e4907b85c343c061325bf007f08a93e",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.55 Safari/525.19",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "a3d2aae363af34535583e78b2a488a79",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.55 Safari/525.19",
+    "system": "Windows 2000",
+    "enable": true
+  },
+  {
+    "id": "acf9af5163685915ef32386bf14f1119",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.53 Safari/525.19",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "3897770bac807b5353eb743134073d7f",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/525.19 (KHTML, like   Gecko) Chrome/1.0.154.53 Safari/525.19",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "3ac5b807983cf5b6588929acd2dfc844",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.53 Safari/525.19",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "5e7fa674f30f0fdb2db756db2fdbd5e6",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.53 Safari/525.19",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "58c1c217a53031ca74a9b2fe6758befe",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.53 Safari/525.19",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "66441033b534ef057e05c9bb3046d29d",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.50 Safari/525.19",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "85d7ceeab92d80a565d2086d77b1c824",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.50 Safari/525.19",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "fe9367d32df8845de38a62c6d4bddeea",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.48 Safari/525.19",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "f0b3fe21bf182f06b8b5fb3de976bf03",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.46 Safari/525.19",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "0c3be322235ecfa34fd61f4f530d2e3e",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.43 Safari/525.19",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "bdda3a9242a0f5c63a60cab6044a563f",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.43 Safari/525.19",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "a51ef5eef4431c24fbf26fa4c15798a8",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.43 Safari/525.19",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "6a91ab0598364bd566259d4afcefd7bf",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.43 Safari/525.19",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "5b98d0b614c81494e1446e0211aa9d62",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.42 Safari/525.19",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "e565eb422d10a3808aeb0f2a46c131d2",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.39 Safari/525.19",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "80d0394b9006686cfef6d72fea40668d",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/0.4.154.31 Safari/525.19",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "539b4ca428bd7bda1d9c6ffd4a076640",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/0.4.154.18 Safari/525.19",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "6493e7f70dba6e0e3a28a3343efbbb3f",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/528.4 (KHTML, like Gecko) Chrome/0.3.155.0 Safari/528.4",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "82d6d93663aa55c9fe856e789f2cd744",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/0.3.155.0 Safari/525.19",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "571c2821a9e5f9602e87d4d72741e04d",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/0.3.154.9 Safari/525.19",
+    "system": "Windows 7",
+    "enable": true
+  },
+  {
+    "id": "c5ee2b09f828acd35ebcfbf7147cb31a",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/0.3.154.6 Safari/525.19",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "7c1c4a25424e69763aec05bcb266b1c9",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/0.2.153.1 Safari/525.19",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "4594da34f74fd571cf7b8ad1812b8278",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/0.2.153.0 Safari/525.19",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "322549d4e3947bf0efd8bd971c6bd98f",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/0.2.153.0 Safari/525.19",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "73d1acd65db7cc13d8a5e1916e77ab5f",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/0.2.152.0 Safari/525.19",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "44ccdaa3b94171a030205c29e9c184ce",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/0.2.152.0 Safari/525.19",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "13b713cd4639c97bc0df4e024fe14f86",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/0.2.151.0 Safari/525.19",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "282fc29b53827acce42e4f80c131fb42",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/0.2.151.0 Safari/525.19",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "9e6912dfd7d2bd107d20ac558d119e93",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/0.2.151.0 Safari/525.19",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "0d258172378c5cb2b6831bd4d5fdc88d",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.6 Safari/525.13",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "c2a745ffd17a9ea49aefce0ea7fb3d97",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.6 Safari/525.13",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "2a74cb54cf11d49d003cf050ac1decec",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.30 Safari/525.13",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "ebb32124e960e0c842fa52bc1ba41a79",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.30 Safari/525.13",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "15eb720d7d30dd1b08c9e1747e809030",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.29 Safari/525.13",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "9f9b96cede1fd2f23303e471b0b6b571",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.29 Safari/525.13",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "1482b4c0e7104d4ca4b2ae442bbee509",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.29 Safari/525.13",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "096f3661ece7fd4fadbb20aa18e3ffb4",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.27 Safari/525.13",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "367b769f9e44aac98dafcf1e837021bd",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 6.0; de) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.27 Safari/525.13",
+    "system": "Windows Vista",
+    "enable": true
+  },
+  {
+    "id": "87cfcad67897d74178def6c42cc1f3b5",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.27 Safari/525.13",
+    "system": "Windows Server 2003",
+    "enable": true
+  },
+  {
+    "id": "30b578ee45a3beb16439ab7fc31a986c",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.13(KHTML, like Gecko) Chrome/0.2.149.27 Safari/525.13",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "260b98be0838098c1efdb38f8979e00d",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.27 Safari/525.13",
+    "system": "Windows XP",
+    "enable": true
+  },
+  {
+    "id": "d6fd8eb3fad7e58aa6297e63a74c9000",
+    "value": "Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.27 Safari/525.13",
+    "system": "Windows 2000",
+    "enable": true
+  },
+  {
+    "id": "7f508fb3550d93a59f8edca094b64a77",
+    "value": "Mozilla/5.0 (Linux; U; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.27 Safari/525.13",
+    "system": "Linux",
+    "enable": true
+  },
+  {
+    "id": "412733fd85b0bc7f33e280b0210fec70",
+    "value": "Mozilla/5.0 (Macintosh; U; Mac OS X 10_6_1; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/ Safari/530.5",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "26cf1b57820da38487141d32dbf0255a",
+    "value": "Mozilla/5.0 (Macintosh; U; Mac OS X 10_5_7; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/ Safari/530.5",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "f1314ac1a1db7d78f575acd02aa9d555",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_6; en-US) AppleWebKit/530.9 (KHTML, like Gecko) Chrome/ Safari/530.9",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "e5ec2257b1f72976f2718d12e2ffa9d7",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_6; en-US) AppleWebKit/530.6 (KHTML, like Gecko) Chrome/ Safari/530.6",
+    "system": "OS X",
+    "enable": true
+  },
+  {
+    "id": "bd499150d048687bf8b2ee9e11afe5e5",
+    "value": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_6; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/ Safari/530.5",
+    "system": "OS X",
+    "enable": true
+  }
+]

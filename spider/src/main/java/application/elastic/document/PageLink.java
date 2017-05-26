@@ -14,19 +14,22 @@ public class PageLink {
     private static final Logger logger = LogManager.getLogger();
 
     @Id
+    private String url;
+
     private String host;
 
-    private boolean forbid;
-
-    private String forbidReason;
-
-    private String forbidSelectorScript;
+    private String fromUrl;
 
     private Timestamp fetchedTime;
 
-    private String hostUrl;
 
-    private String webName;
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
 
     public String getHost() {
         return host;
@@ -34,30 +37,6 @@ public class PageLink {
 
     public void setHost(String host) {
         this.host = host;
-    }
-
-    public boolean isForbid() {
-        return forbid;
-    }
-
-    public void setForbid(boolean forbid) {
-        this.forbid = forbid;
-    }
-
-    public String getForbidReason() {
-        return forbidReason;
-    }
-
-    public void setForbidReason(String forbidReason) {
-        this.forbidReason = forbidReason;
-    }
-
-    public String getForbidSelectorScript() {
-        return forbidSelectorScript;
-    }
-
-    public void setForbidSelectorScript(String forbidSelectorScript) {
-        this.forbidSelectorScript = forbidSelectorScript;
     }
 
     public Timestamp getFetchedTime() {
@@ -68,19 +47,11 @@ public class PageLink {
         this.fetchedTime = fetchedTime;
     }
 
-    public String getHostUrl() {
-        return hostUrl;
+    public String getFromUrl() {
+        return fromUrl;
     }
 
-    public void setHostUrl(String hostUrl) {
-        this.hostUrl = hostUrl;
-    }
-
-    public String getWebName() {
-        return webName;
-    }
-
-    public void setWebName(String webName) {
-        this.webName = webName;
+    public void setFromUrl(String fromUrl) {
+        this.fromUrl = fromUrl;
     }
 }

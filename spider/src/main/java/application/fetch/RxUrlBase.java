@@ -6,6 +6,7 @@ import application.elastic.document.Link;
 import application.kafka.ProducerPipeline;
 import application.redis.RedisKeyConfig;
 import application.redis.RedisServiceImpl;
+import http.UrlMaker;
 import org.apache.commons.lang.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -42,7 +43,6 @@ public class RxUrlBase {
     }
 
     public boolean isValid(Link link){
-        //logger.info("Check link {}, {}", link.getUrl(), Thread.currentThread().getName());
         return StringUtils.isNotEmpty(link.getUrl());
     }
 
@@ -61,11 +61,6 @@ public class RxUrlBase {
 
     public long sleepSecond(){
         ThreadPoolExecutor diggerService = (ThreadPoolExecutor) ExecutorManager.getDiggerService();
-        int activeCount = diggerService.getActiveCount();
-        BlockingQueue<Runnable> queue = diggerService.getQueue();
-        int size = queue.size();
-        //logger.info("active Count = {}, complete = {}, queue={}", activeCount, diggerService.getCompletedTaskCount(), size);
-
         int sleep = diggerService.getQueue().size() / diggerService.getMaximumPoolSize();
         if (sleep > 10){
             return sleep;
@@ -75,10 +70,6 @@ public class RxUrlBase {
 
     public Link sleepUntilIdle(Link link) throws InterruptedException {
 
-        /*long l = sleepSecond();
-        if (l > 0)
-        Thread.sleep(TimeUnit.SECONDS.toMillis(50));*/
-
         long l = sleepSecond();
         long time = 0;
         while (l > 0){
@@ -86,7 +77,7 @@ public class RxUrlBase {
             Thread.sleep(TimeUnit.SECONDS.toMillis(l));
             l = sleepSecond();
         }
-        //logger.info("Sleep time {}", time);
+
         return link;
     }
 }

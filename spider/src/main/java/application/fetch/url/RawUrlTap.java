@@ -8,6 +8,7 @@ import application.elastic.document.HostLink;
 import application.elastic.document.Link;
 import application.fetch.RxUrlBase;
 import application.fetch.UrlType;
+import application.fetch.http.Rest;
 import application.kafka.ProducerPipeline;
 import application.redis.RedisKeyConfig;
 import application.redis.RedisServiceImpl;
@@ -53,15 +54,15 @@ public class RawUrlTap extends RxUrlBase{
     }
 
     public List<Link> dig(Link link) throws IOException {
-        Document document = Jsoup.connect(link.getUrl())
-                .timeout((int)TimeUnit.SECONDS.toMillis(10))
-                .get();
+        Document document = Rest.get(link.getUrl());
         Elements urls = document.getElementsByTag("a");
         List<Link> res = new ArrayList<>();
         urls.forEach(a -> {
                 String href = a.absUrl("href");
-                if (StringUtils.isNotEmpty(href)){
-                    res.add(new Link(href, UrlType.RAW));
+                if (UrlMaker.isURL(href)){
+                    Link e = new Link(href, UrlType.RAW);
+                    e.setFromUrl(link.getUrl());
+                    res.add(e);
                 }
         });
         return res;
@@ -73,7 +74,7 @@ public class RawUrlTap extends RxUrlBase{
     }
 
     public void toQueue(Link link){
-        //producerPipeline.send(link);
+        producerPipeline.send(link);
     }
 
     public void error(Link url, Throwable throwable){
@@ -90,9 +91,9 @@ public class RawUrlTap extends RxUrlBase{
         HostLink hostLink = new HostLink();
         String uri = UrlMaker.make(link.getUrl()).getUri();
         hostLink.setHost(uri);
-        hostLink.setHostUrl(uri);
+        hostLink.setFromUrl(uri);
         hostLinkBatchSaver.save(hostLink);
-        logger.info("Save host -> {}", hostLink.getHostUrl());
+        logger.info("Save host -> {}", hostLink.getHost());
         return link;
     }
 }

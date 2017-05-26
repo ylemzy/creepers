@@ -10,6 +10,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.regex.Pattern;
 
 /**
  * Created by huangzebin on 2017/3/6.
@@ -17,6 +18,20 @@ import java.util.Map;
 public class UrlMaker {
 
     private static final Logger logger = LogManager.getLogger();
+
+
+    private final static String regex = "^((https|http|ftp|rtsp|mms)://)"
+            + "(([0-9a-z_]+:)?([A-Za-z0-9_]+)@)?" //user:password@
+            + "(([0-9]{1,3}\\.){3}[0-9]{1,3}" // IP形式的URL- 199.194.52.184
+            + "|" // 允许IP和DOMAIN（域名）
+            + "([0-9a-z_!~*'()-]+\\.)*" // 域名- www.
+            + "([0-9a-z][0-9a-z-]{0,61})?[0-9a-z]\\." // 二级域名
+            + "[a-z]{2,6})" // first level domain- .com or .museum
+            + "(:[0-9]{1,4})?" // 端口- :80
+            + "((/?)|" // a slash isn't required if there is no file name
+            + "(/[0-9a-z_!~*'().;?:@&=+$,%#-]+)+/?)$";
+    private static Pattern pattern = Pattern.compile(regex);
+
 
     Map<String, String> params = new HashMap<>();
     URL url = null;
@@ -133,5 +148,10 @@ public class UrlMaker {
                 this.params.put(keyValue[0], "");
             }
         }
+    }
+
+
+    public static boolean isURL(String url){
+        return pattern.matcher(url).matches();
     }
 }
