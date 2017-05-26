@@ -24,8 +24,8 @@ public class PageConsumer implements UrlConsumer{
         try{
             KafkaMessage kafkaMessage = JsonHelper.toObject(content, KafkaMessage.class);
             Link link = kafkaMessage.getLink();
-            //urlFlow.flow(link, true);
-            log("Page", kafkaMessage);
+            urlFlow.flow(link, true);
+            //log("Page", kafkaMessage);
         }catch (Exception e){
             logger.error(content, e);
         }
@@ -33,7 +33,7 @@ public class PageConsumer implements UrlConsumer{
 
     }
 
-    @KafkaListener(topics = "page")
+    @KafkaListener(topics = TopicConfig.pageUrlTopic)
     public void processMessage(String content) {
         process(pageFlow, content);
 
