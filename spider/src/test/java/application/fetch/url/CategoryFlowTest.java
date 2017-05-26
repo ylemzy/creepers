@@ -37,7 +37,7 @@ public class CategoryFlowTest {
 
     @Test
     public void consumer() throws InterruptedException {
-        Link link = new Link("http://lx.huanqiussss.com/", UrlType.HOST);
+        Link link = new Link("http://lx.huanqiu.com/", UrlType.HOST);
         producerPipeline.send(link);
 
         Thread.sleep(TimeUnit.HOURS.toMillis(1));

@@ -28,7 +28,6 @@ public class UrlProducer {
         m.setSendTime(new Date());
         String topic = TopicConfig.get(link.getType());
 
-        //logger.info("Save topic: {}", topic);
         kafkaTemplate.send(topic, JsonHelper.toJSON(m));
     }
 }

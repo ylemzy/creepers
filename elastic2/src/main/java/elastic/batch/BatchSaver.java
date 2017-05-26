@@ -16,7 +16,7 @@ public abstract class BatchSaver<R extends CustomElasticsearchRepository, T> imp
     private static final Logger logger = LogManager.getLogger();
 
     List<T> list = new ArrayList<>();
-    int batchSize = 100;
+    int batchSize = 1;
     int savedCount = 0;
 
     @Autowired
