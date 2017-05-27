@@ -3,6 +3,16 @@ package application.fetch.request.templates;
 import application.fetch.request.Template;
 import application.fetch.request.TemplateLoader;
 import http.UrlMaker;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import util.HashUtil;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -62,5 +72,55 @@ public class RequestHelperTest {
         logger.info("Try th:{} A={}, B={}", th, res.size(), set.size());
         Assert.isTrue(res.size() == set.size());
 
+    }
+
+
+    @Test
+    public void testSelenium(){
+        System.setProperty ( "webdriver.firefox.bin" , "D:/exploreDriver/geckodriver.exe" );
+        //System.setProperty ( "webdriver.chrome.driver" , "D:\\exploreDriver\\chromedriver.exe" );
+
+/*        DesiredCapabilities capability=DesiredCapabilities.internetExplorer();
+        capability.setCapability(
+                InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);*/
+
+  /*      System.setProperty("phantomjs.binary.path", "D:\\phantomjs\\bin\\phantomjs.exe");
+
+        DesiredCapabilities desiredCapabilities = DesiredCapabilities.phantomjs();
+        WebDriver driver = new PhantomJSDriver(desiredCapabilities);*/
+
+        /*
+*/
+
+        WebDriver driver = new FirefoxDriver();
+        driver.get("https://www.techempower.com/benchmarks/#section=data-r8&hw=ph&test=plaintext");
+
+
+        // Find the text input element by its name
+        WebElement element = driver.findElement(By.tagName("a"));
+        logger.info("{}", element.getText());
+
+        // Enter something to search for
+ /*       element.sendKeys("Cheese!");
+
+        // Now submit the form. WebDriver will find the form for us from the element
+        element.submit();*/
+
+        // Check the title of the page
+      /*  System.out.println("Page title is: " + driver.getTitle());
+
+        // Google's search is rendered dynamically with JavaScript.
+        // Wait for the page to load, timeout after 10 seconds
+        (new WebDriverWait(driver, 10)).until(new ExpectedCondition<Boolean>() {
+            public Boolean apply(WebDriver d) {
+                return d.getTitle().toLowerCase().startsWith("cheese!");
+            }
+        });
+
+        // Should see: "cheese! - Google Search"
+        System.out.println("Page title is: " + driver.getTitle());*/
+
+        //Close the browser
+        driver.quit();
     }
 }

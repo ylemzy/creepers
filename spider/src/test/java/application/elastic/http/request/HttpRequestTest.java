@@ -1,5 +1,6 @@
 package application.elastic.http.request;
 
+import application.fetch.http.Rest;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jsoup.Connection;
@@ -31,22 +32,10 @@ public class HttpRequestTest {
 
 
    @Test
-    public void testBaidu() {
-       Connection connect = Jsoup.connect("http://www.fx678.com/")
-               //.header("Host", "news.hexun.com")
-               .header("User-Agent", "Mozilla")
-               //.header("Accept","text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8")
-               ;
-       System.out.println("" +  connect.request().headers().toString());
-       System.out.println("" +  connect.response().headers().toString());
+    public void testBaidu() throws IOException {
 
-       Document document = null;
-       try {
-           document = connect.timeout(10000)
-                    .get();
-       } catch (IOException e) {
-           logger.error(e, e);
-       }
+
+       Document document = Rest.get("http://www.fx678.com/");
        System.out.println(document.html());
     }
 
@@ -55,9 +44,5 @@ public class HttpRequestTest {
         Document document = Jsoup.connect("http://www.toutiao.com/").get();
         System.out.println(document.html());
     }
-
-
-
-
 
 }
