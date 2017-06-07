@@ -16,8 +16,8 @@ public class TopicConfig {
     public static final String pageUrlTopic = "page";
 
 
-    public static final String get(UrlType type){
-        switch (type){
+    public static final String get(UrlType type) {
+        switch (type) {
             case RAW:
                 return rawUrlTopic;
             case CATEGORY:
@@ -25,8 +25,11 @@ public class TopicConfig {
                 return categoryUrlTopic;
             case PAGE:
                 return pageUrlTopic;
+            case TEST:
+                return "test";
             default:
                 return null;
         }
+
     }
 }

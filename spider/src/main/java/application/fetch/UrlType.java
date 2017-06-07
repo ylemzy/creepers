@@ -14,4 +14,6 @@ public enum UrlType {
     QUERY,
     FIX,
     ERROR,
+
+    TEST
 }
